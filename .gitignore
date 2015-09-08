@@ -1,8 +1,16 @@
 /MultiServer/zMultiServer.sdf
 /MultiServer/Release/*
+/MultiServer/_UpgradeReport_Files/*
+/MultiServer/UpgradeLog.XML
 /GameServer/zGameServer.sdf
 /GameServer/crypto/cryptest.sdf
 /GameServer/ipch/*
 /GameServer/Release/*
+/GameServer/Wind32/*
+/GameServer/x64/*
+/GameServer/_UpgradeReport_Files/*
+/GameServer/UpgradeLog.XML
 /Client/GlobalS8EP2.sdf
 /Client/Release/*
+/Client/_UpgradeReport_Files/*
+/Client/UpgradeLog.XML

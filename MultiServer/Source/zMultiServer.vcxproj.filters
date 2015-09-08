@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Server MNG">
+      <UniqueIdentifier>{c0d1903d-9aad-4ebb-9f7b-62ea5a515df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IOCP">
+      <UniqueIdentifier>{4eee2981-3474-49ff-a624-db525a4978ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IOCP\Packet Queue">
+      <UniqueIdentifier>{58e89f47-f228-4137-bc7d-f73cce0cdf92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IOCP\WzUdp">
+      <UniqueIdentifier>{97e4bb40-b8af-425c-8587-cb08c4772400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Servers">
+      <UniqueIdentifier>{88537b49-8429-458c-b971-7d37b262cef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Servers\JoinServer">
+      <UniqueIdentifier>{73dc10e0-063e-4afe-aeb9-51a5adaeed95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Servers\DataServer">
+      <UniqueIdentifier>{2e82b09f-d11a-40fa-8961-193b3af65775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Servers\RankingServer">
+      <UniqueIdentifier>{a3dc43cf-df77-4522-bb46-1f58be756ea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Servers\EventServer">
+      <UniqueIdentifier>{ee2b6e87-083a-4f4e-85ab-05f23e4fd380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Servers\CashShopServer">
+      <UniqueIdentifier>{d5764af2-5ffd-48e9-87b1-3757668eb54d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database MNG">
+      <UniqueIdentifier>{3ca426cf-7125-47fa-afd5-210ac4ac4e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database MNG\dbClass">
+      <UniqueIdentifier>{0c469549-91f7-482f-be8b-658561b70e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database MNG\JoinServerDB">
+      <UniqueIdentifier>{8c554a8f-7ba3-43f5-9bb8-b3e6a502cdfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database MNG\DataServerDB">
+      <UniqueIdentifier>{d4bc6a89-ab52-4964-9d17-882821c6b8a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database MNG\PartyClass">
+      <UniqueIdentifier>{52568dc0-d5f1-4361-89e7-2373471d966c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database MNG\GuildClass">
+      <UniqueIdentifier>{6027212c-45c0-49a5-9056-8d62f96faa73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{21504223-3a36-45a6-828b-c7f47b7c6d0b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{948ac77a-4ce4-4cd5-9533-33c2ed6b0610}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{1a4d617a-bdf5-454d-8388-5e30c219fd1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\MD5">
+      <UniqueIdentifier>{c4d56d26-e9fe-4314-a4b3-c4c5ea19ad73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{067dc53c-d574-421e-812f-7f5f2e069bc8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Server.cpp">
+      <Filter>Server MNG</Filter>
+    </ClCompile>
+    <ClCompile Include="giocp.cpp">
+      <Filter>IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="WzQueue.cpp">
+      <Filter>IOCP\Packet Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="WzUdp.cpp">
+      <Filter>IOCP\WzUdp</Filter>
+    </ClCompile>
+    <ClCompile Include="JoinServer.cpp">
+      <Filter>Servers\JoinServer</Filter>
+    </ClCompile>
+    <ClCompile Include="DataServer.cpp">
+      <Filter>Servers\DataServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Ranking.cpp">
+      <Filter>Servers\RankingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="EventServer.cpp">
+      <Filter>Servers\EventServer</Filter>
+    </ClCompile>
+    <ClCompile Include="CashShopServer.cpp">
+      <Filter>Servers\CashShopServer</Filter>
+    </ClCompile>
+    <ClCompile Include="CQuery.cpp">
+      <Filter>Database MNG\dbClass</Filter>
+    </ClCompile>
+    <ClCompile Include="JoinServerDB.cpp">
+      <Filter>Database MNG\JoinServerDB</Filter>
+    </ClCompile>
+    <ClCompile Include="DataServerDB.cpp">
+      <Filter>Database MNG\DataServerDB</Filter>
+    </ClCompile>
+    <ClCompile Include="PartyClass.cpp">
+      <Filter>Database MNG\PartyClass</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildClass.cpp">
+      <Filter>Database MNG\GuildClass</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CallStackTrace.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="winutil.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>Utils\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="zMultiServer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Server.h">
+      <Filter>Server MNG</Filter>
+    </ClInclude>
+    <ClInclude Include="giocp.h">
+      <Filter>IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="WzQueue.h">
+      <Filter>IOCP\Packet Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="WzUdp.h">
+      <Filter>IOCP\WzUdp</Filter>
+    </ClInclude>
+    <ClInclude Include="JoinServer.h">
+      <Filter>Servers\JoinServer</Filter>
+    </ClInclude>
+    <ClInclude Include="DataServer.h">
+      <Filter>Servers\DataServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Ranking.h">
+      <Filter>Servers\RankingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="EventServer.h">
+      <Filter>Servers\EventServer</Filter>
+    </ClInclude>
+    <ClInclude Include="CashShopServer.h">
+      <Filter>Servers\CashShopServer</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuery.h">
+      <Filter>Database MNG\dbClass</Filter>
+    </ClInclude>
+    <ClInclude Include="JoinServerDB.h">
+      <Filter>Database MNG\JoinServerDB</Filter>
+    </ClInclude>
+    <ClInclude Include="DataServerDB.h">
+      <Filter>Database MNG\DataServerDB</Filter>
+    </ClInclude>
+    <ClInclude Include="PartyClass.h">
+      <Filter>Database MNG\PartyClass</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildClass.h">
+      <Filter>Database MNG\GuildClass</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CallStackTrace.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="winutil.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>Utils\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5_KEYVAL.H">
+      <Filter>Utils\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="zMultiServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="zMultiServer.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="zMultiServerSmall.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="zMultiServer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

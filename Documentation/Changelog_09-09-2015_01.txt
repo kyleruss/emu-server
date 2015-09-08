@@ -1,0 +1,13 @@
+--------------------------------------------
+			Denkers MuOnline S8EP2
+			Version 1.0.0 Changelog
+			  09/09/2015 GMT+12
+--------------------------------------------
+
+v1.0.0 Changes
+- Fixed GS crash on login when null PremiumData records
+		PremiumData now behaves as expected and you don't need to insert default data
+- Added GM Online message 
+- Added /reset command
+- Added customization to GS window including layout changes and repack version and repo info 
+

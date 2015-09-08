@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: zMultiServer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\DarkSim\AppData\Local\Temp\RSP2748.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/zMultiServer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Job\zTeam\MU\Development\Season 8\Source\zMultiServer_VC6\Source\Window.cpp"
+]
+Creating command line "cl.exe @C:\Users\DarkSim\AppData\Local\Temp\RSP2748.tmp" 
+Creating temporary file "C:\Users\DarkSim\AppData\Local\Temp\RSP2749.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib comctl32.lib ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:"../Release/zMultiServer.pdb" /map:"Release/zMultiServer.map" /debug /machine:I386 /out:"../Release/zMultiServer.exe" /libpath:"C:\SDK\Lib" 
+".\Release\Server.obj"
+".\Release\WzQueue.obj"
+".\Release\WzUdp.obj"
+".\Release\giocp.obj"
+".\Release\JoinServer.obj"
+".\Release\DataServer.obj"
+".\Release\Ranking.obj"
+".\Release\EventServer.obj"
+".\Release\CashShopServer.obj"
+".\Release\CQuery.obj"
+".\Release\JoinServerDB.obj"
+".\Release\DataServerDB.obj"
+".\Release\PartyClass.obj"
+".\Release\GuildClass.obj"
+".\Release\StdAfx.obj"
+".\Release\MD5.obj"
+".\Release\CallStackTrace.obj"
+".\Release\winutil.obj"
+".\Release\Window.obj"
+".\Release\zMultiServer.obj"
+".\Release\zMultiServer.res"
+]
+Creating command line "link.exe @C:\Users\DarkSim\AppData\Local\Temp\RSP2749.tmp"
+<h3>Output Window</h3>
+Compiling...
+Window.cpp
+C:\Job\zTeam\MU\Development\Season 8\Source\zMultiServer_VC6\Source\Resource.h(28) : warning C4005: 'IDC_STATIC' : macro redefinition
+        C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxres.h(290) : see previous definition of 'IDC_STATIC'
+Linking...
+Creating temporary file "C:\Users\DarkSim\AppData\Local\Temp\RSP494B.tmp" with contents
+[
+/nologo /o"Release/zMultiServer.bsc" 
+".\Release\StdAfx.sbr"
+".\Release\Server.sbr"
+".\Release\WzQueue.sbr"
+".\Release\WzUdp.sbr"
+".\Release\giocp.sbr"
+".\Release\JoinServer.sbr"
+".\Release\DataServer.sbr"
+".\Release\Ranking.sbr"
+".\Release\EventServer.sbr"
+".\Release\CashShopServer.sbr"
+".\Release\CQuery.sbr"
+".\Release\JoinServerDB.sbr"
+".\Release\DataServerDB.sbr"
+".\Release\PartyClass.sbr"
+".\Release\GuildClass.sbr"
+".\Release\MD5.sbr"
+".\Release\CallStackTrace.sbr"
+".\Release\winutil.sbr"
+".\Release\Window.sbr"
+".\Release\zMultiServer.sbr"]
+Creating command line "bscmake.exe @C:\Users\DarkSim\AppData\Local\Temp\RSP494B.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+zMultiServer.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

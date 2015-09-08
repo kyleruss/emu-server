@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="cryptest">
+</Property><Property Name="Solution File" Value="C:\muserver_dev\development\GameServer\crypto\cryptest.sln">
+</Property><Property Name="User Options File" Value="C:\muserver_dev\development\GameServer\crypto\cryptest.suo">
+</Property><Property Name="Date" Value="Thursday, 30 July 2015">
+</Property><Property Name="Time" Value="19:19 p.m.">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="2" Project="" Source="cryptest.sln" Description="Error creating backup file: C:\muserver_dev\development\GameServer\crypto\cryptest.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="cryptest.suo" Description="File successfully backed up as C:\muserver_dev\development\GameServer\crypto\cryptest.suo.old">
+</Event><Event ErrorLevel="0" Project="cryptlib" Source="cryptlib.vcproj" Description="Converting project file 'C:\muserver_dev\development\GameServer\crypto\cryptlib.vcproj'.">
+</Event><Event ErrorLevel="1" Project="cryptlib" Source="cryptlib.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="cryptlib" Source="cryptlib.vcproj" Description="Done converting to new project file 'C:\muserver_dev\development\GameServer\crypto\cryptlib.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="cryptlib" Source="cryptlib.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="cryptest.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="cryptest.sln" Description="Converted">
+</Event></UpgradeLog>

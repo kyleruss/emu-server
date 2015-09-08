@@ -1,0 +1,2876 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cryptlib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP84B6.bat" with contents
+[
+@echo off
+if not exist adhoc.cpp copy ".\adhoc.cpp.proto" adhoc.cpp
+echo: >> adhoc.cpp.copied
+]
+Creating command line "C:\Users\John\AppData\Local\Temp\RSP84B6.bat"
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP84B7.tmp" with contents
+[
+/nologo /MT /W3 /GR /GX /Zi /O2 /Ob2 /D "NDEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /Fp"Release/cryptlib.pch" /Yu"pch.h" /Fo"Release/" /Fd"Release/" /FD /Zm400 /c 
+"C:\Users\John\Desktop\crypto\3way.cpp"
+"C:\Users\John\Desktop\crypto\adler32.cpp"
+"C:\Users\John\Desktop\crypto\algebra.cpp"
+"C:\Users\John\Desktop\crypto\algparam.cpp"
+"C:\Users\John\Desktop\crypto\arc4.cpp"
+"C:\Users\John\Desktop\crypto\asn.cpp"
+"C:\Users\John\Desktop\crypto\authenc.cpp"
+"C:\Users\John\Desktop\crypto\base32.cpp"
+"C:\Users\John\Desktop\crypto\base64.cpp"
+"C:\Users\John\Desktop\crypto\basecode.cpp"
+"C:\Users\John\Desktop\crypto\bfinit.cpp"
+"C:\Users\John\Desktop\crypto\blowfish.cpp"
+"C:\Users\John\Desktop\crypto\blumshub.cpp"
+"C:\Users\John\Desktop\crypto\camellia.cpp"
+"C:\Users\John\Desktop\crypto\cast.cpp"
+"C:\Users\John\Desktop\crypto\casts.cpp"
+"C:\Users\John\Desktop\crypto\cbcmac.cpp"
+"C:\Users\John\Desktop\crypto\ccm.cpp"
+"C:\Users\John\Desktop\crypto\channels.cpp"
+"C:\Users\John\Desktop\crypto\cmac.cpp"
+"C:\Users\John\Desktop\crypto\cpu.cpp"
+"C:\Users\John\Desktop\crypto\crc.cpp"
+"C:\Users\John\Desktop\crypto\cryptlib.cpp"
+"C:\Users\John\Desktop\crypto\default.cpp"
+"C:\Users\John\Desktop\crypto\des.cpp"
+"C:\Users\John\Desktop\crypto\dessp.cpp"
+"C:\Users\John\Desktop\crypto\dh.cpp"
+"C:\Users\John\Desktop\crypto\dh2.cpp"
+"C:\Users\John\Desktop\crypto\dsa.cpp"
+"C:\Users\John\Desktop\crypto\eax.cpp"
+"C:\Users\John\Desktop\crypto\ec2n.cpp"
+"C:\Users\John\Desktop\crypto\eccrypto.cpp"
+"C:\Users\John\Desktop\crypto\ecp.cpp"
+"C:\Users\John\Desktop\crypto\elgamal.cpp"
+"C:\Users\John\Desktop\crypto\emsa2.cpp"
+"C:\Users\John\Desktop\crypto\eprecomp.cpp"
+"C:\Users\John\Desktop\crypto\esign.cpp"
+"C:\Users\John\Desktop\crypto\files.cpp"
+"C:\Users\John\Desktop\crypto\filters.cpp"
+"C:\Users\John\Desktop\crypto\fips140.cpp"
+"C:\Users\John\Desktop\crypto\fipstest.cpp"
+"C:\Users\John\Desktop\crypto\gcm.cpp"
+"C:\Users\John\Desktop\crypto\gf256.cpp"
+"C:\Users\John\Desktop\crypto\gf2_32.cpp"
+"C:\Users\John\Desktop\crypto\gf2n.cpp"
+"C:\Users\John\Desktop\crypto\gfpcrypt.cpp"
+"C:\Users\John\Desktop\crypto\gost.cpp"
+"C:\Users\John\Desktop\crypto\gzip.cpp"
+"C:\Users\John\Desktop\crypto\hex.cpp"
+"C:\Users\John\Desktop\crypto\hmac.cpp"
+"C:\Users\John\Desktop\crypto\hrtimer.cpp"
+"C:\Users\John\Desktop\crypto\ida.cpp"
+"C:\Users\John\Desktop\crypto\idea.cpp"
+"C:\Users\John\Desktop\crypto\integer.cpp"
+"C:\Users\John\Desktop\crypto\luc.cpp"
+"C:\Users\John\Desktop\crypto\mars.cpp"
+"C:\Users\John\Desktop\crypto\marss.cpp"
+"C:\Users\John\Desktop\crypto\md2.cpp"
+"C:\Users\John\Desktop\crypto\md4.cpp"
+"C:\Users\John\Desktop\crypto\md5.cpp"
+"C:\Users\John\Desktop\crypto\misc.cpp"
+"C:\Users\John\Desktop\crypto\modes.cpp"
+"C:\Users\John\Desktop\crypto\mqueue.cpp"
+"C:\Users\John\Desktop\crypto\mqv.cpp"
+"C:\Users\John\Desktop\crypto\nbtheory.cpp"
+"C:\Users\John\Desktop\crypto\network.cpp"
+"C:\Users\John\Desktop\crypto\oaep.cpp"
+"C:\Users\John\Desktop\crypto\osrng.cpp"
+"C:\Users\John\Desktop\crypto\panama.cpp"
+"C:\Users\John\Desktop\crypto\pkcspad.cpp"
+"C:\Users\John\Desktop\crypto\polynomi.cpp"
+"C:\Users\John\Desktop\crypto\pssr.cpp"
+"C:\Users\John\Desktop\crypto\pubkey.cpp"
+"C:\Users\John\Desktop\crypto\queue.cpp"
+"C:\Users\John\Desktop\crypto\rabin.cpp"
+"C:\Users\John\Desktop\crypto\randpool.cpp"
+"C:\Users\John\Desktop\crypto\rc2.cpp"
+"C:\Users\John\Desktop\crypto\rc5.cpp"
+"C:\Users\John\Desktop\crypto\rc6.cpp"
+"C:\Users\John\Desktop\crypto\rdtables.cpp"
+"C:\Users\John\Desktop\crypto\rijndael.cpp"
+"C:\Users\John\Desktop\crypto\ripemd.cpp"
+"C:\Users\John\Desktop\crypto\rng.cpp"
+"C:\Users\John\Desktop\crypto\rsa.cpp"
+"C:\Users\John\Desktop\crypto\rw.cpp"
+"C:\Users\John\Desktop\crypto\safer.cpp"
+"C:\Users\John\Desktop\crypto\salsa.cpp"
+"C:\Users\John\Desktop\crypto\seal.cpp"
+"C:\Users\John\Desktop\crypto\seed.cpp"
+"C:\Users\John\Desktop\crypto\serpent.cpp"
+"C:\Users\John\Desktop\crypto\sha.cpp"
+"C:\Users\John\Desktop\crypto\sha3.cpp"
+"C:\Users\John\Desktop\crypto\shacal2.cpp"
+"C:\Users\John\Desktop\crypto\shark.cpp"
+"C:\Users\John\Desktop\crypto\sharkbox.cpp"
+"C:\Users\John\Desktop\crypto\simple.cpp"
+"C:\Users\John\Desktop\crypto\skipjack.cpp"
+"C:\Users\John\Desktop\crypto\socketft.cpp"
+"C:\Users\John\Desktop\crypto\sosemanuk.cpp"
+"C:\Users\John\Desktop\crypto\square.cpp"
+"C:\Users\John\Desktop\crypto\squaretb.cpp"
+"C:\Users\John\Desktop\crypto\strciphr.cpp"
+"C:\Users\John\Desktop\crypto\tea.cpp"
+"C:\Users\John\Desktop\crypto\tftables.cpp"
+"C:\Users\John\Desktop\crypto\tiger.cpp"
+"C:\Users\John\Desktop\crypto\tigertab.cpp"
+"C:\Users\John\Desktop\crypto\trdlocal.cpp"
+"C:\Users\John\Desktop\crypto\ttmac.cpp"
+"C:\Users\John\Desktop\crypto\twofish.cpp"
+"C:\Users\John\Desktop\crypto\vmac.cpp"
+"C:\Users\John\Desktop\crypto\wait.cpp"
+"C:\Users\John\Desktop\crypto\wake.cpp"
+"C:\Users\John\Desktop\crypto\whrlpool.cpp"
+"C:\Users\John\Desktop\crypto\winpipes.cpp"
+"C:\Users\John\Desktop\crypto\xtr.cpp"
+"C:\Users\John\Desktop\crypto\xtrcrypt.cpp"
+"C:\Users\John\Desktop\crypto\zdeflate.cpp"
+"C:\Users\John\Desktop\crypto\zinflate.cpp"
+"C:\Users\John\Desktop\crypto\zlib.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP84B7.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP84B8.tmp" with contents
+[
+/nologo /MT /W3 /GR /GX /Zi /O2 /Ob2 /D "NDEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /Fo"Release/" /Fd"Release/" /FD /Zm400 /c 
+"C:\Users\John\Desktop\crypto\dll.cpp"
+"C:\Users\John\Desktop\crypto\iterhash.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP84B8.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP84B9.tmp" with contents
+[
+/nologo /MT /W3 /GR /GX /Zi /O2 /Ob2 /D "NDEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /Fp"Release/cryptlib.pch" /Yc"pch.h" /Fo"Release/" /Fd"Release/" /FD /Zm400 /c 
+"C:\Users\John\Desktop\crypto\pch.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP84B9.tmp" 
+Performing Custom Build Step on .\adhoc.cpp.proto
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP8547.tmp" with contents
+[
+/nologo /out:"Release\cryptlib.lib" 
+.\Release\3way.obj
+.\Release\adler32.obj
+.\Release\algebra.obj
+.\Release\algparam.obj
+.\Release\arc4.obj
+.\Release\asn.obj
+.\Release\authenc.obj
+.\Release\base32.obj
+.\Release\base64.obj
+.\Release\basecode.obj
+.\Release\bfinit.obj
+.\Release\blowfish.obj
+.\Release\blumshub.obj
+.\Release\camellia.obj
+.\Release\cast.obj
+.\Release\casts.obj
+.\Release\cbcmac.obj
+.\Release\ccm.obj
+.\Release\channels.obj
+.\Release\cmac.obj
+.\Release\cpu.obj
+.\Release\crc.obj
+.\Release\cryptlib.obj
+.\Release\default.obj
+.\Release\des.obj
+.\Release\dessp.obj
+.\Release\dh.obj
+.\Release\dh2.obj
+.\Release\dll.obj
+.\Release\dsa.obj
+.\Release\eax.obj
+.\Release\ec2n.obj
+.\Release\eccrypto.obj
+.\Release\ecp.obj
+.\Release\elgamal.obj
+.\Release\emsa2.obj
+.\Release\eprecomp.obj
+.\Release\esign.obj
+.\Release\files.obj
+.\Release\filters.obj
+.\Release\fips140.obj
+.\Release\fipstest.obj
+.\Release\gcm.obj
+.\Release\gf256.obj
+.\Release\gf2_32.obj
+.\Release\gf2n.obj
+.\Release\gfpcrypt.obj
+.\Release\gost.obj
+.\Release\gzip.obj
+.\Release\hex.obj
+.\Release\hmac.obj
+.\Release\hrtimer.obj
+.\Release\ida.obj
+.\Release\idea.obj
+.\Release\integer.obj
+.\Release\iterhash.obj
+.\Release\luc.obj
+.\Release\mars.obj
+.\Release\marss.obj
+.\Release\md2.obj
+.\Release\md4.obj
+.\Release\md5.obj
+.\Release\misc.obj
+.\Release\modes.obj
+.\Release\mqueue.obj
+.\Release\mqv.obj
+.\Release\nbtheory.obj
+.\Release\network.obj
+.\Release\oaep.obj
+.\Release\osrng.obj
+.\Release\panama.obj
+.\Release\pch.obj
+.\Release\pkcspad.obj
+.\Release\polynomi.obj
+.\Release\pssr.obj
+.\Release\pubkey.obj
+.\Release\queue.obj
+.\Release\rabin.obj
+.\Release\randpool.obj
+.\Release\rc2.obj
+.\Release\rc5.obj
+.\Release\rc6.obj
+.\Release\rdtables.obj
+.\Release\rijndael.obj
+.\Release\ripemd.obj
+.\Release\rng.obj
+.\Release\rsa.obj
+.\Release\rw.obj
+.\Release\safer.obj
+.\Release\salsa.obj
+.\Release\seal.obj
+.\Release\seed.obj
+.\Release\serpent.obj
+.\Release\sha.obj
+.\Release\sha3.obj
+.\Release\shacal2.obj
+.\Release\shark.obj
+.\Release\sharkbox.obj
+.\Release\simple.obj
+.\Release\skipjack.obj
+.\Release\socketft.obj
+.\Release\sosemanuk.obj
+.\Release\square.obj
+.\Release\squaretb.obj
+.\Release\strciphr.obj
+.\Release\tea.obj
+.\Release\tftables.obj
+.\Release\tiger.obj
+.\Release\tigertab.obj
+.\Release\trdlocal.obj
+.\Release\ttmac.obj
+.\Release\twofish.obj
+.\Release\vmac.obj
+.\Release\wait.obj
+.\Release\wake.obj
+.\Release\whrlpool.obj
+.\Release\winpipes.obj
+.\Release\xtr.obj
+.\Release\xtrcrypt.obj
+.\Release\zdeflate.obj
+.\Release\zinflate.obj
+.\Release\zlib.obj
+]
+Creating command line "link.exe -lib @C:\Users\John\AppData\Local\Temp\RSP8547.tmp"
+<h3>Output Window</h3>
+Compiling...
+pch.cpp
+Compiling...
+3way.cpp
+adler32.cpp
+algebra.cpp
+algparam.cpp
+arc4.cpp
+asn.cpp
+authenc.cpp
+base32.cpp
+base64.cpp
+basecode.cpp
+bfinit.cpp
+blowfish.cpp
+blumshub.cpp
+camellia.cpp
+cast.cpp
+casts.cpp
+cbcmac.cpp
+ccm.cpp
+channels.cpp
+cmac.cpp
+Generating Code...
+Compiling...
+cpu.cpp
+crc.cpp
+cryptlib.cpp
+default.cpp
+des.cpp
+dessp.cpp
+dh.cpp
+dh2.cpp
+dsa.cpp
+eax.cpp
+ec2n.cpp
+eccrypto.cpp
+ecp.cpp
+elgamal.cpp
+emsa2.cpp
+eprecomp.cpp
+esign.cpp
+files.cpp
+filters.cpp
+fips140.cpp
+Generating Code...
+Compiling...
+fipstest.cpp
+gcm.cpp
+gf256.cpp
+gf2_32.cpp
+gf2n.cpp
+gfpcrypt.cpp
+gost.cpp
+gzip.cpp
+hex.cpp
+hmac.cpp
+hrtimer.cpp
+ida.cpp
+idea.cpp
+integer.cpp
+luc.cpp
+You do not seem to have the Visual C++ Processor Pack installed, so use of SSE2 instructions will be disabled.
+mars.cpp
+marss.cpp
+md2.cpp
+md4.cpp
+md5.cpp
+Generating Code...
+Compiling...
+misc.cpp
+modes.cpp
+mqueue.cpp
+mqv.cpp
+nbtheory.cpp
+C:\Users\John\Desktop\crypto\nbtheory.cpp(650) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(651) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(653) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(655) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1002) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1003) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1005) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1010) : warning C4068: unknown pragma
+network.cpp
+oaep.cpp
+osrng.cpp
+panama.cpp
+pkcspad.cpp
+polynomi.cpp
+pssr.cpp
+pubkey.cpp
+queue.cpp
+rabin.cpp
+randpool.cpp
+rc2.cpp
+rc5.cpp
+rc6.cpp
+rdtables.cpp
+Generating Code...
+Compiling...
+rijndael.cpp
+ripemd.cpp
+rng.cpp
+rsa.cpp
+rw.cpp
+C:\Users\John\Desktop\crypto\rw.cpp(143) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\rw.cpp(144) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\rw.cpp(146) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\rw.cpp(148) : warning C4068: unknown pragma
+safer.cpp
+salsa.cpp
+seal.cpp
+seed.cpp
+serpent.cpp
+sha.cpp
+sha3.cpp
+shacal2.cpp
+shark.cpp
+sharkbox.cpp
+simple.cpp
+skipjack.cpp
+socketft.cpp
+sosemanuk.cpp
+square.cpp
+Generating Code...
+Compiling...
+squaretb.cpp
+strciphr.cpp
+tea.cpp
+tftables.cpp
+tiger.cpp
+tigertab.cpp
+trdlocal.cpp
+ttmac.cpp
+twofish.cpp
+vmac.cpp
+wait.cpp
+wake.cpp
+whrlpool.cpp
+winpipes.cpp
+xtr.cpp
+xtrcrypt.cpp
+zdeflate.cpp
+zinflate.cpp
+zlib.cpp
+Generating Code...
+Compiling...
+dll.cpp
+iterhash.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: cryptest - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSPFF89.tmp" with contents
+[
+/nologo /MT /W3 /GR /GX /Zi /O1 /Ob2 /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "WIN32" /Fp"CTRelease/cryptest.pch" /YX /Fo"CTRelease/" /Fd"CTRelease/" /FD /Zm400 /c 
+"C:\Users\John\Desktop\crypto\adhoc.cpp"
+"C:\Users\John\Desktop\crypto\bench.cpp"
+"C:\Users\John\Desktop\crypto\bench2.cpp"
+"C:\Users\John\Desktop\crypto\datatest.cpp"
+"C:\Users\John\Desktop\crypto\dlltest.cpp"
+"C:\Users\John\Desktop\crypto\fipsalgt.cpp"
+"C:\Users\John\Desktop\crypto\regtest.cpp"
+"C:\Users\John\Desktop\crypto\test.cpp"
+"C:\Users\John\Desktop\crypto\validat1.cpp"
+"C:\Users\John\Desktop\crypto\validat2.cpp"
+"C:\Users\John\Desktop\crypto\validat3.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSPFF89.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSPFF8A.tmp" with contents
+[
+advapi32.lib Ws2_32.lib /nologo /subsystem:console /incremental:no /pdb:"CTRelease/cryptest.pdb" /map:"CTRelease/cryptest.map" /debug /machine:I386 /out:"CTRelease/cryptest.exe" /OPT:NOWIN98 /OPT:REF /OPT:ICF 
+.\CTRelease\adhoc.obj
+.\CTRelease\bench.obj
+.\CTRelease\bench2.obj
+.\CTRelease\datatest.obj
+.\CTRelease\dlltest.obj
+.\CTRelease\fipsalgt.obj
+.\CTRelease\regtest.obj
+.\CTRelease\test.obj
+.\CTRelease\validat1.obj
+.\CTRelease\validat2.obj
+.\CTRelease\validat3.obj
+.\Release\cryptlib.lib
+]
+Creating command line "link.exe @C:\Users\John\AppData\Local\Temp\RSPFF8A.tmp"
+<h3>Output Window</h3>
+Compiling...
+adhoc.cpp
+bench.cpp
+bench2.cpp
+datatest.cpp
+dlltest.cpp
+fipsalgt.cpp
+regtest.cpp
+test.cpp
+validat1.cpp
+validat2.cpp
+validat3.cpp
+Linking...
+<h3>
+--------------------Configuration: cryptdll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"DLL_Release/cryptopp.res" /d "NDEBUG" "C:\Users\John\Desktop\crypto\cryptopp.rc"" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP7130.tmp" with contents
+[
+/nologo /G5 /MT /W3 /GR /GX /Zi /O1 /Ob2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CRYPTOPP_EXPORTS" /D CRYPTOPP_ENABLE_COMPLIANCE_WITH_FIPS_140_2=1 /D "USE_PRECOMPILED_HEADERS" /Fp"DLL_Release/cryptdll.pch" /Yu"pch.h" /Fo"DLL_Release/" /Fd"DLL_Release/" /FD /Zm200 /c 
+"C:\Users\John\Desktop\crypto\algebra.cpp"
+"C:\Users\John\Desktop\crypto\algparam.cpp"
+"C:\Users\John\Desktop\crypto\asn.cpp"
+"C:\Users\John\Desktop\crypto\authenc.cpp"
+"C:\Users\John\Desktop\crypto\basecode.cpp"
+"C:\Users\John\Desktop\crypto\cbcmac.cpp"
+"C:\Users\John\Desktop\crypto\ccm.cpp"
+"C:\Users\John\Desktop\crypto\channels.cpp"
+"C:\Users\John\Desktop\crypto\cmac.cpp"
+"C:\Users\John\Desktop\crypto\cpu.cpp"
+"C:\Users\John\Desktop\crypto\cryptlib.cpp"
+"C:\Users\John\Desktop\crypto\des.cpp"
+"C:\Users\John\Desktop\crypto\dessp.cpp"
+"C:\Users\John\Desktop\crypto\dh.cpp"
+"C:\Users\John\Desktop\crypto\dsa.cpp"
+"C:\Users\John\Desktop\crypto\ec2n.cpp"
+"C:\Users\John\Desktop\crypto\eccrypto.cpp"
+"C:\Users\John\Desktop\crypto\ecp.cpp"
+"C:\Users\John\Desktop\crypto\emsa2.cpp"
+"C:\Users\John\Desktop\crypto\eprecomp.cpp"
+"C:\Users\John\Desktop\crypto\files.cpp"
+"C:\Users\John\Desktop\crypto\filters.cpp"
+"C:\Users\John\Desktop\crypto\fips140.cpp"
+"C:\Users\John\Desktop\crypto\fipstest.cpp"
+"C:\Users\John\Desktop\crypto\gcm.cpp"
+"C:\Users\John\Desktop\crypto\gf2n.cpp"
+"C:\Users\John\Desktop\crypto\gfpcrypt.cpp"
+"C:\Users\John\Desktop\crypto\hex.cpp"
+"C:\Users\John\Desktop\crypto\hmac.cpp"
+"C:\Users\John\Desktop\crypto\hrtimer.cpp"
+"C:\Users\John\Desktop\crypto\integer.cpp"
+"C:\Users\John\Desktop\crypto\misc.cpp"
+"C:\Users\John\Desktop\crypto\modes.cpp"
+"C:\Users\John\Desktop\crypto\mqueue.cpp"
+"C:\Users\John\Desktop\crypto\nbtheory.cpp"
+"C:\Users\John\Desktop\crypto\oaep.cpp"
+"C:\Users\John\Desktop\crypto\osrng.cpp"
+"C:\Users\John\Desktop\crypto\pkcspad.cpp"
+"C:\Users\John\Desktop\crypto\pssr.cpp"
+"C:\Users\John\Desktop\crypto\pubkey.cpp"
+"C:\Users\John\Desktop\crypto\queue.cpp"
+"C:\Users\John\Desktop\crypto\randpool.cpp"
+"C:\Users\John\Desktop\crypto\rdtables.cpp"
+"C:\Users\John\Desktop\crypto\rijndael.cpp"
+"C:\Users\John\Desktop\crypto\rng.cpp"
+"C:\Users\John\Desktop\crypto\rsa.cpp"
+"C:\Users\John\Desktop\crypto\rw.cpp"
+"C:\Users\John\Desktop\crypto\sha.cpp"
+"C:\Users\John\Desktop\crypto\sha3.cpp"
+"C:\Users\John\Desktop\crypto\simple.cpp"
+"C:\Users\John\Desktop\crypto\skipjack.cpp"
+"C:\Users\John\Desktop\crypto\strciphr.cpp"
+"C:\Users\John\Desktop\crypto\trdlocal.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP7130.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP7131.tmp" with contents
+[
+/nologo /G5 /MT /W3 /GR /GX /Zi /O1 /Ob2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CRYPTOPP_EXPORTS" /D CRYPTOPP_ENABLE_COMPLIANCE_WITH_FIPS_140_2=1 /D "USE_PRECOMPILED_HEADERS" /Fo"DLL_Release/" /Fd"DLL_Release/" /FD /Zm200 /c 
+"C:\Users\John\Desktop\crypto\dll.cpp"
+"C:\Users\John\Desktop\crypto\iterhash.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP7131.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP7132.tmp" with contents
+[
+/nologo /G5 /MT /W3 /GR /GX /Zi /O1 /Ob2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CRYPTOPP_EXPORTS" /D CRYPTOPP_ENABLE_COMPLIANCE_WITH_FIPS_140_2=1 /D "USE_PRECOMPILED_HEADERS" /Fp"DLL_Release/cryptdll.pch" /Yc"pch.h" /Fo"DLL_Release/" /Fd"DLL_Release/" /FD /Zm200 /c 
+"C:\Users\John\Desktop\crypto\pch.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP7132.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP7133.tmp" with contents
+[
+advapi32.lib /nologo /base:"0x42900000" /dll /incremental:no /pdb:"DLL_Release/cryptopp.pdb" /map:"DLL_Release/cryptopp.map" /debug /machine:I386 /out:"DLL_Release/cryptopp.dll" /implib:"DLL_Release/cryptopp.lib" /opt:ref 
+.\DLL_Release\algebra.obj
+.\DLL_Release\algparam.obj
+.\DLL_Release\asn.obj
+.\DLL_Release\authenc.obj
+.\DLL_Release\basecode.obj
+.\DLL_Release\cbcmac.obj
+.\DLL_Release\ccm.obj
+.\DLL_Release\channels.obj
+.\DLL_Release\cmac.obj
+.\DLL_Release\cpu.obj
+.\DLL_Release\cryptlib.obj
+.\DLL_Release\des.obj
+.\DLL_Release\dessp.obj
+.\DLL_Release\dh.obj
+.\DLL_Release\dll.obj
+.\DLL_Release\dsa.obj
+.\DLL_Release\ec2n.obj
+.\DLL_Release\eccrypto.obj
+.\DLL_Release\ecp.obj
+.\DLL_Release\emsa2.obj
+.\DLL_Release\eprecomp.obj
+.\DLL_Release\files.obj
+.\DLL_Release\filters.obj
+.\DLL_Release\fips140.obj
+.\DLL_Release\fipstest.obj
+.\DLL_Release\gcm.obj
+.\DLL_Release\gf2n.obj
+.\DLL_Release\gfpcrypt.obj
+.\DLL_Release\hex.obj
+.\DLL_Release\hmac.obj
+.\DLL_Release\hrtimer.obj
+.\DLL_Release\integer.obj
+.\DLL_Release\iterhash.obj
+.\DLL_Release\misc.obj
+.\DLL_Release\modes.obj
+.\DLL_Release\mqueue.obj
+.\DLL_Release\nbtheory.obj
+.\DLL_Release\oaep.obj
+.\DLL_Release\osrng.obj
+.\DLL_Release\pch.obj
+.\DLL_Release\pkcspad.obj
+.\DLL_Release\pssr.obj
+.\DLL_Release\pubkey.obj
+.\DLL_Release\queue.obj
+.\DLL_Release\randpool.obj
+.\DLL_Release\rdtables.obj
+.\DLL_Release\rijndael.obj
+.\DLL_Release\rng.obj
+.\DLL_Release\rsa.obj
+.\DLL_Release\rw.obj
+.\DLL_Release\sha.obj
+.\DLL_Release\sha3.obj
+.\DLL_Release\simple.obj
+.\DLL_Release\skipjack.obj
+.\DLL_Release\strciphr.obj
+.\DLL_Release\trdlocal.obj
+.\DLL_Release\cryptopp.res
+]
+Creating command line "link.exe @C:\Users\John\AppData\Local\Temp\RSP7133.tmp"
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP7134.bat" with contents
+[
+@echo off
+CTRelease\cryptest mac_dll .\DLL_Release\cryptopp.dll
+echo mac done > .\DLL_Release\cryptopp.mac.done
+]
+Creating command line "C:\Users\John\AppData\Local\Temp\RSP7134.bat"
+Compiling resources...
+Compiling...
+pch.cpp
+Compiling...
+algebra.cpp
+algparam.cpp
+asn.cpp
+authenc.cpp
+basecode.cpp
+cbcmac.cpp
+ccm.cpp
+channels.cpp
+cmac.cpp
+cpu.cpp
+cryptlib.cpp
+des.cpp
+dessp.cpp
+dh.cpp
+dsa.cpp
+ec2n.cpp
+eccrypto.cpp
+ecp.cpp
+emsa2.cpp
+eprecomp.cpp
+Generating Code...
+Compiling...
+files.cpp
+filters.cpp
+fips140.cpp
+fipstest.cpp
+gcm.cpp
+gf2n.cpp
+gfpcrypt.cpp
+hex.cpp
+hmac.cpp
+hrtimer.cpp
+integer.cpp
+misc.cpp
+You do not seem to have the Visual C++ Processor Pack installed, so use of SSE2 instructions will be disabled.
+modes.cpp
+mqueue.cpp
+nbtheory.cpp
+C:\Users\John\Desktop\crypto\nbtheory.cpp(650) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(651) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(653) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(655) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1002) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1003) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1005) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1010) : warning C4068: unknown pragma
+oaep.cpp
+osrng.cpp
+pkcspad.cpp
+pssr.cpp
+pubkey.cpp
+Generating Code...
+Compiling...
+queue.cpp
+randpool.cpp
+rdtables.cpp
+rijndael.cpp
+rng.cpp
+rsa.cpp
+rw.cpp
+C:\Users\John\Desktop\crypto\rw.cpp(143) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\rw.cpp(144) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\rw.cpp(146) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\rw.cpp(148) : warning C4068: unknown pragma
+sha.cpp
+sha3.cpp
+simple.cpp
+skipjack.cpp
+strciphr.cpp
+trdlocal.cpp
+Generating Code...
+Compiling...
+dll.cpp
+iterhash.cpp
+Generating Code...
+Linking...
+   Creating library DLL_Release/cryptopp.lib and object DLL_Release/cryptopp.exp
+<h3>Output Window</h3>
+Performing Custom Build Step on .\DLL_Release\cryptopp.dll
+Placing MAC in file .\DLL_Release\cryptopp.dll, location 692304.
+
+
+
+<h3>Results</h3>
+cryptopp.dll - 0 error(s), 24 warning(s)
+<h3>
+--------------------Configuration: cryptlib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP2E6.bat" with contents
+[
+@echo off
+if not exist adhoc.cpp copy ".\adhoc.cpp.proto" adhoc.cpp
+echo: >> adhoc.cpp.copied
+]
+Creating command line "C:\Users\John\AppData\Local\Temp\RSP2E6.bat"
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP2E7.tmp" with contents
+[
+/nologo /MTd /W3 /GR /GX /Zi /Oi /D "_DEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /Fp"Debug/cryptlib.pch" /Yu"pch.h" /Fo"Debug/" /Fd"Debug/" /FD /Zm400 /c 
+"C:\Users\John\Desktop\crypto\3way.cpp"
+"C:\Users\John\Desktop\crypto\adler32.cpp"
+"C:\Users\John\Desktop\crypto\algebra.cpp"
+"C:\Users\John\Desktop\crypto\algparam.cpp"
+"C:\Users\John\Desktop\crypto\arc4.cpp"
+"C:\Users\John\Desktop\crypto\asn.cpp"
+"C:\Users\John\Desktop\crypto\authenc.cpp"
+"C:\Users\John\Desktop\crypto\base32.cpp"
+"C:\Users\John\Desktop\crypto\base64.cpp"
+"C:\Users\John\Desktop\crypto\basecode.cpp"
+"C:\Users\John\Desktop\crypto\bfinit.cpp"
+"C:\Users\John\Desktop\crypto\blowfish.cpp"
+"C:\Users\John\Desktop\crypto\blumshub.cpp"
+"C:\Users\John\Desktop\crypto\camellia.cpp"
+"C:\Users\John\Desktop\crypto\cast.cpp"
+"C:\Users\John\Desktop\crypto\casts.cpp"
+"C:\Users\John\Desktop\crypto\cbcmac.cpp"
+"C:\Users\John\Desktop\crypto\ccm.cpp"
+"C:\Users\John\Desktop\crypto\channels.cpp"
+"C:\Users\John\Desktop\crypto\cmac.cpp"
+"C:\Users\John\Desktop\crypto\cpu.cpp"
+"C:\Users\John\Desktop\crypto\crc.cpp"
+"C:\Users\John\Desktop\crypto\cryptlib.cpp"
+"C:\Users\John\Desktop\crypto\default.cpp"
+"C:\Users\John\Desktop\crypto\des.cpp"
+"C:\Users\John\Desktop\crypto\dessp.cpp"
+"C:\Users\John\Desktop\crypto\dh.cpp"
+"C:\Users\John\Desktop\crypto\dh2.cpp"
+"C:\Users\John\Desktop\crypto\dsa.cpp"
+"C:\Users\John\Desktop\crypto\eax.cpp"
+"C:\Users\John\Desktop\crypto\ec2n.cpp"
+"C:\Users\John\Desktop\crypto\eccrypto.cpp"
+"C:\Users\John\Desktop\crypto\ecp.cpp"
+"C:\Users\John\Desktop\crypto\elgamal.cpp"
+"C:\Users\John\Desktop\crypto\emsa2.cpp"
+"C:\Users\John\Desktop\crypto\eprecomp.cpp"
+"C:\Users\John\Desktop\crypto\esign.cpp"
+"C:\Users\John\Desktop\crypto\files.cpp"
+"C:\Users\John\Desktop\crypto\filters.cpp"
+"C:\Users\John\Desktop\crypto\fips140.cpp"
+"C:\Users\John\Desktop\crypto\fipstest.cpp"
+"C:\Users\John\Desktop\crypto\gcm.cpp"
+"C:\Users\John\Desktop\crypto\gf256.cpp"
+"C:\Users\John\Desktop\crypto\gf2_32.cpp"
+"C:\Users\John\Desktop\crypto\gf2n.cpp"
+"C:\Users\John\Desktop\crypto\gfpcrypt.cpp"
+"C:\Users\John\Desktop\crypto\gost.cpp"
+"C:\Users\John\Desktop\crypto\gzip.cpp"
+"C:\Users\John\Desktop\crypto\hex.cpp"
+"C:\Users\John\Desktop\crypto\hmac.cpp"
+"C:\Users\John\Desktop\crypto\hrtimer.cpp"
+"C:\Users\John\Desktop\crypto\ida.cpp"
+"C:\Users\John\Desktop\crypto\idea.cpp"
+"C:\Users\John\Desktop\crypto\integer.cpp"
+"C:\Users\John\Desktop\crypto\luc.cpp"
+"C:\Users\John\Desktop\crypto\mars.cpp"
+"C:\Users\John\Desktop\crypto\marss.cpp"
+"C:\Users\John\Desktop\crypto\md2.cpp"
+"C:\Users\John\Desktop\crypto\md4.cpp"
+"C:\Users\John\Desktop\crypto\md5.cpp"
+"C:\Users\John\Desktop\crypto\misc.cpp"
+"C:\Users\John\Desktop\crypto\modes.cpp"
+"C:\Users\John\Desktop\crypto\mqueue.cpp"
+"C:\Users\John\Desktop\crypto\mqv.cpp"
+"C:\Users\John\Desktop\crypto\nbtheory.cpp"
+"C:\Users\John\Desktop\crypto\network.cpp"
+"C:\Users\John\Desktop\crypto\oaep.cpp"
+"C:\Users\John\Desktop\crypto\osrng.cpp"
+"C:\Users\John\Desktop\crypto\panama.cpp"
+"C:\Users\John\Desktop\crypto\pkcspad.cpp"
+"C:\Users\John\Desktop\crypto\polynomi.cpp"
+"C:\Users\John\Desktop\crypto\pssr.cpp"
+"C:\Users\John\Desktop\crypto\pubkey.cpp"
+"C:\Users\John\Desktop\crypto\queue.cpp"
+"C:\Users\John\Desktop\crypto\rabin.cpp"
+"C:\Users\John\Desktop\crypto\randpool.cpp"
+"C:\Users\John\Desktop\crypto\rc2.cpp"
+"C:\Users\John\Desktop\crypto\rc5.cpp"
+"C:\Users\John\Desktop\crypto\rc6.cpp"
+"C:\Users\John\Desktop\crypto\rdtables.cpp"
+"C:\Users\John\Desktop\crypto\rijndael.cpp"
+"C:\Users\John\Desktop\crypto\ripemd.cpp"
+"C:\Users\John\Desktop\crypto\rng.cpp"
+"C:\Users\John\Desktop\crypto\rsa.cpp"
+"C:\Users\John\Desktop\crypto\rw.cpp"
+"C:\Users\John\Desktop\crypto\safer.cpp"
+"C:\Users\John\Desktop\crypto\salsa.cpp"
+"C:\Users\John\Desktop\crypto\seal.cpp"
+"C:\Users\John\Desktop\crypto\seed.cpp"
+"C:\Users\John\Desktop\crypto\serpent.cpp"
+"C:\Users\John\Desktop\crypto\sha.cpp"
+"C:\Users\John\Desktop\crypto\sha3.cpp"
+"C:\Users\John\Desktop\crypto\shacal2.cpp"
+"C:\Users\John\Desktop\crypto\shark.cpp"
+"C:\Users\John\Desktop\crypto\sharkbox.cpp"
+"C:\Users\John\Desktop\crypto\simple.cpp"
+"C:\Users\John\Desktop\crypto\skipjack.cpp"
+"C:\Users\John\Desktop\crypto\socketft.cpp"
+"C:\Users\John\Desktop\crypto\sosemanuk.cpp"
+"C:\Users\John\Desktop\crypto\square.cpp"
+"C:\Users\John\Desktop\crypto\squaretb.cpp"
+"C:\Users\John\Desktop\crypto\strciphr.cpp"
+"C:\Users\John\Desktop\crypto\tea.cpp"
+"C:\Users\John\Desktop\crypto\tftables.cpp"
+"C:\Users\John\Desktop\crypto\tiger.cpp"
+"C:\Users\John\Desktop\crypto\tigertab.cpp"
+"C:\Users\John\Desktop\crypto\trdlocal.cpp"
+"C:\Users\John\Desktop\crypto\ttmac.cpp"
+"C:\Users\John\Desktop\crypto\twofish.cpp"
+"C:\Users\John\Desktop\crypto\vmac.cpp"
+"C:\Users\John\Desktop\crypto\wait.cpp"
+"C:\Users\John\Desktop\crypto\wake.cpp"
+"C:\Users\John\Desktop\crypto\whrlpool.cpp"
+"C:\Users\John\Desktop\crypto\winpipes.cpp"
+"C:\Users\John\Desktop\crypto\xtr.cpp"
+"C:\Users\John\Desktop\crypto\xtrcrypt.cpp"
+"C:\Users\John\Desktop\crypto\zdeflate.cpp"
+"C:\Users\John\Desktop\crypto\zinflate.cpp"
+"C:\Users\John\Desktop\crypto\zlib.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP2E7.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP2E8.tmp" with contents
+[
+/nologo /MTd /W3 /GR /GX /Zi /Oi /D "_DEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /Fo"Debug/" /Fd"Debug/" /FD /Zm400 /c 
+"C:\Users\John\Desktop\crypto\dll.cpp"
+"C:\Users\John\Desktop\crypto\iterhash.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP2E8.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP2F9.tmp" with contents
+[
+/nologo /MTd /W3 /GR /GX /Zi /Oi /D "_DEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /Fp"Debug/cryptlib.pch" /Yc"pch.h" /Fo"Debug/" /Fd"Debug/" /FD /Zm400 /c 
+"C:\Users\John\Desktop\crypto\pch.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP2F9.tmp" 
+Performing Custom Build Step on .\adhoc.cpp.proto
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP403.tmp" with contents
+[
+/nologo /out:"Debug\cryptlib.lib" 
+.\Debug\3way.obj
+.\Debug\adler32.obj
+.\Debug\algebra.obj
+.\Debug\algparam.obj
+.\Debug\arc4.obj
+.\Debug\asn.obj
+.\Debug\authenc.obj
+.\Debug\base32.obj
+.\Debug\base64.obj
+.\Debug\basecode.obj
+.\Debug\bfinit.obj
+.\Debug\blowfish.obj
+.\Debug\blumshub.obj
+.\Debug\camellia.obj
+.\Debug\cast.obj
+.\Debug\casts.obj
+.\Debug\cbcmac.obj
+.\Debug\ccm.obj
+.\Debug\channels.obj
+.\Debug\cmac.obj
+.\Debug\cpu.obj
+.\Debug\crc.obj
+.\Debug\cryptlib.obj
+.\Debug\default.obj
+.\Debug\des.obj
+.\Debug\dessp.obj
+.\Debug\dh.obj
+.\Debug\dh2.obj
+.\Debug\dll.obj
+.\Debug\dsa.obj
+.\Debug\eax.obj
+.\Debug\ec2n.obj
+.\Debug\eccrypto.obj
+.\Debug\ecp.obj
+.\Debug\elgamal.obj
+.\Debug\emsa2.obj
+.\Debug\eprecomp.obj
+.\Debug\esign.obj
+.\Debug\files.obj
+.\Debug\filters.obj
+.\Debug\fips140.obj
+.\Debug\fipstest.obj
+.\Debug\gcm.obj
+.\Debug\gf256.obj
+.\Debug\gf2_32.obj
+.\Debug\gf2n.obj
+.\Debug\gfpcrypt.obj
+.\Debug\gost.obj
+.\Debug\gzip.obj
+.\Debug\hex.obj
+.\Debug\hmac.obj
+.\Debug\hrtimer.obj
+.\Debug\ida.obj
+.\Debug\idea.obj
+.\Debug\integer.obj
+.\Debug\iterhash.obj
+.\Debug\luc.obj
+.\Debug\mars.obj
+.\Debug\marss.obj
+.\Debug\md2.obj
+.\Debug\md4.obj
+.\Debug\md5.obj
+.\Debug\misc.obj
+.\Debug\modes.obj
+.\Debug\mqueue.obj
+.\Debug\mqv.obj
+.\Debug\nbtheory.obj
+.\Debug\network.obj
+.\Debug\oaep.obj
+.\Debug\osrng.obj
+.\Debug\panama.obj
+.\Debug\pch.obj
+.\Debug\pkcspad.obj
+.\Debug\polynomi.obj
+.\Debug\pssr.obj
+.\Debug\pubkey.obj
+.\Debug\queue.obj
+.\Debug\rabin.obj
+.\Debug\randpool.obj
+.\Debug\rc2.obj
+.\Debug\rc5.obj
+.\Debug\rc6.obj
+.\Debug\rdtables.obj
+.\Debug\rijndael.obj
+.\Debug\ripemd.obj
+.\Debug\rng.obj
+.\Debug\rsa.obj
+.\Debug\rw.obj
+.\Debug\safer.obj
+.\Debug\salsa.obj
+.\Debug\seal.obj
+.\Debug\seed.obj
+.\Debug\serpent.obj
+.\Debug\sha.obj
+.\Debug\sha3.obj
+.\Debug\shacal2.obj
+.\Debug\shark.obj
+.\Debug\sharkbox.obj
+.\Debug\simple.obj
+.\Debug\skipjack.obj
+.\Debug\socketft.obj
+.\Debug\sosemanuk.obj
+.\Debug\square.obj
+.\Debug\squaretb.obj
+.\Debug\strciphr.obj
+.\Debug\tea.obj
+.\Debug\tftables.obj
+.\Debug\tiger.obj
+.\Debug\tigertab.obj
+.\Debug\trdlocal.obj
+.\Debug\ttmac.obj
+.\Debug\twofish.obj
+.\Debug\vmac.obj
+.\Debug\wait.obj
+.\Debug\wake.obj
+.\Debug\whrlpool.obj
+.\Debug\winpipes.obj
+.\Debug\xtr.obj
+.\Debug\xtrcrypt.obj
+.\Debug\zdeflate.obj
+.\Debug\zinflate.obj
+.\Debug\zlib.obj
+]
+Creating command line "link.exe -lib @C:\Users\John\AppData\Local\Temp\RSP403.tmp"
+<h3>Output Window</h3>
+Compiling...
+pch.cpp
+Compiling...
+3way.cpp
+adler32.cpp
+algebra.cpp
+algparam.cpp
+arc4.cpp
+asn.cpp
+authenc.cpp
+base32.cpp
+base64.cpp
+basecode.cpp
+bfinit.cpp
+blowfish.cpp
+blumshub.cpp
+camellia.cpp
+cast.cpp
+casts.cpp
+cbcmac.cpp
+ccm.cpp
+channels.cpp
+cmac.cpp
+Generating Code...
+Compiling...
+cpu.cpp
+crc.cpp
+cryptlib.cpp
+default.cpp
+des.cpp
+dessp.cpp
+dh.cpp
+dh2.cpp
+dsa.cpp
+eax.cpp
+ec2n.cpp
+eccrypto.cpp
+ecp.cpp
+elgamal.cpp
+emsa2.cpp
+eprecomp.cpp
+esign.cpp
+files.cpp
+filters.cpp
+fips140.cpp
+Generating Code...
+Compiling...
+fipstest.cpp
+gcm.cpp
+gf256.cpp
+gf2_32.cpp
+gf2n.cpp
+gfpcrypt.cpp
+gost.cpp
+gzip.cpp
+hex.cpp
+hmac.cpp
+hrtimer.cpp
+ida.cpp
+idea.cpp
+integer.cpp
+luc.cpp
+You do not seem to have the Visual C++ Processor Pack installed, so use of SSE2 instructions will be disabled.
+mars.cpp
+marss.cpp
+md2.cpp
+md4.cpp
+md5.cpp
+Generating Code...
+Compiling...
+misc.cpp
+modes.cpp
+mqueue.cpp
+mqv.cpp
+nbtheory.cpp
+C:\Users\John\Desktop\crypto\nbtheory.cpp(650) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(651) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(653) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(655) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1002) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1003) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1005) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1010) : warning C4068: unknown pragma
+network.cpp
+oaep.cpp
+osrng.cpp
+panama.cpp
+pkcspad.cpp
+polynomi.cpp
+pssr.cpp
+pubkey.cpp
+queue.cpp
+rabin.cpp
+randpool.cpp
+rc2.cpp
+rc5.cpp
+rc6.cpp
+rdtables.cpp
+Generating Code...
+Compiling...
+rijndael.cpp
+ripemd.cpp
+rng.cpp
+rsa.cpp
+rw.cpp
+C:\Users\John\Desktop\crypto\rw.cpp(143) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\rw.cpp(144) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\rw.cpp(146) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\rw.cpp(148) : warning C4068: unknown pragma
+safer.cpp
+salsa.cpp
+seal.cpp
+seed.cpp
+serpent.cpp
+sha.cpp
+sha3.cpp
+shacal2.cpp
+shark.cpp
+sharkbox.cpp
+simple.cpp
+skipjack.cpp
+socketft.cpp
+sosemanuk.cpp
+square.cpp
+Generating Code...
+Compiling...
+squaretb.cpp
+strciphr.cpp
+tea.cpp
+tftables.cpp
+tiger.cpp
+tigertab.cpp
+trdlocal.cpp
+ttmac.cpp
+twofish.cpp
+vmac.cpp
+wait.cpp
+wake.cpp
+whrlpool.cpp
+winpipes.cpp
+xtr.cpp
+xtrcrypt.cpp
+zdeflate.cpp
+zinflate.cpp
+zlib.cpp
+Generating Code...
+Compiling...
+dll.cpp
+iterhash.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: cryptest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP466C.tmp" with contents
+[
+/nologo /MTd /W3 /GR /GX /Zi /Oi /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "WIN32" /Fp"CTDebug/cryptest.pch" /YX /Fo"CTDebug/" /Fd"CTDebug/" /FD /Zm400 /c 
+"C:\Users\John\Desktop\crypto\adhoc.cpp"
+"C:\Users\John\Desktop\crypto\bench.cpp"
+"C:\Users\John\Desktop\crypto\bench2.cpp"
+"C:\Users\John\Desktop\crypto\datatest.cpp"
+"C:\Users\John\Desktop\crypto\dlltest.cpp"
+"C:\Users\John\Desktop\crypto\fipsalgt.cpp"
+"C:\Users\John\Desktop\crypto\regtest.cpp"
+"C:\Users\John\Desktop\crypto\test.cpp"
+"C:\Users\John\Desktop\crypto\validat1.cpp"
+"C:\Users\John\Desktop\crypto\validat2.cpp"
+"C:\Users\John\Desktop\crypto\validat3.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP466C.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP466D.tmp" with contents
+[
+advapi32.lib Ws2_32.lib /nologo /subsystem:console /incremental:yes /pdb:"CTDebug/cryptest.pdb" /debug /machine:I386 /out:"CTDebug/cryptest.exe" /pdbtype:sept /OPT:NOWIN98 
+.\CTDebug\adhoc.obj
+.\CTDebug\bench.obj
+.\CTDebug\bench2.obj
+.\CTDebug\datatest.obj
+.\CTDebug\dlltest.obj
+.\CTDebug\fipsalgt.obj
+.\CTDebug\regtest.obj
+.\CTDebug\test.obj
+.\CTDebug\validat1.obj
+.\CTDebug\validat2.obj
+.\CTDebug\validat3.obj
+.\Debug\cryptlib.lib
+]
+Creating command line "link.exe @C:\Users\John\AppData\Local\Temp\RSP466D.tmp"
+<h3>Output Window</h3>
+Compiling...
+adhoc.cpp
+bench.cpp
+bench2.cpp
+datatest.cpp
+dlltest.cpp
+fipsalgt.cpp
+regtest.cpp
+test.cpp
+validat1.cpp
+validat2.cpp
+validat3.cpp
+Linking...
+<h3>
+--------------------Configuration: cryptdll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"DLL_Debug/cryptopp.res" /d "_DEBUG" "C:\Users\John\Desktop\crypto\cryptopp.rc"" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSPA874.tmp" with contents
+[
+/nologo /G5 /MTd /W3 /Gm /GR /GX /Zi /Oi /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CRYPTOPP_EXPORTS" /D CRYPTOPP_ENABLE_COMPLIANCE_WITH_FIPS_140_2=1 /D "USE_PRECOMPILED_HEADERS" /Fp"DLL_Debug/cryptdll.pch" /Yu"pch.h" /Fo"DLL_Debug/" /Fd"DLL_Debug/" /FD /GZ /Zm200 /c 
+"C:\Users\John\Desktop\crypto\algebra.cpp"
+"C:\Users\John\Desktop\crypto\algparam.cpp"
+"C:\Users\John\Desktop\crypto\asn.cpp"
+"C:\Users\John\Desktop\crypto\authenc.cpp"
+"C:\Users\John\Desktop\crypto\basecode.cpp"
+"C:\Users\John\Desktop\crypto\cbcmac.cpp"
+"C:\Users\John\Desktop\crypto\ccm.cpp"
+"C:\Users\John\Desktop\crypto\channels.cpp"
+"C:\Users\John\Desktop\crypto\cmac.cpp"
+"C:\Users\John\Desktop\crypto\cpu.cpp"
+"C:\Users\John\Desktop\crypto\cryptlib.cpp"
+"C:\Users\John\Desktop\crypto\des.cpp"
+"C:\Users\John\Desktop\crypto\dessp.cpp"
+"C:\Users\John\Desktop\crypto\dh.cpp"
+"C:\Users\John\Desktop\crypto\dsa.cpp"
+"C:\Users\John\Desktop\crypto\ec2n.cpp"
+"C:\Users\John\Desktop\crypto\eccrypto.cpp"
+"C:\Users\John\Desktop\crypto\ecp.cpp"
+"C:\Users\John\Desktop\crypto\emsa2.cpp"
+"C:\Users\John\Desktop\crypto\eprecomp.cpp"
+"C:\Users\John\Desktop\crypto\files.cpp"
+"C:\Users\John\Desktop\crypto\filters.cpp"
+"C:\Users\John\Desktop\crypto\fips140.cpp"
+"C:\Users\John\Desktop\crypto\fipstest.cpp"
+"C:\Users\John\Desktop\crypto\gcm.cpp"
+"C:\Users\John\Desktop\crypto\gf2n.cpp"
+"C:\Users\John\Desktop\crypto\gfpcrypt.cpp"
+"C:\Users\John\Desktop\crypto\hex.cpp"
+"C:\Users\John\Desktop\crypto\hmac.cpp"
+"C:\Users\John\Desktop\crypto\hrtimer.cpp"
+"C:\Users\John\Desktop\crypto\integer.cpp"
+"C:\Users\John\Desktop\crypto\misc.cpp"
+"C:\Users\John\Desktop\crypto\modes.cpp"
+"C:\Users\John\Desktop\crypto\mqueue.cpp"
+"C:\Users\John\Desktop\crypto\nbtheory.cpp"
+"C:\Users\John\Desktop\crypto\oaep.cpp"
+"C:\Users\John\Desktop\crypto\osrng.cpp"
+"C:\Users\John\Desktop\crypto\pkcspad.cpp"
+"C:\Users\John\Desktop\crypto\pssr.cpp"
+"C:\Users\John\Desktop\crypto\pubkey.cpp"
+"C:\Users\John\Desktop\crypto\queue.cpp"
+"C:\Users\John\Desktop\crypto\randpool.cpp"
+"C:\Users\John\Desktop\crypto\rdtables.cpp"
+"C:\Users\John\Desktop\crypto\rijndael.cpp"
+"C:\Users\John\Desktop\crypto\rng.cpp"
+"C:\Users\John\Desktop\crypto\rsa.cpp"
+"C:\Users\John\Desktop\crypto\rw.cpp"
+"C:\Users\John\Desktop\crypto\sha.cpp"
+"C:\Users\John\Desktop\crypto\sha3.cpp"
+"C:\Users\John\Desktop\crypto\simple.cpp"
+"C:\Users\John\Desktop\crypto\skipjack.cpp"
+"C:\Users\John\Desktop\crypto\strciphr.cpp"
+"C:\Users\John\Desktop\crypto\trdlocal.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSPA874.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSPA875.tmp" with contents
+[
+/nologo /G5 /MTd /W3 /Gm /GR /GX /Zi /Oi /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CRYPTOPP_EXPORTS" /D CRYPTOPP_ENABLE_COMPLIANCE_WITH_FIPS_140_2=1 /D "USE_PRECOMPILED_HEADERS" /Fo"DLL_Debug/" /Fd"DLL_Debug/" /FD /GZ /Zm200 /c 
+"C:\Users\John\Desktop\crypto\dll.cpp"
+"C:\Users\John\Desktop\crypto\iterhash.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSPA875.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSPA876.tmp" with contents
+[
+/nologo /G5 /MTd /W3 /Gm /GR /GX /Zi /Oi /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CRYPTOPP_EXPORTS" /D CRYPTOPP_ENABLE_COMPLIANCE_WITH_FIPS_140_2=1 /D "USE_PRECOMPILED_HEADERS" /Fp"DLL_Debug/cryptdll.pch" /Yc"pch.h" /Fo"DLL_Debug/" /Fd"DLL_Debug/" /FD /GZ /Zm200 /c 
+"C:\Users\John\Desktop\crypto\pch.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSPA876.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSPA877.tmp" with contents
+[
+advapi32.lib /nologo /base:"0x42900000" /dll /incremental:no /pdb:"DLL_Debug/cryptopp.pdb" /debug /machine:I386 /out:"DLL_Debug/cryptopp.dll" /implib:"DLL_Debug/cryptopp.lib" /opt:ref 
+.\DLL_Debug\algebra.obj
+.\DLL_Debug\algparam.obj
+.\DLL_Debug\asn.obj
+.\DLL_Debug\authenc.obj
+.\DLL_Debug\basecode.obj
+.\DLL_Debug\cbcmac.obj
+.\DLL_Debug\ccm.obj
+.\DLL_Debug\channels.obj
+.\DLL_Debug\cmac.obj
+.\DLL_Debug\cpu.obj
+.\DLL_Debug\cryptlib.obj
+.\DLL_Debug\des.obj
+.\DLL_Debug\dessp.obj
+.\DLL_Debug\dh.obj
+.\DLL_Debug\dll.obj
+.\DLL_Debug\dsa.obj
+.\DLL_Debug\ec2n.obj
+.\DLL_Debug\eccrypto.obj
+.\DLL_Debug\ecp.obj
+.\DLL_Debug\emsa2.obj
+.\DLL_Debug\eprecomp.obj
+.\DLL_Debug\files.obj
+.\DLL_Debug\filters.obj
+.\DLL_Debug\fips140.obj
+.\DLL_Debug\fipstest.obj
+.\DLL_Debug\gcm.obj
+.\DLL_Debug\gf2n.obj
+.\DLL_Debug\gfpcrypt.obj
+.\DLL_Debug\hex.obj
+.\DLL_Debug\hmac.obj
+.\DLL_Debug\hrtimer.obj
+.\DLL_Debug\integer.obj
+.\DLL_Debug\iterhash.obj
+.\DLL_Debug\misc.obj
+.\DLL_Debug\modes.obj
+.\DLL_Debug\mqueue.obj
+.\DLL_Debug\nbtheory.obj
+.\DLL_Debug\oaep.obj
+.\DLL_Debug\osrng.obj
+.\DLL_Debug\pch.obj
+.\DLL_Debug\pkcspad.obj
+.\DLL_Debug\pssr.obj
+.\DLL_Debug\pubkey.obj
+.\DLL_Debug\queue.obj
+.\DLL_Debug\randpool.obj
+.\DLL_Debug\rdtables.obj
+.\DLL_Debug\rijndael.obj
+.\DLL_Debug\rng.obj
+.\DLL_Debug\rsa.obj
+.\DLL_Debug\rw.obj
+.\DLL_Debug\sha.obj
+.\DLL_Debug\sha3.obj
+.\DLL_Debug\simple.obj
+.\DLL_Debug\skipjack.obj
+.\DLL_Debug\strciphr.obj
+.\DLL_Debug\trdlocal.obj
+.\DLL_Debug\cryptopp.res
+]
+Creating command line "link.exe @C:\Users\John\AppData\Local\Temp\RSPA877.tmp"
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSPA878.bat" with contents
+[
+@echo off
+CTDebug\cryptest mac_dll .\DLL_Debug\cryptopp.dll
+echo mac done > .\DLL_Debug\cryptopp.mac.done
+]
+Creating command line "C:\Users\John\AppData\Local\Temp\RSPA878.bat"
+Compiling resources...
+Compiling...
+pch.cpp
+Compiling...
+algebra.cpp
+algparam.cpp
+asn.cpp
+authenc.cpp
+basecode.cpp
+cbcmac.cpp
+ccm.cpp
+channels.cpp
+cmac.cpp
+cpu.cpp
+cryptlib.cpp
+des.cpp
+dessp.cpp
+dh.cpp
+dsa.cpp
+ec2n.cpp
+eccrypto.cpp
+ecp.cpp
+emsa2.cpp
+eprecomp.cpp
+Generating Code...
+Compiling...
+files.cpp
+filters.cpp
+fips140.cpp
+fipstest.cpp
+gcm.cpp
+gf2n.cpp
+gfpcrypt.cpp
+hex.cpp
+hmac.cpp
+hrtimer.cpp
+integer.cpp
+misc.cpp
+You do not seem to have the Visual C++ Processor Pack installed, so use of SSE2 instructions will be disabled.
+modes.cpp
+mqueue.cpp
+nbtheory.cpp
+C:\Users\John\Desktop\crypto\nbtheory.cpp(650) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(651) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(653) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(655) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1002) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1003) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1005) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1010) : warning C4068: unknown pragma
+oaep.cpp
+osrng.cpp
+pkcspad.cpp
+pssr.cpp
+pubkey.cpp
+Generating Code...
+Compiling...
+queue.cpp
+randpool.cpp
+rdtables.cpp
+rijndael.cpp
+rng.cpp
+rsa.cpp
+rw.cpp
+C:\Users\John\Desktop\crypto\rw.cpp(143) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\rw.cpp(144) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\rw.cpp(146) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\rw.cpp(148) : warning C4068: unknown pragma
+sha.cpp
+sha3.cpp
+simple.cpp
+skipjack.cpp
+strciphr.cpp
+trdlocal.cpp
+Generating Code...
+Compiling...
+dll.cpp
+iterhash.cpp
+Generating Code...
+Linking...
+   Creating library DLL_Debug/cryptopp.lib and object DLL_Debug/cryptopp.exp
+<h3>Output Window</h3>
+Performing Custom Build Step on .\DLL_Debug\cryptopp.dll
+Placing MAC in file .\DLL_Debug\cryptopp.dll, location 1356060.
+
+
+
+<h3>Results</h3>
+cryptopp.dll - 0 error(s), 24 warning(s)
+<h3>
+--------------------Configuration: cryptlib - Win32 DLL-Import Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP104B.bat" with contents
+[
+@echo off
+if not exist adhoc.cpp copy ".\adhoc.cpp.proto" adhoc.cpp
+echo: >> adhoc.cpp.copied
+]
+Creating command line "C:\Users\John\AppData\Local\Temp\RSP104B.bat"
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP104C.tmp" with contents
+[
+/nologo /G5 /Gz /MT /W3 /GR /GX /Zi /O2 /Ob2 /D "NDEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /D "CRYPTOPP_IMPORTS" /Fp"DLL_Import_Release/cryptlib.pch" /Yu"pch.h" /Fo"DLL_Import_Release/" /Fd"DLL_Import_Release/" /FD /Zm400 /c 
+"C:\Users\John\Desktop\crypto\3way.cpp"
+"C:\Users\John\Desktop\crypto\adler32.cpp"
+"C:\Users\John\Desktop\crypto\algebra.cpp"
+"C:\Users\John\Desktop\crypto\algparam.cpp"
+"C:\Users\John\Desktop\crypto\arc4.cpp"
+"C:\Users\John\Desktop\crypto\asn.cpp"
+"C:\Users\John\Desktop\crypto\authenc.cpp"
+"C:\Users\John\Desktop\crypto\base32.cpp"
+"C:\Users\John\Desktop\crypto\base64.cpp"
+"C:\Users\John\Desktop\crypto\basecode.cpp"
+"C:\Users\John\Desktop\crypto\bfinit.cpp"
+"C:\Users\John\Desktop\crypto\blowfish.cpp"
+"C:\Users\John\Desktop\crypto\blumshub.cpp"
+"C:\Users\John\Desktop\crypto\camellia.cpp"
+"C:\Users\John\Desktop\crypto\cast.cpp"
+"C:\Users\John\Desktop\crypto\casts.cpp"
+"C:\Users\John\Desktop\crypto\cbcmac.cpp"
+"C:\Users\John\Desktop\crypto\ccm.cpp"
+"C:\Users\John\Desktop\crypto\channels.cpp"
+"C:\Users\John\Desktop\crypto\cmac.cpp"
+"C:\Users\John\Desktop\crypto\cpu.cpp"
+"C:\Users\John\Desktop\crypto\crc.cpp"
+"C:\Users\John\Desktop\crypto\cryptlib.cpp"
+"C:\Users\John\Desktop\crypto\default.cpp"
+"C:\Users\John\Desktop\crypto\des.cpp"
+"C:\Users\John\Desktop\crypto\dessp.cpp"
+"C:\Users\John\Desktop\crypto\dh.cpp"
+"C:\Users\John\Desktop\crypto\dh2.cpp"
+"C:\Users\John\Desktop\crypto\dsa.cpp"
+"C:\Users\John\Desktop\crypto\eax.cpp"
+"C:\Users\John\Desktop\crypto\ec2n.cpp"
+"C:\Users\John\Desktop\crypto\eccrypto.cpp"
+"C:\Users\John\Desktop\crypto\ecp.cpp"
+"C:\Users\John\Desktop\crypto\elgamal.cpp"
+"C:\Users\John\Desktop\crypto\emsa2.cpp"
+"C:\Users\John\Desktop\crypto\eprecomp.cpp"
+"C:\Users\John\Desktop\crypto\esign.cpp"
+"C:\Users\John\Desktop\crypto\files.cpp"
+"C:\Users\John\Desktop\crypto\filters.cpp"
+"C:\Users\John\Desktop\crypto\fips140.cpp"
+"C:\Users\John\Desktop\crypto\fipstest.cpp"
+"C:\Users\John\Desktop\crypto\gcm.cpp"
+"C:\Users\John\Desktop\crypto\gf256.cpp"
+"C:\Users\John\Desktop\crypto\gf2_32.cpp"
+"C:\Users\John\Desktop\crypto\gf2n.cpp"
+"C:\Users\John\Desktop\crypto\gfpcrypt.cpp"
+"C:\Users\John\Desktop\crypto\gost.cpp"
+"C:\Users\John\Desktop\crypto\gzip.cpp"
+"C:\Users\John\Desktop\crypto\hex.cpp"
+"C:\Users\John\Desktop\crypto\hmac.cpp"
+"C:\Users\John\Desktop\crypto\hrtimer.cpp"
+"C:\Users\John\Desktop\crypto\ida.cpp"
+"C:\Users\John\Desktop\crypto\idea.cpp"
+"C:\Users\John\Desktop\crypto\integer.cpp"
+"C:\Users\John\Desktop\crypto\luc.cpp"
+"C:\Users\John\Desktop\crypto\mars.cpp"
+"C:\Users\John\Desktop\crypto\marss.cpp"
+"C:\Users\John\Desktop\crypto\md2.cpp"
+"C:\Users\John\Desktop\crypto\md4.cpp"
+"C:\Users\John\Desktop\crypto\md5.cpp"
+"C:\Users\John\Desktop\crypto\misc.cpp"
+"C:\Users\John\Desktop\crypto\modes.cpp"
+"C:\Users\John\Desktop\crypto\mqueue.cpp"
+"C:\Users\John\Desktop\crypto\mqv.cpp"
+"C:\Users\John\Desktop\crypto\nbtheory.cpp"
+"C:\Users\John\Desktop\crypto\network.cpp"
+"C:\Users\John\Desktop\crypto\oaep.cpp"
+"C:\Users\John\Desktop\crypto\osrng.cpp"
+"C:\Users\John\Desktop\crypto\panama.cpp"
+"C:\Users\John\Desktop\crypto\pkcspad.cpp"
+"C:\Users\John\Desktop\crypto\polynomi.cpp"
+"C:\Users\John\Desktop\crypto\pssr.cpp"
+"C:\Users\John\Desktop\crypto\pubkey.cpp"
+"C:\Users\John\Desktop\crypto\queue.cpp"
+"C:\Users\John\Desktop\crypto\rabin.cpp"
+"C:\Users\John\Desktop\crypto\randpool.cpp"
+"C:\Users\John\Desktop\crypto\rc2.cpp"
+"C:\Users\John\Desktop\crypto\rc5.cpp"
+"C:\Users\John\Desktop\crypto\rc6.cpp"
+"C:\Users\John\Desktop\crypto\rdtables.cpp"
+"C:\Users\John\Desktop\crypto\rijndael.cpp"
+"C:\Users\John\Desktop\crypto\ripemd.cpp"
+"C:\Users\John\Desktop\crypto\rng.cpp"
+"C:\Users\John\Desktop\crypto\rsa.cpp"
+"C:\Users\John\Desktop\crypto\rw.cpp"
+"C:\Users\John\Desktop\crypto\safer.cpp"
+"C:\Users\John\Desktop\crypto\salsa.cpp"
+"C:\Users\John\Desktop\crypto\seal.cpp"
+"C:\Users\John\Desktop\crypto\seed.cpp"
+"C:\Users\John\Desktop\crypto\serpent.cpp"
+"C:\Users\John\Desktop\crypto\sha.cpp"
+"C:\Users\John\Desktop\crypto\sha3.cpp"
+"C:\Users\John\Desktop\crypto\shacal2.cpp"
+"C:\Users\John\Desktop\crypto\shark.cpp"
+"C:\Users\John\Desktop\crypto\sharkbox.cpp"
+"C:\Users\John\Desktop\crypto\simple.cpp"
+"C:\Users\John\Desktop\crypto\skipjack.cpp"
+"C:\Users\John\Desktop\crypto\socketft.cpp"
+"C:\Users\John\Desktop\crypto\sosemanuk.cpp"
+"C:\Users\John\Desktop\crypto\square.cpp"
+"C:\Users\John\Desktop\crypto\squaretb.cpp"
+"C:\Users\John\Desktop\crypto\strciphr.cpp"
+"C:\Users\John\Desktop\crypto\tea.cpp"
+"C:\Users\John\Desktop\crypto\tftables.cpp"
+"C:\Users\John\Desktop\crypto\tiger.cpp"
+"C:\Users\John\Desktop\crypto\tigertab.cpp"
+"C:\Users\John\Desktop\crypto\trdlocal.cpp"
+"C:\Users\John\Desktop\crypto\ttmac.cpp"
+"C:\Users\John\Desktop\crypto\twofish.cpp"
+"C:\Users\John\Desktop\crypto\vmac.cpp"
+"C:\Users\John\Desktop\crypto\wait.cpp"
+"C:\Users\John\Desktop\crypto\wake.cpp"
+"C:\Users\John\Desktop\crypto\whrlpool.cpp"
+"C:\Users\John\Desktop\crypto\winpipes.cpp"
+"C:\Users\John\Desktop\crypto\xtr.cpp"
+"C:\Users\John\Desktop\crypto\xtrcrypt.cpp"
+"C:\Users\John\Desktop\crypto\zdeflate.cpp"
+"C:\Users\John\Desktop\crypto\zinflate.cpp"
+"C:\Users\John\Desktop\crypto\zlib.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP104C.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP104D.tmp" with contents
+[
+/nologo /G5 /Gz /MT /W3 /GR /GX /Zi /O2 /Ob2 /D "NDEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /D "CRYPTOPP_IMPORTS" /Fo"DLL_Import_Release/" /Fd"DLL_Import_Release/" /FD /Zm400 /c 
+"C:\Users\John\Desktop\crypto\dll.cpp"
+"C:\Users\John\Desktop\crypto\iterhash.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP104D.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP104E.tmp" with contents
+[
+/nologo /G5 /Gz /MT /W3 /GR /GX /Zi /O2 /Ob2 /D "NDEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /D "CRYPTOPP_IMPORTS" /Fp"DLL_Import_Release/cryptlib.pch" /Yc"pch.h" /Fo"DLL_Import_Release/" /Fd"DLL_Import_Release/" /FD /Zm400 /c 
+"C:\Users\John\Desktop\crypto\pch.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP104E.tmp" 
+Performing Custom Build Step on .\adhoc.cpp.proto
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP10FB.tmp" with contents
+[
+/nologo /out:"DLL_Import_Release\cryptlib.lib" 
+.\DLL_Import_Release\3way.obj
+.\DLL_Import_Release\adler32.obj
+.\DLL_Import_Release\algebra.obj
+.\DLL_Import_Release\algparam.obj
+.\DLL_Import_Release\arc4.obj
+.\DLL_Import_Release\asn.obj
+.\DLL_Import_Release\authenc.obj
+.\DLL_Import_Release\base32.obj
+.\DLL_Import_Release\base64.obj
+.\DLL_Import_Release\basecode.obj
+.\DLL_Import_Release\bfinit.obj
+.\DLL_Import_Release\blowfish.obj
+.\DLL_Import_Release\blumshub.obj
+.\DLL_Import_Release\camellia.obj
+.\DLL_Import_Release\cast.obj
+.\DLL_Import_Release\casts.obj
+.\DLL_Import_Release\cbcmac.obj
+.\DLL_Import_Release\ccm.obj
+.\DLL_Import_Release\channels.obj
+.\DLL_Import_Release\cmac.obj
+.\DLL_Import_Release\cpu.obj
+.\DLL_Import_Release\crc.obj
+.\DLL_Import_Release\cryptlib.obj
+.\DLL_Import_Release\default.obj
+.\DLL_Import_Release\des.obj
+.\DLL_Import_Release\dessp.obj
+.\DLL_Import_Release\dh.obj
+.\DLL_Import_Release\dh2.obj
+.\DLL_Import_Release\dll.obj
+.\DLL_Import_Release\dsa.obj
+.\DLL_Import_Release\eax.obj
+.\DLL_Import_Release\ec2n.obj
+.\DLL_Import_Release\eccrypto.obj
+.\DLL_Import_Release\ecp.obj
+.\DLL_Import_Release\elgamal.obj
+.\DLL_Import_Release\emsa2.obj
+.\DLL_Import_Release\eprecomp.obj
+.\DLL_Import_Release\esign.obj
+.\DLL_Import_Release\files.obj
+.\DLL_Import_Release\filters.obj
+.\DLL_Import_Release\fips140.obj
+.\DLL_Import_Release\fipstest.obj
+.\DLL_Import_Release\gcm.obj
+.\DLL_Import_Release\gf256.obj
+.\DLL_Import_Release\gf2_32.obj
+.\DLL_Import_Release\gf2n.obj
+.\DLL_Import_Release\gfpcrypt.obj
+.\DLL_Import_Release\gost.obj
+.\DLL_Import_Release\gzip.obj
+.\DLL_Import_Release\hex.obj
+.\DLL_Import_Release\hmac.obj
+.\DLL_Import_Release\hrtimer.obj
+.\DLL_Import_Release\ida.obj
+.\DLL_Import_Release\idea.obj
+.\DLL_Import_Release\integer.obj
+.\DLL_Import_Release\iterhash.obj
+.\DLL_Import_Release\luc.obj
+.\DLL_Import_Release\mars.obj
+.\DLL_Import_Release\marss.obj
+.\DLL_Import_Release\md2.obj
+.\DLL_Import_Release\md4.obj
+.\DLL_Import_Release\md5.obj
+.\DLL_Import_Release\misc.obj
+.\DLL_Import_Release\modes.obj
+.\DLL_Import_Release\mqueue.obj
+.\DLL_Import_Release\mqv.obj
+.\DLL_Import_Release\nbtheory.obj
+.\DLL_Import_Release\network.obj
+.\DLL_Import_Release\oaep.obj
+.\DLL_Import_Release\osrng.obj
+.\DLL_Import_Release\panama.obj
+.\DLL_Import_Release\pch.obj
+.\DLL_Import_Release\pkcspad.obj
+.\DLL_Import_Release\polynomi.obj
+.\DLL_Import_Release\pssr.obj
+.\DLL_Import_Release\pubkey.obj
+.\DLL_Import_Release\queue.obj
+.\DLL_Import_Release\rabin.obj
+.\DLL_Import_Release\randpool.obj
+.\DLL_Import_Release\rc2.obj
+.\DLL_Import_Release\rc5.obj
+.\DLL_Import_Release\rc6.obj
+.\DLL_Import_Release\rdtables.obj
+.\DLL_Import_Release\rijndael.obj
+.\DLL_Import_Release\ripemd.obj
+.\DLL_Import_Release\rng.obj
+.\DLL_Import_Release\rsa.obj
+.\DLL_Import_Release\rw.obj
+.\DLL_Import_Release\safer.obj
+.\DLL_Import_Release\salsa.obj
+.\DLL_Import_Release\seal.obj
+.\DLL_Import_Release\seed.obj
+.\DLL_Import_Release\serpent.obj
+.\DLL_Import_Release\sha.obj
+.\DLL_Import_Release\sha3.obj
+.\DLL_Import_Release\shacal2.obj
+.\DLL_Import_Release\shark.obj
+.\DLL_Import_Release\sharkbox.obj
+.\DLL_Import_Release\simple.obj
+.\DLL_Import_Release\skipjack.obj
+.\DLL_Import_Release\socketft.obj
+.\DLL_Import_Release\sosemanuk.obj
+.\DLL_Import_Release\square.obj
+.\DLL_Import_Release\squaretb.obj
+.\DLL_Import_Release\strciphr.obj
+.\DLL_Import_Release\tea.obj
+.\DLL_Import_Release\tftables.obj
+.\DLL_Import_Release\tiger.obj
+.\DLL_Import_Release\tigertab.obj
+.\DLL_Import_Release\trdlocal.obj
+.\DLL_Import_Release\ttmac.obj
+.\DLL_Import_Release\twofish.obj
+.\DLL_Import_Release\vmac.obj
+.\DLL_Import_Release\wait.obj
+.\DLL_Import_Release\wake.obj
+.\DLL_Import_Release\whrlpool.obj
+.\DLL_Import_Release\winpipes.obj
+.\DLL_Import_Release\xtr.obj
+.\DLL_Import_Release\xtrcrypt.obj
+.\DLL_Import_Release\zdeflate.obj
+.\DLL_Import_Release\zinflate.obj
+.\DLL_Import_Release\zlib.obj
+]
+Creating command line "link.exe -lib @C:\Users\John\AppData\Local\Temp\RSP10FB.tmp"
+<h3>Output Window</h3>
+Compiling...
+pch.cpp
+Compiling...
+3way.cpp
+adler32.cpp
+algebra.cpp
+algparam.cpp
+arc4.cpp
+asn.cpp
+authenc.cpp
+base32.cpp
+base64.cpp
+basecode.cpp
+bfinit.cpp
+blowfish.cpp
+blumshub.cpp
+camellia.cpp
+cast.cpp
+casts.cpp
+cbcmac.cpp
+ccm.cpp
+channels.cpp
+cmac.cpp
+Generating Code...
+Compiling...
+cpu.cpp
+crc.cpp
+cryptlib.cpp
+default.cpp
+des.cpp
+dessp.cpp
+dh.cpp
+dh2.cpp
+dsa.cpp
+eax.cpp
+ec2n.cpp
+eccrypto.cpp
+ecp.cpp
+elgamal.cpp
+emsa2.cpp
+eprecomp.cpp
+esign.cpp
+files.cpp
+filters.cpp
+fips140.cpp
+Generating Code...
+Compiling...
+fipstest.cpp
+gcm.cpp
+gf256.cpp
+gf2_32.cpp
+gf2n.cpp
+gfpcrypt.cpp
+gost.cpp
+gzip.cpp
+hex.cpp
+hmac.cpp
+hrtimer.cpp
+ida.cpp
+idea.cpp
+integer.cpp
+luc.cpp
+mars.cpp
+marss.cpp
+md2.cpp
+md4.cpp
+md5.cpp
+Generating Code...
+Compiling...
+misc.cpp
+modes.cpp
+mqueue.cpp
+mqv.cpp
+nbtheory.cpp
+network.cpp
+oaep.cpp
+osrng.cpp
+panama.cpp
+pkcspad.cpp
+polynomi.cpp
+pssr.cpp
+pubkey.cpp
+queue.cpp
+rabin.cpp
+randpool.cpp
+rc2.cpp
+rc5.cpp
+rc6.cpp
+rdtables.cpp
+Generating Code...
+Compiling...
+rijndael.cpp
+ripemd.cpp
+rng.cpp
+rsa.cpp
+rw.cpp
+safer.cpp
+salsa.cpp
+seal.cpp
+seed.cpp
+serpent.cpp
+sha.cpp
+sha3.cpp
+shacal2.cpp
+shark.cpp
+sharkbox.cpp
+simple.cpp
+skipjack.cpp
+socketft.cpp
+sosemanuk.cpp
+square.cpp
+Generating Code...
+Compiling...
+squaretb.cpp
+strciphr.cpp
+tea.cpp
+tftables.cpp
+tiger.cpp
+tigertab.cpp
+trdlocal.cpp
+ttmac.cpp
+twofish.cpp
+vmac.cpp
+wait.cpp
+wake.cpp
+whrlpool.cpp
+winpipes.cpp
+xtr.cpp
+xtrcrypt.cpp
+zdeflate.cpp
+zinflate.cpp
+zlib.cpp
+Generating Code...
+Compiling...
+dll.cpp
+iterhash.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: cryptest - Win32 DLL-Import Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP4163.tmp" with contents
+[
+/nologo /G5 /Gz /MT /W3 /GR /GX /Zi /O1 /Ob2 /D "NDEBUG" /D "CRYPTOPP_IMPORTS" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /Fp"CT_DLL_Import_Release/cryptest.pch" /YX /Fo"CT_DLL_Import_Release/" /Fd"CT_DLL_Import_Release/" /FD /Zm400 /c 
+"C:\Users\John\Desktop\crypto\adhoc.cpp"
+"C:\Users\John\Desktop\crypto\bench.cpp"
+"C:\Users\John\Desktop\crypto\bench2.cpp"
+"C:\Users\John\Desktop\crypto\datatest.cpp"
+"C:\Users\John\Desktop\crypto\dlltest.cpp"
+"C:\Users\John\Desktop\crypto\fipsalgt.cpp"
+"C:\Users\John\Desktop\crypto\regtest.cpp"
+"C:\Users\John\Desktop\crypto\test.cpp"
+"C:\Users\John\Desktop\crypto\validat1.cpp"
+"C:\Users\John\Desktop\crypto\validat2.cpp"
+"C:\Users\John\Desktop\crypto\validat3.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP4163.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP4173.bat" with contents
+[
+@echo off
+echo This configuration requires cryptopp.dll.
+echo You can build it yourself using the cryptdll project, or
+echo obtain a pre-built, FIPS 140-2 validated DLL. If you build it yourself
+echo the resulting DLL will not be considered FIPS validated
+echo unless it undergoes FIPS validation.
+]
+Creating command line "C:\Users\John\AppData\Local\Temp\RSP4173.bat"
+Compiling...
+adhoc.cpp
+bench.cpp
+bench2.cpp
+datatest.cpp
+dlltest.cpp
+fipsalgt.cpp
+regtest.cpp
+test.cpp
+validat1.cpp
+validat2.cpp
+validat3.cpp
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP8FA4.tmp" with contents
+[
+Ws2_32.lib /nologo /subsystem:console /incremental:no /pdb:"CT_DLL_Import_Release/cryptest.pdb" /debug /machine:I386 /out:"DLL_Release/cryptest.exe" /libpath:"DLL_Release" /OPT:NOWIN98 /OPT:REF /OPT:ICF 
+.\CT_DLL_Import_Release\adhoc.obj
+.\CT_DLL_Import_Release\bench.obj
+.\CT_DLL_Import_Release\bench2.obj
+.\CT_DLL_Import_Release\datatest.obj
+.\CT_DLL_Import_Release\dlltest.obj
+.\CT_DLL_Import_Release\fipsalgt.obj
+.\CT_DLL_Import_Release\regtest.obj
+.\CT_DLL_Import_Release\test.obj
+.\CT_DLL_Import_Release\validat1.obj
+.\CT_DLL_Import_Release\validat2.obj
+.\CT_DLL_Import_Release\validat3.obj
+.\DLL_Import_Release\cryptlib.lib
+]
+Creating command line "link.exe @C:\Users\John\AppData\Local\Temp\RSP8FA4.tmp"
+
+This configuration requires cryptopp.dll.
+You can build it yourself using the cryptdll project, or
+obtain a pre-built, FIPS 140-2 validated DLL. If you build it yourself
+the resulting DLL will not be considered FIPS validated
+unless it undergoes FIPS validation.
+<h3>Output Window</h3>
+Linking...
+   Creating library DLL_Release/cryptest.lib and object DLL_Release/cryptest.exp
+
+
+
+<h3>Results</h3>
+cryptest.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: cryptlib - Win32 DLL-Import Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP97E2.bat" with contents
+[
+@echo off
+if not exist adhoc.cpp copy ".\adhoc.cpp.proto" adhoc.cpp
+echo: >> adhoc.cpp.copied
+]
+Creating command line "C:\Users\John\AppData\Local\Temp\RSP97E2.bat"
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP97E3.tmp" with contents
+[
+/nologo /G5 /Gz /MTd /W3 /GR /GX /Zi /Oi /D "_DEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /D "CRYPTOPP_IMPORTS" /Fp"DLL_Import_Debug/cryptlib.pch" /Yu"pch.h" /Fo"DLL_Import_Debug/" /Fd"DLL_Import_Debug/" /FD /Zm400 /c 
+"C:\Users\John\Desktop\crypto\3way.cpp"
+"C:\Users\John\Desktop\crypto\adler32.cpp"
+"C:\Users\John\Desktop\crypto\algebra.cpp"
+"C:\Users\John\Desktop\crypto\algparam.cpp"
+"C:\Users\John\Desktop\crypto\arc4.cpp"
+"C:\Users\John\Desktop\crypto\asn.cpp"
+"C:\Users\John\Desktop\crypto\authenc.cpp"
+"C:\Users\John\Desktop\crypto\base32.cpp"
+"C:\Users\John\Desktop\crypto\base64.cpp"
+"C:\Users\John\Desktop\crypto\basecode.cpp"
+"C:\Users\John\Desktop\crypto\bfinit.cpp"
+"C:\Users\John\Desktop\crypto\blowfish.cpp"
+"C:\Users\John\Desktop\crypto\blumshub.cpp"
+"C:\Users\John\Desktop\crypto\camellia.cpp"
+"C:\Users\John\Desktop\crypto\cast.cpp"
+"C:\Users\John\Desktop\crypto\casts.cpp"
+"C:\Users\John\Desktop\crypto\cbcmac.cpp"
+"C:\Users\John\Desktop\crypto\ccm.cpp"
+"C:\Users\John\Desktop\crypto\channels.cpp"
+"C:\Users\John\Desktop\crypto\cmac.cpp"
+"C:\Users\John\Desktop\crypto\cpu.cpp"
+"C:\Users\John\Desktop\crypto\crc.cpp"
+"C:\Users\John\Desktop\crypto\cryptlib.cpp"
+"C:\Users\John\Desktop\crypto\default.cpp"
+"C:\Users\John\Desktop\crypto\des.cpp"
+"C:\Users\John\Desktop\crypto\dessp.cpp"
+"C:\Users\John\Desktop\crypto\dh.cpp"
+"C:\Users\John\Desktop\crypto\dh2.cpp"
+"C:\Users\John\Desktop\crypto\dsa.cpp"
+"C:\Users\John\Desktop\crypto\eax.cpp"
+"C:\Users\John\Desktop\crypto\ec2n.cpp"
+"C:\Users\John\Desktop\crypto\eccrypto.cpp"
+"C:\Users\John\Desktop\crypto\ecp.cpp"
+"C:\Users\John\Desktop\crypto\elgamal.cpp"
+"C:\Users\John\Desktop\crypto\emsa2.cpp"
+"C:\Users\John\Desktop\crypto\eprecomp.cpp"
+"C:\Users\John\Desktop\crypto\esign.cpp"
+"C:\Users\John\Desktop\crypto\files.cpp"
+"C:\Users\John\Desktop\crypto\filters.cpp"
+"C:\Users\John\Desktop\crypto\fips140.cpp"
+"C:\Users\John\Desktop\crypto\fipstest.cpp"
+"C:\Users\John\Desktop\crypto\gcm.cpp"
+"C:\Users\John\Desktop\crypto\gf256.cpp"
+"C:\Users\John\Desktop\crypto\gf2_32.cpp"
+"C:\Users\John\Desktop\crypto\gf2n.cpp"
+"C:\Users\John\Desktop\crypto\gfpcrypt.cpp"
+"C:\Users\John\Desktop\crypto\gost.cpp"
+"C:\Users\John\Desktop\crypto\gzip.cpp"
+"C:\Users\John\Desktop\crypto\hex.cpp"
+"C:\Users\John\Desktop\crypto\hmac.cpp"
+"C:\Users\John\Desktop\crypto\hrtimer.cpp"
+"C:\Users\John\Desktop\crypto\ida.cpp"
+"C:\Users\John\Desktop\crypto\idea.cpp"
+"C:\Users\John\Desktop\crypto\integer.cpp"
+"C:\Users\John\Desktop\crypto\luc.cpp"
+"C:\Users\John\Desktop\crypto\mars.cpp"
+"C:\Users\John\Desktop\crypto\marss.cpp"
+"C:\Users\John\Desktop\crypto\md2.cpp"
+"C:\Users\John\Desktop\crypto\md4.cpp"
+"C:\Users\John\Desktop\crypto\md5.cpp"
+"C:\Users\John\Desktop\crypto\misc.cpp"
+"C:\Users\John\Desktop\crypto\modes.cpp"
+"C:\Users\John\Desktop\crypto\mqueue.cpp"
+"C:\Users\John\Desktop\crypto\mqv.cpp"
+"C:\Users\John\Desktop\crypto\nbtheory.cpp"
+"C:\Users\John\Desktop\crypto\network.cpp"
+"C:\Users\John\Desktop\crypto\oaep.cpp"
+"C:\Users\John\Desktop\crypto\osrng.cpp"
+"C:\Users\John\Desktop\crypto\panama.cpp"
+"C:\Users\John\Desktop\crypto\pkcspad.cpp"
+"C:\Users\John\Desktop\crypto\polynomi.cpp"
+"C:\Users\John\Desktop\crypto\pssr.cpp"
+"C:\Users\John\Desktop\crypto\pubkey.cpp"
+"C:\Users\John\Desktop\crypto\queue.cpp"
+"C:\Users\John\Desktop\crypto\rabin.cpp"
+"C:\Users\John\Desktop\crypto\randpool.cpp"
+"C:\Users\John\Desktop\crypto\rc2.cpp"
+"C:\Users\John\Desktop\crypto\rc5.cpp"
+"C:\Users\John\Desktop\crypto\rc6.cpp"
+"C:\Users\John\Desktop\crypto\rdtables.cpp"
+"C:\Users\John\Desktop\crypto\rijndael.cpp"
+"C:\Users\John\Desktop\crypto\ripemd.cpp"
+"C:\Users\John\Desktop\crypto\rng.cpp"
+"C:\Users\John\Desktop\crypto\rsa.cpp"
+"C:\Users\John\Desktop\crypto\rw.cpp"
+"C:\Users\John\Desktop\crypto\safer.cpp"
+"C:\Users\John\Desktop\crypto\salsa.cpp"
+"C:\Users\John\Desktop\crypto\seal.cpp"
+"C:\Users\John\Desktop\crypto\seed.cpp"
+"C:\Users\John\Desktop\crypto\serpent.cpp"
+"C:\Users\John\Desktop\crypto\sha.cpp"
+"C:\Users\John\Desktop\crypto\sha3.cpp"
+"C:\Users\John\Desktop\crypto\shacal2.cpp"
+"C:\Users\John\Desktop\crypto\shark.cpp"
+"C:\Users\John\Desktop\crypto\sharkbox.cpp"
+"C:\Users\John\Desktop\crypto\simple.cpp"
+"C:\Users\John\Desktop\crypto\skipjack.cpp"
+"C:\Users\John\Desktop\crypto\socketft.cpp"
+"C:\Users\John\Desktop\crypto\sosemanuk.cpp"
+"C:\Users\John\Desktop\crypto\square.cpp"
+"C:\Users\John\Desktop\crypto\squaretb.cpp"
+"C:\Users\John\Desktop\crypto\strciphr.cpp"
+"C:\Users\John\Desktop\crypto\tea.cpp"
+"C:\Users\John\Desktop\crypto\tftables.cpp"
+"C:\Users\John\Desktop\crypto\tiger.cpp"
+"C:\Users\John\Desktop\crypto\tigertab.cpp"
+"C:\Users\John\Desktop\crypto\trdlocal.cpp"
+"C:\Users\John\Desktop\crypto\ttmac.cpp"
+"C:\Users\John\Desktop\crypto\twofish.cpp"
+"C:\Users\John\Desktop\crypto\vmac.cpp"
+"C:\Users\John\Desktop\crypto\wait.cpp"
+"C:\Users\John\Desktop\crypto\wake.cpp"
+"C:\Users\John\Desktop\crypto\whrlpool.cpp"
+"C:\Users\John\Desktop\crypto\winpipes.cpp"
+"C:\Users\John\Desktop\crypto\xtr.cpp"
+"C:\Users\John\Desktop\crypto\xtrcrypt.cpp"
+"C:\Users\John\Desktop\crypto\zdeflate.cpp"
+"C:\Users\John\Desktop\crypto\zinflate.cpp"
+"C:\Users\John\Desktop\crypto\zlib.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP97E3.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP97E4.tmp" with contents
+[
+/nologo /G5 /Gz /MTd /W3 /GR /GX /Zi /Oi /D "_DEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /D "CRYPTOPP_IMPORTS" /Fo"DLL_Import_Debug/" /Fd"DLL_Import_Debug/" /FD /Zm400 /c 
+"C:\Users\John\Desktop\crypto\dll.cpp"
+"C:\Users\John\Desktop\crypto\iterhash.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP97E4.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP97F5.tmp" with contents
+[
+/nologo /G5 /Gz /MTd /W3 /GR /GX /Zi /Oi /D "_DEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /D "CRYPTOPP_IMPORTS" /Fp"DLL_Import_Debug/cryptlib.pch" /Yc"pch.h" /Fo"DLL_Import_Debug/" /Fd"DLL_Import_Debug/" /FD /Zm400 /c 
+"C:\Users\John\Desktop\crypto\pch.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP97F5.tmp" 
+Performing Custom Build Step on .\adhoc.cpp.proto
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP98A2.tmp" with contents
+[
+/nologo /out:"DLL_Import_Debug\cryptlib.lib" 
+.\DLL_Import_Debug\3way.obj
+.\DLL_Import_Debug\adler32.obj
+.\DLL_Import_Debug\algebra.obj
+.\DLL_Import_Debug\algparam.obj
+.\DLL_Import_Debug\arc4.obj
+.\DLL_Import_Debug\asn.obj
+.\DLL_Import_Debug\authenc.obj
+.\DLL_Import_Debug\base32.obj
+.\DLL_Import_Debug\base64.obj
+.\DLL_Import_Debug\basecode.obj
+.\DLL_Import_Debug\bfinit.obj
+.\DLL_Import_Debug\blowfish.obj
+.\DLL_Import_Debug\blumshub.obj
+.\DLL_Import_Debug\camellia.obj
+.\DLL_Import_Debug\cast.obj
+.\DLL_Import_Debug\casts.obj
+.\DLL_Import_Debug\cbcmac.obj
+.\DLL_Import_Debug\ccm.obj
+.\DLL_Import_Debug\channels.obj
+.\DLL_Import_Debug\cmac.obj
+.\DLL_Import_Debug\cpu.obj
+.\DLL_Import_Debug\crc.obj
+.\DLL_Import_Debug\cryptlib.obj
+.\DLL_Import_Debug\default.obj
+.\DLL_Import_Debug\des.obj
+.\DLL_Import_Debug\dessp.obj
+.\DLL_Import_Debug\dh.obj
+.\DLL_Import_Debug\dh2.obj
+.\DLL_Import_Debug\dll.obj
+.\DLL_Import_Debug\dsa.obj
+.\DLL_Import_Debug\eax.obj
+.\DLL_Import_Debug\ec2n.obj
+.\DLL_Import_Debug\eccrypto.obj
+.\DLL_Import_Debug\ecp.obj
+.\DLL_Import_Debug\elgamal.obj
+.\DLL_Import_Debug\emsa2.obj
+.\DLL_Import_Debug\eprecomp.obj
+.\DLL_Import_Debug\esign.obj
+.\DLL_Import_Debug\files.obj
+.\DLL_Import_Debug\filters.obj
+.\DLL_Import_Debug\fips140.obj
+.\DLL_Import_Debug\fipstest.obj
+.\DLL_Import_Debug\gcm.obj
+.\DLL_Import_Debug\gf256.obj
+.\DLL_Import_Debug\gf2_32.obj
+.\DLL_Import_Debug\gf2n.obj
+.\DLL_Import_Debug\gfpcrypt.obj
+.\DLL_Import_Debug\gost.obj
+.\DLL_Import_Debug\gzip.obj
+.\DLL_Import_Debug\hex.obj
+.\DLL_Import_Debug\hmac.obj
+.\DLL_Import_Debug\hrtimer.obj
+.\DLL_Import_Debug\ida.obj
+.\DLL_Import_Debug\idea.obj
+.\DLL_Import_Debug\integer.obj
+.\DLL_Import_Debug\iterhash.obj
+.\DLL_Import_Debug\luc.obj
+.\DLL_Import_Debug\mars.obj
+.\DLL_Import_Debug\marss.obj
+.\DLL_Import_Debug\md2.obj
+.\DLL_Import_Debug\md4.obj
+.\DLL_Import_Debug\md5.obj
+.\DLL_Import_Debug\misc.obj
+.\DLL_Import_Debug\modes.obj
+.\DLL_Import_Debug\mqueue.obj
+.\DLL_Import_Debug\mqv.obj
+.\DLL_Import_Debug\nbtheory.obj
+.\DLL_Import_Debug\network.obj
+.\DLL_Import_Debug\oaep.obj
+.\DLL_Import_Debug\osrng.obj
+.\DLL_Import_Debug\panama.obj
+.\DLL_Import_Debug\pch.obj
+.\DLL_Import_Debug\pkcspad.obj
+.\DLL_Import_Debug\polynomi.obj
+.\DLL_Import_Debug\pssr.obj
+.\DLL_Import_Debug\pubkey.obj
+.\DLL_Import_Debug\queue.obj
+.\DLL_Import_Debug\rabin.obj
+.\DLL_Import_Debug\randpool.obj
+.\DLL_Import_Debug\rc2.obj
+.\DLL_Import_Debug\rc5.obj
+.\DLL_Import_Debug\rc6.obj
+.\DLL_Import_Debug\rdtables.obj
+.\DLL_Import_Debug\rijndael.obj
+.\DLL_Import_Debug\ripemd.obj
+.\DLL_Import_Debug\rng.obj
+.\DLL_Import_Debug\rsa.obj
+.\DLL_Import_Debug\rw.obj
+.\DLL_Import_Debug\safer.obj
+.\DLL_Import_Debug\salsa.obj
+.\DLL_Import_Debug\seal.obj
+.\DLL_Import_Debug\seed.obj
+.\DLL_Import_Debug\serpent.obj
+.\DLL_Import_Debug\sha.obj
+.\DLL_Import_Debug\sha3.obj
+.\DLL_Import_Debug\shacal2.obj
+.\DLL_Import_Debug\shark.obj
+.\DLL_Import_Debug\sharkbox.obj
+.\DLL_Import_Debug\simple.obj
+.\DLL_Import_Debug\skipjack.obj
+.\DLL_Import_Debug\socketft.obj
+.\DLL_Import_Debug\sosemanuk.obj
+.\DLL_Import_Debug\square.obj
+.\DLL_Import_Debug\squaretb.obj
+.\DLL_Import_Debug\strciphr.obj
+.\DLL_Import_Debug\tea.obj
+.\DLL_Import_Debug\tftables.obj
+.\DLL_Import_Debug\tiger.obj
+.\DLL_Import_Debug\tigertab.obj
+.\DLL_Import_Debug\trdlocal.obj
+.\DLL_Import_Debug\ttmac.obj
+.\DLL_Import_Debug\twofish.obj
+.\DLL_Import_Debug\vmac.obj
+.\DLL_Import_Debug\wait.obj
+.\DLL_Import_Debug\wake.obj
+.\DLL_Import_Debug\whrlpool.obj
+.\DLL_Import_Debug\winpipes.obj
+.\DLL_Import_Debug\xtr.obj
+.\DLL_Import_Debug\xtrcrypt.obj
+.\DLL_Import_Debug\zdeflate.obj
+.\DLL_Import_Debug\zinflate.obj
+.\DLL_Import_Debug\zlib.obj
+]
+Creating command line "link.exe -lib @C:\Users\John\AppData\Local\Temp\RSP98A2.tmp"
+<h3>Output Window</h3>
+Compiling...
+pch.cpp
+Compiling...
+3way.cpp
+adler32.cpp
+algebra.cpp
+algparam.cpp
+arc4.cpp
+asn.cpp
+authenc.cpp
+base32.cpp
+base64.cpp
+basecode.cpp
+bfinit.cpp
+blowfish.cpp
+blumshub.cpp
+camellia.cpp
+cast.cpp
+casts.cpp
+cbcmac.cpp
+ccm.cpp
+channels.cpp
+cmac.cpp
+Generating Code...
+Compiling...
+cpu.cpp
+crc.cpp
+cryptlib.cpp
+default.cpp
+des.cpp
+dessp.cpp
+dh.cpp
+dh2.cpp
+dsa.cpp
+eax.cpp
+ec2n.cpp
+eccrypto.cpp
+ecp.cpp
+elgamal.cpp
+emsa2.cpp
+eprecomp.cpp
+esign.cpp
+files.cpp
+filters.cpp
+fips140.cpp
+Generating Code...
+Compiling...
+fipstest.cpp
+gcm.cpp
+gf256.cpp
+gf2_32.cpp
+gf2n.cpp
+gfpcrypt.cpp
+gost.cpp
+gzip.cpp
+hex.cpp
+hmac.cpp
+hrtimer.cpp
+ida.cpp
+idea.cpp
+integer.cpp
+luc.cpp
+mars.cpp
+marss.cpp
+md2.cpp
+md4.cpp
+md5.cpp
+Generating Code...
+Compiling...
+misc.cpp
+modes.cpp
+mqueue.cpp
+mqv.cpp
+nbtheory.cpp
+network.cpp
+oaep.cpp
+osrng.cpp
+panama.cpp
+pkcspad.cpp
+polynomi.cpp
+pssr.cpp
+pubkey.cpp
+queue.cpp
+rabin.cpp
+randpool.cpp
+rc2.cpp
+rc5.cpp
+rc6.cpp
+rdtables.cpp
+Generating Code...
+Compiling...
+rijndael.cpp
+ripemd.cpp
+rng.cpp
+rsa.cpp
+rw.cpp
+safer.cpp
+salsa.cpp
+seal.cpp
+seed.cpp
+serpent.cpp
+sha.cpp
+sha3.cpp
+shacal2.cpp
+shark.cpp
+sharkbox.cpp
+simple.cpp
+skipjack.cpp
+socketft.cpp
+sosemanuk.cpp
+square.cpp
+Generating Code...
+Compiling...
+squaretb.cpp
+strciphr.cpp
+tea.cpp
+tftables.cpp
+tiger.cpp
+tigertab.cpp
+trdlocal.cpp
+ttmac.cpp
+twofish.cpp
+vmac.cpp
+wait.cpp
+wake.cpp
+whrlpool.cpp
+winpipes.cpp
+xtr.cpp
+xtrcrypt.cpp
+zdeflate.cpp
+zinflate.cpp
+zlib.cpp
+Generating Code...
+Compiling...
+dll.cpp
+iterhash.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: cryptest - Win32 DLL-Import Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSPB870.tmp" with contents
+[
+/nologo /G5 /Gz /MTd /W3 /GR /GX /Zi /Oi /D "_DEBUG" /D "CRYPTOPP_IMPORTS" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /Fp"CT_DLL_Import_Debug/cryptest.pch" /YX /Fo"CT_DLL_Import_Debug/" /Fd"CT_DLL_Import_Debug/" /FD /Zm400 /c 
+"C:\Users\John\Desktop\crypto\adhoc.cpp"
+"C:\Users\John\Desktop\crypto\bench.cpp"
+"C:\Users\John\Desktop\crypto\bench2.cpp"
+"C:\Users\John\Desktop\crypto\datatest.cpp"
+"C:\Users\John\Desktop\crypto\dlltest.cpp"
+"C:\Users\John\Desktop\crypto\fipsalgt.cpp"
+"C:\Users\John\Desktop\crypto\regtest.cpp"
+"C:\Users\John\Desktop\crypto\test.cpp"
+"C:\Users\John\Desktop\crypto\validat1.cpp"
+"C:\Users\John\Desktop\crypto\validat2.cpp"
+"C:\Users\John\Desktop\crypto\validat3.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSPB870.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSPB871.bat" with contents
+[
+@echo off
+echo This configuration requires cryptopp.dll.
+echo You can build it yourself using the cryptdll project, or
+echo obtain a pre-built, FIPS 140-2 validated DLL. If you build it yourself
+echo the resulting DLL will not be considered FIPS validated
+echo unless it undergoes FIPS validation.
+]
+Creating command line "C:\Users\John\AppData\Local\Temp\RSPB871.bat"
+Compiling...
+adhoc.cpp
+bench.cpp
+bench2.cpp
+datatest.cpp
+dlltest.cpp
+fipsalgt.cpp
+regtest.cpp
+test.cpp
+validat1.cpp
+validat2.cpp
+validat3.cpp
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSPF701.tmp" with contents
+[
+Ws2_32.lib /nologo /subsystem:console /incremental:yes /pdb:"CT_DLL_Import_Debug/cryptest.pdb" /debug /machine:I386 /out:"DLL_Debug/cryptest.exe" /pdbtype:sept /libpath:"DLL_Debug" /OPT:NOWIN98 
+.\CT_DLL_Import_Debug\adhoc.obj
+.\CT_DLL_Import_Debug\bench.obj
+.\CT_DLL_Import_Debug\bench2.obj
+.\CT_DLL_Import_Debug\datatest.obj
+.\CT_DLL_Import_Debug\dlltest.obj
+.\CT_DLL_Import_Debug\fipsalgt.obj
+.\CT_DLL_Import_Debug\regtest.obj
+.\CT_DLL_Import_Debug\test.obj
+.\CT_DLL_Import_Debug\validat1.obj
+.\CT_DLL_Import_Debug\validat2.obj
+.\CT_DLL_Import_Debug\validat3.obj
+.\DLL_Import_Debug\cryptlib.lib
+]
+Creating command line "link.exe @C:\Users\John\AppData\Local\Temp\RSPF701.tmp"
+
+This configuration requires cryptopp.dll.
+You can build it yourself using the cryptdll project, or
+obtain a pre-built, FIPS 140-2 validated DLL. If you build it yourself
+the resulting DLL will not be considered FIPS validated
+unless it undergoes FIPS validation.
+<h3>Output Window</h3>
+Linking...
+   Creating library DLL_Debug/cryptest.lib and object DLL_Debug/cryptest.exp
+
+
+
+<h3>Results</h3>
+cryptest.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: cryptdll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"DLL_Release/cryptopp.res" /d "NDEBUG" "C:\Users\John\Desktop\crypto\cryptopp.rc"" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSPFF20.tmp" with contents
+[
+/nologo /G5 /MT /W3 /GR /GX /Zi /O1 /Ob2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CRYPTOPP_EXPORTS" /D CRYPTOPP_ENABLE_COMPLIANCE_WITH_FIPS_140_2=1 /D "USE_PRECOMPILED_HEADERS" /Fp"DLL_Release/cryptdll.pch" /Yu"pch.h" /Fo"DLL_Release/" /Fd"DLL_Release/" /FD /Zm200 /c 
+"C:\Users\John\Desktop\crypto\algebra.cpp"
+"C:\Users\John\Desktop\crypto\algparam.cpp"
+"C:\Users\John\Desktop\crypto\asn.cpp"
+"C:\Users\John\Desktop\crypto\authenc.cpp"
+"C:\Users\John\Desktop\crypto\basecode.cpp"
+"C:\Users\John\Desktop\crypto\cbcmac.cpp"
+"C:\Users\John\Desktop\crypto\ccm.cpp"
+"C:\Users\John\Desktop\crypto\channels.cpp"
+"C:\Users\John\Desktop\crypto\cmac.cpp"
+"C:\Users\John\Desktop\crypto\cpu.cpp"
+"C:\Users\John\Desktop\crypto\cryptlib.cpp"
+"C:\Users\John\Desktop\crypto\des.cpp"
+"C:\Users\John\Desktop\crypto\dessp.cpp"
+"C:\Users\John\Desktop\crypto\dh.cpp"
+"C:\Users\John\Desktop\crypto\dsa.cpp"
+"C:\Users\John\Desktop\crypto\ec2n.cpp"
+"C:\Users\John\Desktop\crypto\eccrypto.cpp"
+"C:\Users\John\Desktop\crypto\ecp.cpp"
+"C:\Users\John\Desktop\crypto\emsa2.cpp"
+"C:\Users\John\Desktop\crypto\eprecomp.cpp"
+"C:\Users\John\Desktop\crypto\files.cpp"
+"C:\Users\John\Desktop\crypto\filters.cpp"
+"C:\Users\John\Desktop\crypto\fips140.cpp"
+"C:\Users\John\Desktop\crypto\fipstest.cpp"
+"C:\Users\John\Desktop\crypto\gcm.cpp"
+"C:\Users\John\Desktop\crypto\gf2n.cpp"
+"C:\Users\John\Desktop\crypto\gfpcrypt.cpp"
+"C:\Users\John\Desktop\crypto\hex.cpp"
+"C:\Users\John\Desktop\crypto\hmac.cpp"
+"C:\Users\John\Desktop\crypto\hrtimer.cpp"
+"C:\Users\John\Desktop\crypto\integer.cpp"
+"C:\Users\John\Desktop\crypto\misc.cpp"
+"C:\Users\John\Desktop\crypto\modes.cpp"
+"C:\Users\John\Desktop\crypto\mqueue.cpp"
+"C:\Users\John\Desktop\crypto\nbtheory.cpp"
+"C:\Users\John\Desktop\crypto\oaep.cpp"
+"C:\Users\John\Desktop\crypto\osrng.cpp"
+"C:\Users\John\Desktop\crypto\pkcspad.cpp"
+"C:\Users\John\Desktop\crypto\pssr.cpp"
+"C:\Users\John\Desktop\crypto\pubkey.cpp"
+"C:\Users\John\Desktop\crypto\queue.cpp"
+"C:\Users\John\Desktop\crypto\randpool.cpp"
+"C:\Users\John\Desktop\crypto\rdtables.cpp"
+"C:\Users\John\Desktop\crypto\rijndael.cpp"
+"C:\Users\John\Desktop\crypto\rng.cpp"
+"C:\Users\John\Desktop\crypto\rsa.cpp"
+"C:\Users\John\Desktop\crypto\rw.cpp"
+"C:\Users\John\Desktop\crypto\sha.cpp"
+"C:\Users\John\Desktop\crypto\sha3.cpp"
+"C:\Users\John\Desktop\crypto\simple.cpp"
+"C:\Users\John\Desktop\crypto\skipjack.cpp"
+"C:\Users\John\Desktop\crypto\strciphr.cpp"
+"C:\Users\John\Desktop\crypto\trdlocal.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSPFF20.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSPFF21.tmp" with contents
+[
+/nologo /G5 /MT /W3 /GR /GX /Zi /O1 /Ob2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CRYPTOPP_EXPORTS" /D CRYPTOPP_ENABLE_COMPLIANCE_WITH_FIPS_140_2=1 /D "USE_PRECOMPILED_HEADERS" /Fo"DLL_Release/" /Fd"DLL_Release/" /FD /Zm200 /c 
+"C:\Users\John\Desktop\crypto\dll.cpp"
+"C:\Users\John\Desktop\crypto\iterhash.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSPFF21.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSPFF22.tmp" with contents
+[
+/nologo /G5 /MT /W3 /GR /GX /Zi /O1 /Ob2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CRYPTOPP_EXPORTS" /D CRYPTOPP_ENABLE_COMPLIANCE_WITH_FIPS_140_2=1 /D "USE_PRECOMPILED_HEADERS" /Fp"DLL_Release/cryptdll.pch" /Yc"pch.h" /Fo"DLL_Release/" /Fd"DLL_Release/" /FD /Zm200 /c 
+"C:\Users\John\Desktop\crypto\pch.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSPFF22.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSPFF23.tmp" with contents
+[
+advapi32.lib /nologo /base:"0x42900000" /dll /incremental:no /pdb:"DLL_Release/cryptopp.pdb" /map:"DLL_Release/cryptopp.map" /debug /machine:I386 /out:"DLL_Release/cryptopp.dll" /implib:"DLL_Release/cryptopp.lib" /opt:ref 
+.\DLL_Release\algebra.obj
+.\DLL_Release\algparam.obj
+.\DLL_Release\asn.obj
+.\DLL_Release\authenc.obj
+.\DLL_Release\basecode.obj
+.\DLL_Release\cbcmac.obj
+.\DLL_Release\ccm.obj
+.\DLL_Release\channels.obj
+.\DLL_Release\cmac.obj
+.\DLL_Release\cpu.obj
+.\DLL_Release\cryptlib.obj
+.\DLL_Release\des.obj
+.\DLL_Release\dessp.obj
+.\DLL_Release\dh.obj
+.\DLL_Release\dll.obj
+.\DLL_Release\dsa.obj
+.\DLL_Release\ec2n.obj
+.\DLL_Release\eccrypto.obj
+.\DLL_Release\ecp.obj
+.\DLL_Release\emsa2.obj
+.\DLL_Release\eprecomp.obj
+.\DLL_Release\files.obj
+.\DLL_Release\filters.obj
+.\DLL_Release\fips140.obj
+.\DLL_Release\fipstest.obj
+.\DLL_Release\gcm.obj
+.\DLL_Release\gf2n.obj
+.\DLL_Release\gfpcrypt.obj
+.\DLL_Release\hex.obj
+.\DLL_Release\hmac.obj
+.\DLL_Release\hrtimer.obj
+.\DLL_Release\integer.obj
+.\DLL_Release\iterhash.obj
+.\DLL_Release\misc.obj
+.\DLL_Release\modes.obj
+.\DLL_Release\mqueue.obj
+.\DLL_Release\nbtheory.obj
+.\DLL_Release\oaep.obj
+.\DLL_Release\osrng.obj
+.\DLL_Release\pch.obj
+.\DLL_Release\pkcspad.obj
+.\DLL_Release\pssr.obj
+.\DLL_Release\pubkey.obj
+.\DLL_Release\queue.obj
+.\DLL_Release\randpool.obj
+.\DLL_Release\rdtables.obj
+.\DLL_Release\rijndael.obj
+.\DLL_Release\rng.obj
+.\DLL_Release\rsa.obj
+.\DLL_Release\rw.obj
+.\DLL_Release\sha.obj
+.\DLL_Release\sha3.obj
+.\DLL_Release\simple.obj
+.\DLL_Release\skipjack.obj
+.\DLL_Release\strciphr.obj
+.\DLL_Release\trdlocal.obj
+.\DLL_Release\cryptopp.res
+]
+Creating command line "link.exe @C:\Users\John\AppData\Local\Temp\RSPFF23.tmp"
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSPFF24.bat" with contents
+[
+@echo off
+CTRelease\cryptest mac_dll .\DLL_Release\cryptopp.dll
+echo mac done > .\DLL_Release\cryptopp.mac.done
+]
+Creating command line "C:\Users\John\AppData\Local\Temp\RSPFF24.bat"
+Compiling resources...
+Compiling...
+pch.cpp
+Compiling...
+algebra.cpp
+algparam.cpp
+asn.cpp
+authenc.cpp
+basecode.cpp
+cbcmac.cpp
+ccm.cpp
+channels.cpp
+cmac.cpp
+cpu.cpp
+cryptlib.cpp
+des.cpp
+dessp.cpp
+dh.cpp
+dsa.cpp
+ec2n.cpp
+eccrypto.cpp
+ecp.cpp
+emsa2.cpp
+eprecomp.cpp
+Generating Code...
+Compiling...
+files.cpp
+filters.cpp
+fips140.cpp
+fipstest.cpp
+gcm.cpp
+gf2n.cpp
+gfpcrypt.cpp
+hex.cpp
+hmac.cpp
+hrtimer.cpp
+integer.cpp
+misc.cpp
+You do not seem to have the Visual C++ Processor Pack installed, so use of SSE2 instructions will be disabled.
+modes.cpp
+mqueue.cpp
+nbtheory.cpp
+C:\Users\John\Desktop\crypto\nbtheory.cpp(650) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(651) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(653) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(655) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1002) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1003) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1005) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\nbtheory.cpp(1010) : warning C4068: unknown pragma
+oaep.cpp
+osrng.cpp
+pkcspad.cpp
+pssr.cpp
+pubkey.cpp
+Generating Code...
+Compiling...
+queue.cpp
+randpool.cpp
+rdtables.cpp
+rijndael.cpp
+rng.cpp
+rsa.cpp
+rw.cpp
+C:\Users\John\Desktop\crypto\rw.cpp(143) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\rw.cpp(144) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\rw.cpp(146) : warning C4068: unknown pragma
+C:\Users\John\Desktop\crypto\rw.cpp(148) : warning C4068: unknown pragma
+sha.cpp
+sha3.cpp
+simple.cpp
+skipjack.cpp
+strciphr.cpp
+trdlocal.cpp
+Generating Code...
+Compiling...
+dll.cpp
+iterhash.cpp
+Generating Code...
+Linking...
+LINK : fatal error LNK1104: cannot open file "DLL_Release/cryptopp.dll"
+Error executing link.exe.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+dlltest.exe - 1 error(s), 12 warning(s)
+<h3>
+--------------------Configuration: cryptdll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"DLL_Debug/cryptopp.res" /d "_DEBUG" "C:\Users\John\Desktop\crypto\cryptopp.rc"" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP89B2.tmp" with contents
+[
+/nologo /G5 /MTd /W3 /Gm /GR /GX /Zi /Oi /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CRYPTOPP_EXPORTS" /D CRYPTOPP_ENABLE_COMPLIANCE_WITH_FIPS_140_2=1 /D "USE_PRECOMPILED_HEADERS" /Fp"DLL_Debug/cryptdll.pch" /Yu"pch.h" /Fo"DLL_Debug/" /Fd"DLL_Debug/" /FD /GZ /Zm200 /c 
+"C:\Users\John\Desktop\crypto\algebra.cpp"
+"C:\Users\John\Desktop\crypto\algparam.cpp"
+"C:\Users\John\Desktop\crypto\asn.cpp"
+"C:\Users\John\Desktop\crypto\authenc.cpp"
+"C:\Users\John\Desktop\crypto\basecode.cpp"
+"C:\Users\John\Desktop\crypto\cbcmac.cpp"
+"C:\Users\John\Desktop\crypto\ccm.cpp"
+"C:\Users\John\Desktop\crypto\channels.cpp"
+"C:\Users\John\Desktop\crypto\cmac.cpp"
+"C:\Users\John\Desktop\crypto\cpu.cpp"
+"C:\Users\John\Desktop\crypto\cryptlib.cpp"
+"C:\Users\John\Desktop\crypto\des.cpp"
+"C:\Users\John\Desktop\crypto\dessp.cpp"
+"C:\Users\John\Desktop\crypto\dh.cpp"
+"C:\Users\John\Desktop\crypto\dsa.cpp"
+"C:\Users\John\Desktop\crypto\ec2n.cpp"
+"C:\Users\John\Desktop\crypto\eccrypto.cpp"
+"C:\Users\John\Desktop\crypto\ecp.cpp"
+"C:\Users\John\Desktop\crypto\emsa2.cpp"
+"C:\Users\John\Desktop\crypto\eprecomp.cpp"
+"C:\Users\John\Desktop\crypto\files.cpp"
+"C:\Users\John\Desktop\crypto\filters.cpp"
+"C:\Users\John\Desktop\crypto\fips140.cpp"
+"C:\Users\John\Desktop\crypto\fipstest.cpp"
+"C:\Users\John\Desktop\crypto\gcm.cpp"
+"C:\Users\John\Desktop\crypto\gf2n.cpp"
+"C:\Users\John\Desktop\crypto\gfpcrypt.cpp"
+"C:\Users\John\Desktop\crypto\hex.cpp"
+"C:\Users\John\Desktop\crypto\hmac.cpp"
+"C:\Users\John\Desktop\crypto\hrtimer.cpp"
+"C:\Users\John\Desktop\crypto\integer.cpp"
+"C:\Users\John\Desktop\crypto\misc.cpp"
+"C:\Users\John\Desktop\crypto\modes.cpp"
+"C:\Users\John\Desktop\crypto\mqueue.cpp"
+"C:\Users\John\Desktop\crypto\nbtheory.cpp"
+"C:\Users\John\Desktop\crypto\oaep.cpp"
+"C:\Users\John\Desktop\crypto\osrng.cpp"
+"C:\Users\John\Desktop\crypto\pkcspad.cpp"
+"C:\Users\John\Desktop\crypto\pssr.cpp"
+"C:\Users\John\Desktop\crypto\pubkey.cpp"
+"C:\Users\John\Desktop\crypto\queue.cpp"
+"C:\Users\John\Desktop\crypto\randpool.cpp"
+"C:\Users\John\Desktop\crypto\rdtables.cpp"
+"C:\Users\John\Desktop\crypto\rijndael.cpp"
+"C:\Users\John\Desktop\crypto\rng.cpp"
+"C:\Users\John\Desktop\crypto\rsa.cpp"
+"C:\Users\John\Desktop\crypto\rw.cpp"
+"C:\Users\John\Desktop\crypto\sha.cpp"
+"C:\Users\John\Desktop\crypto\sha3.cpp"
+"C:\Users\John\Desktop\crypto\simple.cpp"
+"C:\Users\John\Desktop\crypto\skipjack.cpp"
+"C:\Users\John\Desktop\crypto\strciphr.cpp"
+"C:\Users\John\Desktop\crypto\trdlocal.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP89B2.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP89B3.tmp" with contents
+[
+/nologo /G5 /MTd /W3 /Gm /GR /GX /Zi /Oi /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CRYPTOPP_EXPORTS" /D CRYPTOPP_ENABLE_COMPLIANCE_WITH_FIPS_140_2=1 /D "USE_PRECOMPILED_HEADERS" /Fo"DLL_Debug/" /Fd"DLL_Debug/" /FD /GZ /Zm200 /c 
+"C:\Users\John\Desktop\crypto\dll.cpp"
+"C:\Users\John\Desktop\crypto\iterhash.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP89B3.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP89B4.tmp" with contents
+[
+/nologo /G5 /MTd /W3 /Gm /GR /GX /Zi /Oi /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CRYPTOPP_EXPORTS" /D CRYPTOPP_ENABLE_COMPLIANCE_WITH_FIPS_140_2=1 /D "USE_PRECOMPILED_HEADERS" /Fp"DLL_Debug/cryptdll.pch" /Yc"pch.h" /Fo"DLL_Debug/" /Fd"DLL_Debug/" /FD /GZ /Zm200 /c 
+"C:\Users\John\Desktop\crypto\pch.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP89B4.tmp" 
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP89B5.tmp" with contents
+[
+advapi32.lib /nologo /base:"0x42900000" /dll /incremental:no /pdb:"DLL_Debug/cryptopp.pdb" /debug /machine:I386 /out:"DLL_Debug/cryptopp.dll" /implib:"DLL_Debug/cryptopp.lib" /opt:ref 
+.\DLL_Debug\algebra.obj
+.\DLL_Debug\algparam.obj
+.\DLL_Debug\asn.obj
+.\DLL_Debug\authenc.obj
+.\DLL_Debug\basecode.obj
+.\DLL_Debug\cbcmac.obj
+.\DLL_Debug\ccm.obj
+.\DLL_Debug\channels.obj
+.\DLL_Debug\cmac.obj
+.\DLL_Debug\cpu.obj
+.\DLL_Debug\cryptlib.obj
+.\DLL_Debug\des.obj
+.\DLL_Debug\dessp.obj
+.\DLL_Debug\dh.obj
+.\DLL_Debug\dll.obj
+.\DLL_Debug\dsa.obj
+.\DLL_Debug\ec2n.obj
+.\DLL_Debug\eccrypto.obj
+.\DLL_Debug\ecp.obj
+.\DLL_Debug\emsa2.obj
+.\DLL_Debug\eprecomp.obj
+.\DLL_Debug\files.obj
+.\DLL_Debug\filters.obj
+.\DLL_Debug\fips140.obj
+.\DLL_Debug\fipstest.obj
+.\DLL_Debug\gcm.obj
+.\DLL_Debug\gf2n.obj
+.\DLL_Debug\gfpcrypt.obj
+.\DLL_Debug\hex.obj
+.\DLL_Debug\hmac.obj
+.\DLL_Debug\hrtimer.obj
+.\DLL_Debug\integer.obj
+.\DLL_Debug\iterhash.obj
+.\DLL_Debug\misc.obj
+.\DLL_Debug\modes.obj
+.\DLL_Debug\mqueue.obj
+.\DLL_Debug\nbtheory.obj
+.\DLL_Debug\oaep.obj
+.\DLL_Debug\osrng.obj
+.\DLL_Debug\pch.obj
+.\DLL_Debug\pkcspad.obj
+.\DLL_Debug\pssr.obj
+.\DLL_Debug\pubkey.obj
+.\DLL_Debug\queue.obj
+.\DLL_Debug\randpool.obj
+.\DLL_Debug\rdtables.obj
+.\DLL_Debug\rijndael.obj
+.\DLL_Debug\rng.obj
+.\DLL_Debug\rsa.obj
+.\DLL_Debug\rw.obj
+.\DLL_Debug\sha.obj
+.\DLL_Debug\sha3.obj
+.\DLL_Debug\simple.obj
+.\DLL_Debug\skipjack.obj
+.\DLL_Debug\strciphr.obj
+.\DLL_Debug\trdlocal.obj
+.\DLL_Debug\cryptopp.res
+]
+Creating command line "link.exe @C:\Users\John\AppData\Local\Temp\RSP89B5.tmp"
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP89B6.bat" with contents
+[
+@echo off
+CTDebug\cryptest mac_dll .\DLL_Debug\cryptopp.dll
+echo mac done > .\DLL_Debug\cryptopp.mac.done
+]
+Creating command line "C:\Users\John\AppData\Local\Temp\RSP89B6.bat"
+Compiling resources...
+Compiling...
+Skipping... (no relevant changes detected)
+pch.cpp
+Compiling...
+Skipping... (no relevant changes detected)
+algebra.cpp
+algparam.cpp
+asn.cpp
+authenc.cpp
+basecode.cpp
+cbcmac.cpp
+ccm.cpp
+channels.cpp
+cmac.cpp
+cpu.cpp
+cryptlib.cpp
+des.cpp
+dessp.cpp
+dh.cpp
+dsa.cpp
+ec2n.cpp
+eccrypto.cpp
+ecp.cpp
+emsa2.cpp
+eprecomp.cpp
+files.cpp
+filters.cpp
+fips140.cpp
+fipstest.cpp
+gcm.cpp
+gf2n.cpp
+gfpcrypt.cpp
+hex.cpp
+hmac.cpp
+hrtimer.cpp
+integer.cpp
+misc.cpp
+modes.cpp
+mqueue.cpp
+nbtheory.cpp
+oaep.cpp
+osrng.cpp
+pkcspad.cpp
+pssr.cpp
+pubkey.cpp
+queue.cpp
+randpool.cpp
+rdtables.cpp
+rijndael.cpp
+rng.cpp
+rsa.cpp
+rw.cpp
+sha.cpp
+sha3.cpp
+simple.cpp
+skipjack.cpp
+strciphr.cpp
+trdlocal.cpp
+Compiling...
+Skipping... (no relevant changes detected)
+dll.cpp
+iterhash.cpp
+Linking...
+   Creating library DLL_Debug/cryptopp.lib and object DLL_Debug/cryptopp.exp
+<h3>Output Window</h3>
+Performing Custom Build Step on .\DLL_Debug\cryptopp.dll
+Placing MAC in file .\DLL_Debug\cryptopp.dll, location 1356060.
+<h3>
+--------------------Configuration: dlltest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\John\AppData\Local\Temp\RSP9688.tmp" with contents
+[
+/nologo /Gz /MTd /W3 /Gm /GR /GX /Zi /Oi /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "CRYPTOPP_DLL_ONLY" /Fp"dlltest___Win32_Debug/dlltest.pch" /YX /Fo"dlltest___Win32_Debug/" /Fd"dlltest___Win32_Debug/" /FD /GZ /c 
+"C:\Users\John\Desktop\crypto\dlltest.cpp"
+]
+Creating command line "cl.exe @C:\Users\John\AppData\Local\Temp\RSP9688.tmp" 
+Creating command line "link.exe /nologo /subsystem:console /incremental:yes /pdb:"dlltest___Win32_Debug/dlltest.pdb" /debug /machine:I386 /out:"DLL_Debug/dlltest.exe" /pdbtype:sept /libpath:"DLL_Debug"  .\dlltest___Win32_Debug\dlltest.obj .\DLL_Debug\cryptopp.lib "
+<h3>Output Window</h3>
+Compiling...
+dlltest.cpp
+Linking...
+   Creating library DLL_Debug/dlltest.lib and object DLL_Debug/dlltest.exp
+
+
+
+<h3>Results</h3>
+dlltest.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
