@@ -1,13 +1,8 @@
 /MultiServer/zMultiServer.sdf
-/MultiServer/Release/zMultiServer.map
-/MultiServer/Release/zMultiServer.pdb
+/MultiServer/Release/*
 /GameServer/zGameServer.sdf
 /GameServer/crypto/cryptest.sdf
 /GameServer/ipch/*
-/GameServer/Release/zGameServer.bsc
-/GameServer/Release/zGameServer.ilk
-/GameServer/Release/
-/GameServer/zGameServer.map
-/GameServer/zGameServer.pdb
+/GameServer/Release/*
 /Client/GlobalS8EP2.sdf
-/Client/Release/zClient.pdb
+/Client/Release/*
