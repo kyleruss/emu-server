@@ -55,10 +55,12 @@ void Notice::Read(LPSTR File)
 		return;
 	}
 	// ----
-	xml_node Notice = Document.child("notice");
-	xml_node Connect = Notice.child("connect");
-	xml_node Rotate = Notice.child("rotate");
+	xml_node Notice		=	Document.child("notice");
+	xml_node Connect	=	Notice.child("connect");
+	xml_node Rotate		=	Notice.child("rotate");
+	xml_node Online		=	Notice.child("online");
 	xml_node Node;
+
 	// ----
 	for( Node = Connect.child("message"); Node; Node = Node.next_sibling() )
 	{
@@ -67,6 +69,16 @@ void Notice::Read(LPSTR File)
 		strcpy(lpData.Text, Node.text().as_string());
 		this->m_ConnectList.push_back(lpData);
 	}
+
+	for(Node = Online.child("message"); Node; Node = Node.next_sibling())
+	{
+		NoticeOnlineInfo lpData;
+		lpData.profile	=	Node.attribute("profile").as_int();
+		lpData.Type		=	Node.attribute("type").as_int();
+		strcpy(lpData.Text, Node.text().as_string());
+		this->m_OnlineList.push_back(lpData);
+	}
+
 	// ----
 	for( Node = Rotate.child("message"); Node; Node = Node.next_sibling() )
 	{
@@ -139,6 +151,30 @@ void Notice::SendOnConnect(int UserIndex)
 		BYTE Temp[256] = { 0 };
 		this->Create(Temp, this->m_ConnectList[i].Type, this->m_ConnectList[i].Text);
 		DataSend(UserIndex, Temp, ((PBMSG_HEAD*)(Temp))->size);
+	}
+}
+
+void Notice::NotifyOnline(LPOBJ user)
+{
+	if(this->m_OnlineList.empty()) return;
+	else
+	{
+		for(std::vector<NoticeOnlineInfo>::iterator iter = m_OnlineList.begin(); iter != m_OnlineList.end(); iter++)
+		{
+			NoticeOnlineInfo info	=	*iter;
+			char * message			=	new char[60];
+			sprintf(message, info.Text, user->Name);
+
+			if(info.Type < 2)
+			{
+				if((isGM(user) && info.profile == 1))
+					TNotice::AllSendServerMsg(message);
+				else if(!isGM(user) && info.profile == 0)
+					TNotice::AllSendServerMsg(message);
+			}
+
+			delete[] message;
+		}
 	}
 }
 // -------------------------------------------------------------------------------

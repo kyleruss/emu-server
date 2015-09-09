@@ -2409,6 +2409,7 @@ BOOL gObjGuardianSprice(LPOBJ lpObj);
 BOOL gObjPandaSprite(LPOBJ lpObj);
 BOOL gObjUnicornSprite(LPOBJ lpObj);
 BOOL gObjSkeletonSprite(LPOBJ lpObj);
+BOOL isGM(LPOBJ lpObj);
 BYTE CheckAuthority(int AuthCode,LPOBJ lpObj);
 BOOL gObjCheckMapBind(int MapNumber);
 bool IsTransformCharcterSkin(int pChange);	//1.01.06

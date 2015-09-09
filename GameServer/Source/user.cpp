@@ -17,6 +17,7 @@
 #include "QuestInfo.h"
 #include "EledoradoEvent.h"
 #include "TNotice.h"
+#include "Notice.h"
 #include "zzzmathlib.h"
 #include "Gate.h"
 #include "ObjAttack.h"
@@ -2872,6 +2873,7 @@ BOOL gObjSetCharacter(LPBYTE lpdata, int aIndex)
 	lpObj->m_OldY = lpObj->Y;
 	lpMsg->NextExp = lpObj->NextExp;
 
+
 	if ( lpObj->Life == 0.0f )
 	{
 		lpObj->Live = TRUE;
@@ -2885,23 +2887,18 @@ BOOL gObjSetCharacter(LPBYTE lpdata, int aIndex)
 	}
 
 	if ( (lpMsg->CtlCode & 8) == 8 )
-	{
 		lpObj->Authority = 2;
-	}
-	else
-	{
+	
+	else 
 		lpObj->Authority = 1;
-	}
+	
 
 	if ( (lpMsg->CtlCode & 0x10 ) == 0x10 )
 	{
 		lpObj->Authority = 0x20;
-		LogAddC(2, "(%s)(%s) Set Event GM - test 123", lpObj->AccountID, lpObj->Name);
+		LogAddC(2, "(%s)(%s) Set Event GM", lpObj->AccountID, lpObj->Name);
 
-		std::string message	=	"GM  " + std::string(lpObj->Name) + " is now online";
-		LPSTR message_c		=	(LPSTR) message.c_str();
-
-		TNotice::AllSendServerMsg(message_c);
+		//g_Notice.NotifyOnline(lpObj);
 	}
 
 	if ( (lpMsg->CtlCode & 0x20 ) == 0x20 )
@@ -2909,10 +2906,7 @@ BOOL gObjSetCharacter(LPBYTE lpdata, int aIndex)
 		lpObj->Authority = 0x20;
 		LogAddC(2, "(%s)(%s) Set Event GM", lpObj->AccountID, lpObj->Name);
 
-		std::string message	=	"[GM  " + std::string(lpObj->Name) + "] is now online";
-		LPSTR message_c		=	(LPSTR) message.c_str();
-
-		TNotice::AllSendServerMsg(message_c);
+		//g_Notice.NotifyOnline(lpObj);
 	}
 
 	if ( lpObj->Authority == 32 )
@@ -2921,6 +2915,7 @@ BOOL gObjSetCharacter(LPBYTE lpdata, int aIndex)
 	}
 
 	lpObj->Penalty = 0;
+	g_Notice.NotifyOnline(lpObj);
 
 	if ( lpObj->m_cAccountItemBlock != 0 )
 	{
@@ -26829,8 +26824,14 @@ void UseMediumElitePotion(LPOBJ lpObj,int pos,double mul)
 
 BYTE CheckAuthority(int AuthCode,LPOBJ lpObj)
 {
-return ((lpObj->Authority & AuthCode) == lpObj->Authority);
+	return ((lpObj->Authority & AuthCode) == lpObj->Authority);
 }
+
+BOOL isGM(LPOBJ lpObj)
+{
+	const int GM_CODE	=	32;
+	return CheckAuthority(GM_CODE, lpObj) == 1;
+}	
 
 BOOL gObjCheckMapBind(int MapNumber)
 {
