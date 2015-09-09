@@ -10,6 +10,8 @@
 /GameServer/x64/*
 /GameServer/_UpgradeReport_Files/*
 /GameServer/UpgradeLog.XML
+/GameServer/zGameServer.opensdf
+/GameServer/Source/Release/*
 /Client/GlobalS8EP2.sdf
 /Client/Release/*
 /Client/_UpgradeReport_Files/*

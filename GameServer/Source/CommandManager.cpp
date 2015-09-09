@@ -1190,7 +1190,7 @@ BYTE CommandManager::CheckCommand(LPOBJ lpUser, LPSTR Text)
 		}
 	}
 	// ----
-	if( lpCommand->PremiumAccess >= 0 )
+	if( lpCommand->PremiumAccess > 0 )
 	{
 		if( m_ObjBill[lpUser->m_Index].GetPayCode() < lpCommand->PremiumAccess )
 		{
