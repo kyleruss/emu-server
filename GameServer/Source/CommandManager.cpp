@@ -248,7 +248,10 @@ void CommandManager::Run(LPOBJ lpUser, LPSTR Text)
 			GCPkLevelSend(lpTarget->m_Index, lpTarget->m_PK_Level);
 		}
 		break;
-		// --
+
+	//PKReset is a GM level command
+	//Resets the current PK status of a user
+	//For general clearing see the PKClear command
 	case Command::PKReset:
 		{
 			LPSTR UserName = this->GetTokenString();
@@ -287,16 +290,51 @@ void CommandManager::Run(LPOBJ lpUser, LPSTR Text)
 			GCPkLevelSend(lpTarget->m_Index, lpTarget->m_PK_Level);
 		}
 		break;
-		// --
 
+	//Resets the current user via command
+	//Follows same reset proc
+	//Command requirements should follow reset requirements
 	case Command::Reset:
 		{
 			ResetType::T type	=	ResetType::Normal;
 			BYTE payType		=	0xFE;
 			BYTE waitTime		=	0x05;
 
-		//	ResetSystem reset;
 			g_ResetSystem.ProcReset(lpUser, type, payType, waitTime);
+		}
+		break;
+
+	//Resets the current users PK status
+	//Seperate from PKReset and does not take a username param
+	case Command::PKClear:
+		{
+			if(lpUser->m_PK_Level <= 3)
+			{
+				MsgOutput(lpUser->m_Index, "You do not have PK status");
+				return;
+			}
+
+			else
+			{
+				int clear_price	=	(lpUser->m_PK_Count > 0)? lpCommand->Price * lpUser->m_PK_Count : lpCommand->Price;
+				
+
+				if(lpUser->Money < (lpUser->Money - clear_price))
+				{
+					MsgOutput(lpUser->m_Index, "You do not have enough money");
+					return;
+				}
+
+				lpUser->Money -= clear_price;
+				lpUser->m_PK_Level	= 3;
+				lpUser->m_PK_Count	= 0;
+				lpUser->m_PK_Time	= 0;
+				
+				GCMoneySend(lpUser->m_Index, lpUser->Money);
+				GCPkLevelSend(lpUser->m_Index, lpUser->m_PK_Level);
+				MsgOutput(lpUser->m_Index, "PK status has been cleared");
+				return;
+			}
 		}
 		break;
 

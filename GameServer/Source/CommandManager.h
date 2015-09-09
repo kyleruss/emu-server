@@ -67,6 +67,7 @@ namespace Command
 		GuildWar		= 43,
 		BattleSoccer	= 44,
 		Reset			= 45,
+		PKClear			= 46,
 		
 	};
 };
