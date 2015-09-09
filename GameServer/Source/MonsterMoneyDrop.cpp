@@ -5,6 +5,7 @@
 #include "DevilSquare.h"
 #include "MapRateInfo.h"
 #include "gObjMonster.h"
+#include <math.h>
 
 using namespace pugi;
 MonsterMoneyDrop g_MonsterMoneyDrop;
@@ -117,13 +118,15 @@ int MonsterMoneyDrop::Run(LPOBJ lpUser, LPOBJ lpMonster)
 
 	DWORD RandomRoll = rand() % 10000;
 	
-	if (DropInfo->MoneyMin == -1 && DropInfo->MoneyMax == -1) {
+	if (DropInfo->MoneyMin == -1 && DropInfo->MoneyMax == -1) 
+	{
 		int x = lpMonster->X;
 		int y = lpMonster->Y;
 		float money = (float)lpMonster->Money;
 		money /= 6.0f;
 		money += (money/100.0f)*lpUser->MonsterDieGetMoney;
 		money *= g_MapRateInfo.GetMoney(lpUser->MapNumber);
+		money *= std::ceil(lpMonster->Level / 10.0f);
 
 		int AddZenPerc = 100;
 
@@ -136,14 +139,12 @@ int MonsterMoneyDrop::Run(LPOBJ lpUser, LPOBJ lpMonster)
 		}
 
 		if( AddZenPerc != 100 ) {
-			money = money*AddZenPerc/100;
+			money = money* (AddZenPerc / 100);
 		}
 
 		if (m_ObjBill[lpUser->m_Index].GetZen() > 0) {
 			money += money * m_ObjBill[lpUser->m_Index].GetZen() / 100;
 		}
-		
-		//LogAddDebug("Zen increase: %d", m_ObjBill[lpUser->m_Index].GetZen());
 
 		if( money < 1.0f ) {
 			money = 1.0f;
@@ -169,18 +170,22 @@ int MonsterMoneyDrop::Run(LPOBJ lpUser, LPOBJ lpMonster)
 			return 0;
 		}
 
+		short mlevel	=	lpMonster->Level;
+		int scaledMin	=	std::ceil(mlevel / 10.0f);
 		DWORD MoneyAmount = DropInfo->MoneyMin + (rand() % (DWORD)(DropInfo->MoneyMax - DropInfo->MoneyMin + 1));
+		MoneyAmount *= std::ceil(mlevel / 10.0f);
 
 		if( MoneyAmount > DropInfo->MoneyMax ) {
-			MoneyAmount = DropInfo->MoneyMax;
+			MoneyAmount = DropInfo->MoneyMax - (rand() % 100);
 		}
 
 		if (m_ObjBill[lpUser->m_Index].GetZen() > 0) {
-			MoneyAmount += MoneyAmount * m_ObjBill[lpUser->m_Index].GetZen() / 100;
+			MoneyAmount += MoneyAmount * (m_ObjBill[lpUser->m_Index].GetZen() / 100);
 		}
 
 		//LogAddDebug("Zen increase: %d", m_ObjBill[lpUser->m_Index].GetZen());
 
+		LogAddC(3, "money amount: %d, random roll: %d, scaled min: %d", MoneyAmount, RandomRoll, scaledMin);
 		if( DropInfo->Rate > RandomRoll ) {
 			MapC[lpMonster->MapNumber].MoneyItemDrop(MoneyAmount, lpMonster->X, lpMonster->Y);
 			return 1;
