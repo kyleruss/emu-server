@@ -13,6 +13,13 @@ struct MonsterMoneyDropInfo
 	DWORD	Rate;
 };
 
+struct MonsterMoneyDropCalcParams
+{
+	float	zendiv;
+	float	multi;
+};
+
+
 class MonsterMoneyDrop  
 {
 public:
@@ -28,5 +35,6 @@ public:
 private:
 	bool	m_Enabled;
 	std::vector<MonsterMoneyDropInfo> m_DropInfo;
+	MonsterMoneyDropCalcParams calc_params;
 
 }; extern MonsterMoneyDrop g_MonsterMoneyDrop;

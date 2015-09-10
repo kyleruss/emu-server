@@ -5,6 +5,7 @@
 #include "DevilSquare.h"
 #include "MapRateInfo.h"
 #include "gObjMonster.h"
+#include "LogToFile.h"
 #include <math.h>
 
 using namespace pugi;
@@ -47,8 +48,14 @@ void MonsterMoneyDrop::Read(LPSTR File)
 		return;
 	}
 	// ----
-	xml_node MonsterMoneyDrop = Document.child("monstermoneydrop");
+	xml_node MonsterMoneyDrop	=	Document.child("monstermoneydrop");
 	this->m_Enabled = MonsterMoneyDrop.child("enabled").text().as_int();
+
+	//Get calculation params
+	xml_node CalculationParams			=	MonsterMoneyDrop.child("calculation");
+	this->calc_params.multi				=	std::stof(CalculationParams.child("multi").text().as_string());
+	this->calc_params.zendiv			=	std::stof(CalculationParams.child("zendiv").text().as_string());
+
 	// ----
 	for( xml_node Node = MonsterMoneyDrop.child("monsterlist").child("monster"); Node; Node = Node.next_sibling() )
 	{
@@ -122,11 +129,27 @@ int MonsterMoneyDrop::Run(LPOBJ lpUser, LPOBJ lpMonster)
 	{
 		int x = lpMonster->X;
 		int y = lpMonster->Y;
+
 		float money = (float)lpMonster->Money;
-		money /= 6.0f;
-		money += (money/100.0f)*lpUser->MonsterDieGetMoney;
+		if(money < 1.0f)
+			money = rand() % 100 + 1.0f;
+
+		money = std::ceil(money /  6.0f);
+
+		if(lpUser->MonsterDieGetMoney < 1.0f)
+			money += ((money/100.0f) * ((rand() % 1000) + 1.0f));
+		else
+			money += (money/100.0f) * lpUser->MonsterDieGetMoney;
+
 		money *= g_MapRateInfo.GetMoney(lpUser->MapNumber);
-		money *= std::ceil(lpMonster->Level / 10.0f);
+		money *= std::ceil(lpMonster->Level / calc_params.zendiv);
+		money *= calc_params.multi;
+
+		LogAddC(1, "die money: %f", (money/100.0f)*lpUser->MonsterDieGetMoney);
+		LogAddC(1, "map rate: %f", g_MapRateInfo.GetMoney(lpUser->MapNumber));
+		LogAddC(1, "div val: %f", std::ceil(lpMonster->Level / calc_params.zendiv));
+		LogAddC(2, "monster money: %f, after div: %f", (float)lpMonster->Money, ((float)lpMonster->Money/ 6.0f));
+		LogAddC(1, "money current: %f", money);
 
 		int AddZenPerc = 100;
 
@@ -139,18 +162,19 @@ int MonsterMoneyDrop::Run(LPOBJ lpUser, LPOBJ lpMonster)
 		}
 
 		if( AddZenPerc != 100 ) {
-			money = money* (AddZenPerc / 100);
+			money *= (AddZenPerc / 100);
 		}
 
 		if (m_ObjBill[lpUser->m_Index].GetZen() > 0) {
 			money += money * m_ObjBill[lpUser->m_Index].GetZen() / 100;
 		}
 
-		if( money < 1.0f ) {
+		if( money < 1.0f ) 
 			money = 1.0f;
-		}
 		
-		if( DropInfo->Rate > RandomRoll ) {
+		
+		if( DropInfo->Rate > RandomRoll )
+		{
 			if ( DS_MAP_RANGE(lpUser->MapNumber) ) {
 				int MaxHitUser = gObjMonsterTopHitDamageUser(lpMonster);
 
@@ -160,6 +184,7 @@ int MonsterMoneyDrop::Run(LPOBJ lpUser, LPOBJ lpMonster)
 				gObj[MaxHitUser].m_nEventMoney += (int)money;
 			}
 			else {
+				LogAddC(1, "money after: %f", money);
 				MapC[lpMonster->MapNumber].MoneyItemDrop((int)money, x, y);
 			}
 			return 1;
@@ -173,8 +198,11 @@ int MonsterMoneyDrop::Run(LPOBJ lpUser, LPOBJ lpMonster)
 		short mlevel	=	lpMonster->Level;
 		int scaledMin	=	std::ceil(mlevel / 10.0f);
 		DWORD MoneyAmount = DropInfo->MoneyMin + (rand() % (DWORD)(DropInfo->MoneyMax - DropInfo->MoneyMin + 1));
-		MoneyAmount *= std::ceil(mlevel / 10.0f);
+		MoneyAmount *= std::ceil(mlevel / calc_params.zendiv);
+		MoneyAmount *= calc_params.multi;
 
+
+		LogAddC(2, "zen div: %d, multiplier: %d", calc_params.zendiv, calc_params.multi);
 		if( MoneyAmount > DropInfo->MoneyMax ) {
 			MoneyAmount = DropInfo->MoneyMax - (rand() % 100);
 		}
