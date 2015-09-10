@@ -1,0 +1,440 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cryptlib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP31.bat" with contents
+[
+@echo off
+if not exist adhoc.cpp copy ".\adhoc.cpp.proto" adhoc.cpp
+echo: >> adhoc.cpp.copied
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP31.bat"
+Creating temporary file "C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP32.tmp" with contents
+[
+/nologo /MT /W3 /GR /GX /Zi /O2 /Ob2 /D "NDEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /Fp"Release/cryptlib.pch" /Yu"pch.h" /Fo"Release/" /Fd"Release/" /FD /Zm400 /c 
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\3way.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\adler32.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\algebra.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\algparam.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\arc4.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\asn.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\authenc.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\base32.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\base64.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\basecode.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\bfinit.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\blowfish.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\blumshub.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\camellia.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\cast.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\casts.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\cbcmac.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\ccm.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\channels.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\cmac.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\cpu.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\crc.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\cryptlib.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\default.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\des.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\dessp.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\dh.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\dh2.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\dsa.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\eax.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\ec2n.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\eccrypto.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\ecp.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\elgamal.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\emsa2.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\eprecomp.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\esign.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\files.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\filters.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\fips140.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\fipstest.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\gcm.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\gf256.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\gf2_32.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\gf2n.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\gfpcrypt.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\gost.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\gzip.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\hex.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\hmac.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\hrtimer.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\ida.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\idea.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\integer.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\luc.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\mars.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\marss.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\md2.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\md4.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\md5.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\misc.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\modes.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\mqueue.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\mqv.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\nbtheory.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\network.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\oaep.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\osrng.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\panama.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\pkcspad.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\polynomi.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\pssr.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\pubkey.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\queue.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\rabin.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\randpool.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\rc2.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\rc5.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\rc6.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\rdtables.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\rijndael.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\ripemd.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\rng.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\rsa.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\rw.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\safer.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\salsa.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\seal.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\seed.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\serpent.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\sha.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\sha3.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\shacal2.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\shark.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\sharkbox.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\simple.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\skipjack.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\socketft.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\sosemanuk.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\square.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\squaretb.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\strciphr.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\tea.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\tftables.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\tiger.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\tigertab.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\trdlocal.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\ttmac.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\twofish.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\vmac.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\wait.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\wake.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\whrlpool.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\winpipes.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\xtr.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\xtrcrypt.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\zdeflate.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\zinflate.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\zlib.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP32.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP33.tmp" with contents
+[
+/nologo /MT /W3 /GR /GX /Zi /O2 /Ob2 /D "NDEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /Fo"Release/" /Fd"Release/" /FD /Zm400 /c 
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\dll.cpp"
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\iterhash.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP33.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP34.tmp" with contents
+[
+/nologo /MT /W3 /GR /GX /Zi /O2 /Ob2 /D "NDEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /Fp"Release/cryptlib.pch" /Yc"pch.h" /Fo"Release/" /Fd"Release/" /FD /Zm400 /c 
+"C:\Source\GameServer\GameServer\SimpleModulus\crypto\pch.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP34.tmp" 
+Performing Custom Build Step on .\adhoc.cpp.proto
+Creating temporary file "C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP35.tmp" with contents
+[
+/nologo /out:"Release\cryptlib.lib" 
+.\Release\3way.obj
+.\Release\adler32.obj
+.\Release\algebra.obj
+.\Release\algparam.obj
+.\Release\arc4.obj
+.\Release\asn.obj
+.\Release\authenc.obj
+.\Release\base32.obj
+.\Release\base64.obj
+.\Release\basecode.obj
+.\Release\bfinit.obj
+.\Release\blowfish.obj
+.\Release\blumshub.obj
+.\Release\camellia.obj
+.\Release\cast.obj
+.\Release\casts.obj
+.\Release\cbcmac.obj
+.\Release\ccm.obj
+.\Release\channels.obj
+.\Release\cmac.obj
+.\Release\cpu.obj
+.\Release\crc.obj
+.\Release\cryptlib.obj
+.\Release\default.obj
+.\Release\des.obj
+.\Release\dessp.obj
+.\Release\dh.obj
+.\Release\dh2.obj
+.\Release\dll.obj
+.\Release\dsa.obj
+.\Release\eax.obj
+.\Release\ec2n.obj
+.\Release\eccrypto.obj
+.\Release\ecp.obj
+.\Release\elgamal.obj
+.\Release\emsa2.obj
+.\Release\eprecomp.obj
+.\Release\esign.obj
+.\Release\files.obj
+.\Release\filters.obj
+.\Release\fips140.obj
+.\Release\fipstest.obj
+.\Release\gcm.obj
+.\Release\gf256.obj
+.\Release\gf2_32.obj
+.\Release\gf2n.obj
+.\Release\gfpcrypt.obj
+.\Release\gost.obj
+.\Release\gzip.obj
+.\Release\hex.obj
+.\Release\hmac.obj
+.\Release\hrtimer.obj
+.\Release\ida.obj
+.\Release\idea.obj
+.\Release\integer.obj
+.\Release\iterhash.obj
+.\Release\luc.obj
+.\Release\mars.obj
+.\Release\marss.obj
+.\Release\md2.obj
+.\Release\md4.obj
+.\Release\md5.obj
+.\Release\misc.obj
+.\Release\modes.obj
+.\Release\mqueue.obj
+.\Release\mqv.obj
+.\Release\nbtheory.obj
+.\Release\network.obj
+.\Release\oaep.obj
+.\Release\osrng.obj
+.\Release\panama.obj
+.\Release\pch.obj
+.\Release\pkcspad.obj
+.\Release\polynomi.obj
+.\Release\pssr.obj
+.\Release\pubkey.obj
+.\Release\queue.obj
+.\Release\rabin.obj
+.\Release\randpool.obj
+.\Release\rc2.obj
+.\Release\rc5.obj
+.\Release\rc6.obj
+.\Release\rdtables.obj
+.\Release\rijndael.obj
+.\Release\ripemd.obj
+.\Release\rng.obj
+.\Release\rsa.obj
+.\Release\rw.obj
+.\Release\safer.obj
+.\Release\salsa.obj
+.\Release\seal.obj
+.\Release\seed.obj
+.\Release\serpent.obj
+.\Release\sha.obj
+.\Release\sha3.obj
+.\Release\shacal2.obj
+.\Release\shark.obj
+.\Release\sharkbox.obj
+.\Release\simple.obj
+.\Release\skipjack.obj
+.\Release\socketft.obj
+.\Release\sosemanuk.obj
+.\Release\square.obj
+.\Release\squaretb.obj
+.\Release\strciphr.obj
+.\Release\tea.obj
+.\Release\tftables.obj
+.\Release\tiger.obj
+.\Release\tigertab.obj
+.\Release\trdlocal.obj
+.\Release\ttmac.obj
+.\Release\twofish.obj
+.\Release\vmac.obj
+.\Release\wait.obj
+.\Release\wake.obj
+.\Release\whrlpool.obj
+.\Release\winpipes.obj
+.\Release\xtr.obj
+.\Release\xtrcrypt.obj
+.\Release\zdeflate.obj
+.\Release\zinflate.obj
+.\Release\zlib.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP35.tmp"
+<h3>Output Window</h3>
+Compiling...
+pch.cpp
+Compiling...
+3way.cpp
+adler32.cpp
+algebra.cpp
+algparam.cpp
+arc4.cpp
+asn.cpp
+authenc.cpp
+base32.cpp
+base64.cpp
+basecode.cpp
+bfinit.cpp
+blowfish.cpp
+blumshub.cpp
+camellia.cpp
+cast.cpp
+casts.cpp
+cbcmac.cpp
+ccm.cpp
+channels.cpp
+cmac.cpp
+Generating Code...
+Compiling...
+cpu.cpp
+crc.cpp
+cryptlib.cpp
+default.cpp
+des.cpp
+dessp.cpp
+dh.cpp
+dh2.cpp
+dsa.cpp
+eax.cpp
+ec2n.cpp
+eccrypto.cpp
+ecp.cpp
+elgamal.cpp
+emsa2.cpp
+eprecomp.cpp
+esign.cpp
+files.cpp
+filters.cpp
+fips140.cpp
+Generating Code...
+Compiling...
+fipstest.cpp
+gcm.cpp
+gf256.cpp
+gf2_32.cpp
+gf2n.cpp
+gfpcrypt.cpp
+gost.cpp
+gzip.cpp
+hex.cpp
+hmac.cpp
+hrtimer.cpp
+ida.cpp
+idea.cpp
+integer.cpp
+luc.cpp
+You do not seem to have the Visual C++ Processor Pack installed, so use of SSE2 instructions will be disabled.
+mars.cpp
+marss.cpp
+md2.cpp
+md4.cpp
+md5.cpp
+Generating Code...
+Compiling...
+misc.cpp
+modes.cpp
+mqueue.cpp
+mqv.cpp
+nbtheory.cpp
+C:\Source\GameServer\GameServer\SimpleModulus\crypto\nbtheory.cpp(650) : warning C4068: unknown pragma
+C:\Source\GameServer\GameServer\SimpleModulus\crypto\nbtheory.cpp(651) : warning C4068: unknown pragma
+C:\Source\GameServer\GameServer\SimpleModulus\crypto\nbtheory.cpp(653) : warning C4068: unknown pragma
+C:\Source\GameServer\GameServer\SimpleModulus\crypto\nbtheory.cpp(655) : warning C4068: unknown pragma
+C:\Source\GameServer\GameServer\SimpleModulus\crypto\nbtheory.cpp(1002) : warning C4068: unknown pragma
+C:\Source\GameServer\GameServer\SimpleModulus\crypto\nbtheory.cpp(1003) : warning C4068: unknown pragma
+C:\Source\GameServer\GameServer\SimpleModulus\crypto\nbtheory.cpp(1005) : warning C4068: unknown pragma
+C:\Source\GameServer\GameServer\SimpleModulus\crypto\nbtheory.cpp(1010) : warning C4068: unknown pragma
+network.cpp
+oaep.cpp
+osrng.cpp
+panama.cpp
+pkcspad.cpp
+polynomi.cpp
+pssr.cpp
+pubkey.cpp
+queue.cpp
+rabin.cpp
+randpool.cpp
+rc2.cpp
+rc5.cpp
+rc6.cpp
+rdtables.cpp
+Generating Code...
+Compiling...
+rijndael.cpp
+ripemd.cpp
+rng.cpp
+rsa.cpp
+rw.cpp
+C:\Source\GameServer\GameServer\SimpleModulus\crypto\rw.cpp(143) : warning C4068: unknown pragma
+C:\Source\GameServer\GameServer\SimpleModulus\crypto\rw.cpp(144) : warning C4068: unknown pragma
+C:\Source\GameServer\GameServer\SimpleModulus\crypto\rw.cpp(146) : warning C4068: unknown pragma
+C:\Source\GameServer\GameServer\SimpleModulus\crypto\rw.cpp(148) : warning C4068: unknown pragma
+safer.cpp
+salsa.cpp
+seal.cpp
+seed.cpp
+serpent.cpp
+sha.cpp
+sha3.cpp
+shacal2.cpp
+shark.cpp
+sharkbox.cpp
+simple.cpp
+skipjack.cpp
+socketft.cpp
+sosemanuk.cpp
+square.cpp
+Generating Code...
+Compiling...
+squaretb.cpp
+strciphr.cpp
+tea.cpp
+tftables.cpp
+tiger.cpp
+tigertab.cpp
+trdlocal.cpp
+ttmac.cpp
+twofish.cpp
+vmac.cpp
+wait.cpp
+wake.cpp
+whrlpool.cpp
+winpipes.cpp
+xtr.cpp
+xtrcrypt.cpp
+zdeflate.cpp
+zinflate.cpp
+zlib.cpp
+Generating Code...
+Compiling...
+dll.cpp
+iterhash.cpp
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+cryptlib.lib - 0 error(s), 12 warning(s)
+</pre>
+</body>
+</html>

@@ -69,6 +69,7 @@
 #include "SnakeBegins.h"
 #include "ItemPrice.h"
 #include "DSProtocol.h"
+#include "PersonalShopMapping.h"
 #ifdef __NOVUS__
 #include "ExPoint.h"
 #include "SummonSpot.h"
@@ -7119,6 +7120,14 @@ void CGPShopReqOpen(PMSG_REQ_PSHOP_OPEN * lpMsg, int aIndex)
 		return;
 	}	
 
+	if(!pShop.CanOpenShopAtMap(gObj[aIndex].MapNumber))
+	{
+		::GCServerMsgStringSend("You cannot open a shop in this map", aIndex, 1);
+		::CGPShopAnsOpen( aIndex, 0);
+		return;
+	}
+
+	/*
 	if ( CC_MAP_RANGE(gObj[aIndex].MapNumber) )
 	{
 		::GCServerMsgStringSend(lMsg.Get(MSGGET(4, 197)), aIndex, 1);
@@ -7146,7 +7155,7 @@ void CGPShopReqOpen(PMSG_REQ_PSHOP_OPEN * lpMsg, int aIndex)
 		::GCServerMsgStringSend("You cannot open your Personal Shop within Imperial Fort.", aIndex, 1);
 		::CGPShopAnsOpen( aIndex, 0);
 		return;
-	}
+	} */
 
 #if (__NOVUS__ == 1)
 	if ( gObj[aIndex].MapNumber != MAP_INDEX_LOREN_MARKET )

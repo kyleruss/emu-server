@@ -111,6 +111,8 @@
 #define FILE_CUSTOM_HARDCOREMODE		"Custom\\HardcoreMode.xml"
 #define FILE_CUSTOM_PVPBALANCE			"Custom\\PvPBalance.xml"
 #define FILE_CUSTOM_MONSTERSPAWNER		"Custom\\MonsterSpawner.xml"
+#define FILE_CUSTOM_PERSONALSHOPMAPPING "Custom\\PersonalShop.xml"
+
 // ----
 #define FILE_EVENT_ARCA_DATA			"Event\\ArcaBattle.dat"
 #define FILE_EVENT_BLOODCASTLE			"Event\\BloodCastle.dat"

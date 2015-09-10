@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="cryptest">
+</Property><Property Name="Solution File" Value="C:\Users\DarkSim\Desktop\Migration\Job\zTeam\MU\Development\Season 8\Source\zGameServer_2008\SimpleModulus\crypto\cryptest.sln">
+</Property><Property Name="Date" Value="12 января 2015 г.">
+</Property><Property Name="Time" Value="20:14">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="cryptest.sln" Description="File successfully backed up as C:\Users\DarkSim\Desktop\Migration\Job\zTeam\MU\Development\Season 8\Source\zGameServer_2008\SimpleModulus\crypto\cryptest.sln.old">
+</Event><Event ErrorLevel="1" Project="cryptdll" Source="cryptdll.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="cryptdll" Source="cryptdll.vcproj" Description="Project file successfully backed up as 'C:\Users\DarkSim\Desktop\Migration\Job\zTeam\MU\Development\Season 8\Source\zGameServer_2008\SimpleModulus\crypto\cryptdll.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="cryptdll" Source="cryptdll.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="cryptdll" Source="cryptdll.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="cryptest" Source="cryptest.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="cryptest" Source="cryptest.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="cryptest" Source="cryptest.vcproj" Description="Project file successfully backed up as 'C:\Users\DarkSim\Desktop\Migration\Job\zTeam\MU\Development\Season 8\Source\zGameServer_2008\SimpleModulus\crypto\cryptest.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="cryptest" Source="cryptest.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="cryptest" Source="cryptest.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="cryptlib" Source="cryptlib.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="cryptlib" Source="cryptlib.vcproj" Description="Project file successfully backed up as 'C:\Users\DarkSim\Desktop\Migration\Job\zTeam\MU\Development\Season 8\Source\zGameServer_2008\SimpleModulus\crypto\cryptlib.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="cryptlib" Source="cryptlib.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="cryptlib" Source="cryptlib.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="dlltest" Source="dlltest.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="dlltest" Source="dlltest.vcproj" Description="Project file successfully backed up as 'C:\Users\DarkSim\Desktop\Migration\Job\zTeam\MU\Development\Season 8\Source\zGameServer_2008\SimpleModulus\crypto\dlltest.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="dlltest" Source="dlltest.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="dlltest" Source="dlltest.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="cryptest.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="cryptest.sln" Description="Converted">
+</Event></UpgradeLog>
