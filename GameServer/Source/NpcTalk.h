@@ -69,6 +69,7 @@ BOOL NpcShadowPhantom(LPOBJ lpNpc, LPOBJ lpObj);
 BOOL NpcMainatenceMachine(LPOBJ lpNpc, LPOBJ lpObj);
 BOOL NpcReira(LPOBJ lpNpc, LPOBJ lpObj);
 BOOL NpcChaosCardMaster(LPOBJ lpNpc, LPOBJ lpObj);
+BOOL NpcGensMercenary(LPOBJ lpNpc, LPOBJ lpObj);
 
 #if (GS_CASTLE == 1)
 

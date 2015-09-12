@@ -29,8 +29,10 @@
 
 BOOL NpcTalk(LPOBJ lpNpc, LPOBJ lpObj)
 {
+	
 	int npcnum = lpNpc->Class;
 
+	LogAdd("Talking to NPC, id: %d", lpNpc->Class);
 	if ( npcnum < 0)
 	{
 		return FALSE;
@@ -303,6 +305,8 @@ BOOL NpcTalk(LPOBJ lpNpc, LPOBJ lpObj)
 
 		case 579:
 			return NpcDavid( lpNpc, lpObj );
+		case 566:
+			return NpcGensMercenary(lpNpc, lpObj);
 
 		case 580:
 			return NpcCaptainSlaugh( lpNpc, lpObj );
@@ -321,6 +325,14 @@ BOOL NpcTalk(LPOBJ lpNpc, LPOBJ lpObj)
 	return FALSE;
 }
 
+struct PMSG_TALKRESULT_EX
+{
+	PBMSG_HEAD	h;
+	BYTE btResult;
+	WORD wNpcId;
+	int Info;
+};
+
 
 BOOL NpcMainatenceMachine(LPOBJ lpNpc, LPOBJ lpObj)
 {
@@ -337,6 +349,22 @@ BOOL NpcReira(LPOBJ lpNpc, LPOBJ lpObj)
 BOOL NpcBattleAnnouncer(LPOBJ lpNpc, LPOBJ lpObj)
 {
 	return 0;
+}
+
+BOOL NpcGensMercenary(LPOBJ lpNpc, LPOBJ lpObj)
+{
+	PMSG_TALKRESULT_EX pMsg;
+	pMsg.h.c = 0xC3;
+	pMsg.h.headcode = 0xF9;
+	pMsg.h.size = sizeof(pMsg);
+
+	pMsg.btResult = TRUE;
+	pMsg.wNpcId = 566;
+
+	lpObj->TargetShopNumber = 566;
+	DataSend(lpObj->m_Index, (LPBYTE)&pMsg, pMsg.h.size);
+
+	return true;
 }
 
 
@@ -1514,13 +1542,7 @@ BOOL NpcCastleSwitch(LPOBJ lpNpc, LPOBJ lpObj)
 	return TRUE;
 }
 
-struct PMSG_TALKRESULT_EX
-{
-	PBMSG_HEAD	h;
-	BYTE btResult;
-	WORD wNpcId;
-	int Info;
-};
+
 
 BOOL NpcShadowPhantom(LPOBJ lpNpc, LPOBJ lpObj)
 {
