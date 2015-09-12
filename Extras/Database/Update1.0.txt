@@ -1,0 +1,5 @@
+USE [MuOnline]
+GO
+ALTER TABLE dbo.GensUserInfo
+ADD CONSTRAINT ignore_gens_none
+CHECK (memb_clan > 0);
