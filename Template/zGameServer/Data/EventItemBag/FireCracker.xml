@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<itembag>
+	<settings>
+		<name>Heart Of Love</name>
+		<zen min="100000" max="500000" />
+		<excoption op1="10" op2="30" op4="30" op8="10" op16="10" op32="10" /><!--For Weapons-->
+		<!--
+		1 Increases Mana after hunting monsters + Mana \ Increases Zen
+		2 Increases Life after hunting monsters + life \ Defense success rate
+		4 Increase Attacking(Wizardry)speed \ Reflect damage
+		8 Increase damage \ Decrese damage
+		16 Increase damage level \ Increse max mana 
+		32 Excellent damage rate  \ Increse max hp		
+		-->	
+		</settings>
+	<itemlist rate="10000">
+		<!--Swords-->
+		<item id="0" num="8" lvlmin="4" lvlmax="7" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Serpent Sword-->
+		<item id="0" num="5" lvlmin="4" lvlmax="7" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Blade-->
+		<item id="0" num="9" lvlmin="4" lvlmax="7" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Salamander-->
+		<item id="0" num="10" lvlmin="4" lvlmax="7" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Light Saber-->
+		<item id="0" num="11" lvlmin="4" lvlmax="7" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Legendary Sword-->
+		<!--Axes-->
+		<item id="1" num="5" lvlmin="4" lvlmax="7" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Battle Axe-->
+		<item id="1" num="6" lvlmin="4" lvlmax="7" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Nikkea Axe-->
+		<!--Maces-->
+		<item id="2" num="3" lvlmin="4" lvlmax="7" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Great Hammer-->
+		<!--Spears-->
+		<item id="3" num="1" lvlmin="4" lvlmax="7" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Spear-->
+		<item id="3" num="3" lvlmin="4" lvlmax="7" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Giant Trident-->
+		<!--Bows-->
+		<item id="4" num="4" lvlmin="4" lvlmax="7" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Tiger Bow-->
+		<item id="4" num="11" lvlmin="4" lvlmax="7" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Light Crossbow-->
+		<!--Staffs-->
+		<item id="5" num="2" lvlmin="4" lvlmax="7" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Serpent Staff-->
+		<item id="5" num="3" lvlmin="4" lvlmax="7" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Thunder Staff-->
+		<item id="5" num="14" lvlmin="4" lvlmax="7" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Mystery Stick-->
+		<!--Shields-->
+		<item id="6" num="7" lvlmin="4" lvlmax="7" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Spiked Shield-->
+		<item id="6" num="5" lvlmin="4" lvlmax="7" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Dragon Slayer Shield-->
+		<item id="6" num="9" lvlmin="4" lvlmax="7" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Plate Shield-->
+		<item id="6" num="10" lvlmin="4" lvlmax="7" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Large Round Shield-->
+		<!--Bone Set-->
+		<item id="7" num="4" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="4" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="4" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="4" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="4" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<!--Sphinx Set-->
+		<item id="7" num="7" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="7" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="7" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="7" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="7" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<!--Silk Set-->
+		<item id="7" num="11" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="11" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="11" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="11" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="11" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<!--Wind Set-->
+		<item id="7" num="12" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="12" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="12" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="12" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="12" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<!--Spirit Set-->
+		<item id="7" num="13" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="13" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="13" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="13" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="13" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<!--Bronze Set-->
+		<item id="7" num="0" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="0" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="0" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="0" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="0" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<!--Brass Set-->
+		<item id="7" num="8" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="8" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="8" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="8" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="8" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<!--Scale Set-->
+		<item id="7" num="6" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="6" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="6" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="6" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="6" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<!--Violent Wind Set-->
+		<item id="7" num="39" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="39" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="39" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="39" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="39" lvlmin="4" lvlmax="7" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+	</itemlist>
+</itembag>

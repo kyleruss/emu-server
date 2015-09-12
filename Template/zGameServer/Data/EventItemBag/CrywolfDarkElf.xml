@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<itembag>
+	<settings>
+		<name>CrywolfDarkElfEvent-30</name>
+		<zen min="100" max="500" />
+		<excoption op1="5" op2="20" op4="10" op8="25" op16="25" op32="15" />
+	</settings>
+	<itemlist rate="10000">
+		<!--Swords-->
+		<item id="0" num="17" lvlmin="0" lvlmax="0" skill="1" luck="1" option="1" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" /> <!--Dark Breaker-->
+		<item id="0" num="18" lvlmin="0" lvlmax="0" skill="1" luck="1" option="1" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" /> <!--Thunder Blade-->
+		<item id="0" num="31" lvlmin="0" lvlmax="0" skill="1" luck="1" option="1" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" /> <!--Rune Blade-->
+		<item id="0" num="34" lvlmin="0" lvlmax="0" skill="1" luck="1" option="1" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" /> <!--Piercing Glove-->
+		<item id="0" num="20" lvlmin="0" lvlmax="0" skill="1" luck="1" option="1" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" /> <!--Knight Blade-->
+		<!--Maces-->
+		<item id="2" num="11" lvlmin="0" lvlmax="0" skill="1" luck="1" option="1" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" /> <!--Lord Scepter-->
+		<item id="2" num="15" lvlmin="0" lvlmax="0" skill="1" luck="1" option="1" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" /> <!--Shining Scepter-->
+		<!--Spears-->
+		<item id="3" num="10" lvlmin="0" lvlmax="0" skill="1" luck="1" option="1" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" /> <!--Dragon Spear-->
+		<!--Bows-->
+		<item id="4" num="19" lvlmin="0" lvlmax="0" skill="1" luck="1" option="1" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" /> <!--Great Reign Crossbow-->
+		<item id="4" num="22" lvlmin="0" lvlmax="0" skill="1" luck="1" option="1" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" /> <!--Albatross Bow-->
+		<!--Staffs-->
+		<item id="5" num="11" lvlmin="0" lvlmax="0" skill="1" luck="1" option="1" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" /> <!--Kundun Staff-->
+		<item id="5" num="9" lvlmin="0" lvlmax="0" skill="1" luck="1" option="1" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" /> <!--Dragon Soul Staff-->
+		<item id="5" num="18" lvlmin="0" lvlmax="0" skill="1" luck="1" option="1" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" /> <!--Demonic Stick-->
+		<item id="5" num="23" lvlmin="0" lvlmax="0" skill="1" luck="1" option="1" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" /> <!--Book of Lagle-->
+		<!--Dark Soul Set-->
+		<item id="7" num="22" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="22" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="22" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="22" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="22" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<!--Thunder Set-->
+		<item id="8" num="20" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="20" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="20" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="20" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+	</itemlist>
+	<itemlist rate="1000">
+		<!--Shields-->
+		<item id="6" num="15" lvlmin="0" lvlmax="0" skill="1" luck="1" option="1" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" /> <!--Grand Soul Shield-->
+		<item id="6" num="21" lvlmin="0" lvlmax="0" skill="1" luck="1" option="1" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" /> <!--Cross Shield-->
+		<!--Dark Master Set-->
+		<item id="7" num="28" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="28" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="28" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="28" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="28" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<!--Great Dragon Set-->
+		<item id="7" num="21" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="21" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="21" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="21" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="21" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<!--Red Spirit Set-->
+		<item id="7" num="24" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="24" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="24" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="24" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="24" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<!--Storm Jahad Set-->
+		<item id="7" num="60" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="60" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="60" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="60" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<!--Hurricane Set-->
+		<item id="8" num="23" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="23" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="23" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="23" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+		<!--Platina Staff-->
+		<item id="5" num="13" lvlmin="0" lvlmax="0" skill="1" luck="1" option="1" excmin="2" excmax="2" is_anc="0" sockmin="0" sockmax="0" />
+	</itemlist>
+</itembag>

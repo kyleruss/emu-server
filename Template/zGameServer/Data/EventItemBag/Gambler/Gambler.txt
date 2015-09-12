@@ -1,0 +1,187 @@
+// Group Rate Settings
+// N / 1000000
+// 	SkillRate	LuckRate	OptioRate	ExOptionRate	DropRate
+0
+// Group 1
+	500000		500000		500000		0		500000
+	300000		300000		300000		0		300000
+	150000		150000		150000		0		150000
+	30000		30000		30000		0		30000
+	20000		20000		20000		0		20000
+// Group 2
+	500000		500000		500000		0		500000
+	300000		300000		300000		0		300000
+	150000		150000		150000		0		150000
+	30000		30000		30000		0		30000
+	20000		20000		20000		0		20000
+// Group 3
+	500000		500000		500000		0		500000
+	300000		300000		300000		0		300000
+	150000		150000		150000		0		150000
+	30000		30000		30000		0		30000
+	20000		20000		20000		0		20000
+// Group 4
+	500000		500000		500000		0		500000
+	300000		300000		300000		0		300000
+	150000		150000		150000		0		150000
+	30000		30000		30000		0		30000
+	20000		20000		20000		0		20000
+// Group 5
+	500000		500000		500000		0		500000
+	300000		300000		300000		0		300000
+	150000		150000		150000		0		150000
+	30000		30000		30000		0		30000
+	20000		20000		20000		0		20000
+end
+// Add Option Rate Settings
+// 
+1    500000
+     300000
+     150000
+     50000
+
+end
+// Special Drop Rate Settings
+// 
+2
+	0
+	0
+	0
+	0
+	0
+end
+// Special ExOption Rate Settings
+// 
+3
+	0
+	0
+
+end
+// Special ExcOption | Normal ExcOption Priority
+4
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+end
+// Normal Drop Item Settings
+
+// Normal Drop Item Settings
+// Group 1
+//	Index	Number	LvlMin	LvlMax	Skill	Luck	AddOp	ExOp
+5
+	0	0	7	9	1	1	0	0 //Kris
+	0	9	7	9	1	1	0	0 //Sword of Salamander
+	0	11	7	9	1	1	0	0 //Legendary Sword
+	0	13	7	9	1	1	0	0 //Double Blade
+	3	3	7	9	1	1	0	0 //great trident
+end
+6
+	2	5	7	9	1	1	0	0 //Crystal Sword 
+	0	14	7	9	1	1	0	0 //Lightning Sword
+	0	16	7	9	1	1	0	0 //Sword of Destruction
+	1	8	7	9	1	1	0	0 //Crescent Axe
+	3	8	7	9	1	1	0	0 //great cythe
+end
+7
+	3	10	3	7	1	1	0	0 //Dragon Spear	
+end
+8
+	3	9	3	7	1	1	0	0 //Bill of Balrog
+	0	17	3	7	1	1	0	0 //Spirit Sword	
+end
+9
+	0	21	3	5	1	1	0	0 //Dark reigen blade
+	0	19	3	5	1	1	0	0 //sword of arhangel
+end
+
+// Group 2
+
+10
+	5	3	7	9	0	1	0	0 //Thunder Staff
+	5	4	7	9	0	1	0	0 //Gorgon staff					
+end
+11
+	5	8	7	9	0	1	0	0 //Staff of Destruction
+	5	7	7	9	0	1	0	0 //Chaos Lighting Staff
+	5	6	7	9	0	1	0	0 //Staff of Ressurection
+end
+12
+	5	5	3	7	0	1	0	0 //Legendary Staff
+	5	6	3	7	0	1	0	0 //Staff of Ressurection
+end
+13
+	5	6	3	5	0	1	0	0 //Staff of Ressurection
+	5	9	3	5	0	1	0	0 //dragon soul staff
+end
+14
+	5	10	3	5	0	1	0	0 //staff of archangel
+end
+
+// group 3
+15
+	2	0	7	9	0	1	0	0 //mace
+	4	4	7	9	0	1	0	0 //Tiger Bow
+	4	9	7	9	0	1	0	0 //golden crossbow
+	4	12	7	9	0	1	0	0 //Serpent Crossbow
+end
+16
+	4	6	7	9	0	1	0	0 //Chaos Nature Bow
+	4	13	7	9	0	1	0	0 //Blue Wing Crossbow
+end
+17
+	4	10	3	7	0	1	0	0 //Arquebus
+	4	14	3	7	0	1	0	0 //aquaagold crossbow
+	4	16	3	7	0	1	0	0 //saint crossbow
+end
+18
+	4	12	3	5	0	1	0	0 //Serpent Crossbow
+	4	17	3	5	0	1	0	0 //celestia bow
+end
+19
+	4	18	3	5	0	1	0	0 //crossbow of archangel
+	4	19	3	5	0	1	0	0 //great reign crossbow
+end
+
+//Gruop 4
+//[Index] [Type] [MinLevel] [MaxLevel] [Skill] [Luck] [Option] [ExItemflag]
+20
+	2	8	7	9	0	1	0	0 //Battle Scepter
+end
+21
+	2	9	7	9	0	1	0	0 //Master Scepter
+	2	6	7	9	0	1	0	0 //Chaos Dragon Axe
+end
+22
+	2	10	3	7	0	1	0	0 //Great Scepter
+end
+23
+	2	11	3	7	0	1	0	0 //Lord Scepter
+	2	12	3	5	0	1	0	0 //great lord scepter
+end
+24
+	2	13	3	5	0	1	0	0 //scepter of archangel
+end
+//Gruop 5
+//[Index] [Type] [MinLevel] [MaxLevel] [Skill] [Luck] [Option] [ExItemflag]
+25
+	5	14	7	9	0	1	0	0 //Mystery Stick
+end
+26
+	5	16 	7	9	0	1	0	0 //Red Wing Stick
+end
+27
+	5	15	7	9	0	1	0	0 //Violent Wind Stick
+	5	21	7	9	0	1	0	0 //book of sahamutt
+end
+28
+	5  	17 	3	7	0	1	0	0 //Ancient Staff
+	5	22	3	7	0	1	0	0 //book of neil
+end
+29
+	5 	18 	3	5	0	1	0	0 //Demonic Stick
+	5	19	3	5	0	1	0	0 //storm pirates stick
+	5	30	3	5	0	1	0	0 //Deadly Staff
+end

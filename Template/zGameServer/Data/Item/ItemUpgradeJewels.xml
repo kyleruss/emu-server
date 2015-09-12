@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: Item upgrade (via jewels) configuration
+// ----------------------------------------------------------------------------------
+// Revision: 	0:40 29.08.2014 (Work only with default jewels)
+//===================================================================================
+-->
+<itemupgradejewels>
+	<!--
+	type:	Item category (Item.txt)
+	index:	Item index in category (Item.txt)
+	rate:	Default rate for success upgrade (N/10000)
+	-->
+	<!-- Jewel of Bless -->
+	<jewel type="14" index="13" rate="8000">
+		<rules>
+			<level min="0" max="6" />
+			<rank excellent="1" ancient="1" socket="1" />
+		</rules>
+		<!--
+		type:		Modifier for change rate
+		{
+			Luck:		0
+			Excellent:	1 (Not work with wings)
+			Ancient:	2 (Not work with wings)
+			Socket:		3 (Not work with wings)
+			Level:		4 (Warning! If this is activated need add next tag: level="N", N = target item level 0~15)
+			Option:		5 (Warning! If this is activated need add next tag: option="N", N = target item option 0~7)
+		}
+		-->
+		<ratechange type="0" increase="2000" decrease="0" /> 			<!-- Luck (+20%) -->
+		<ratechange type="1" increase="0" decrease="200" /> 			<!-- Excellent (-2%) -->
+		<ratechange type="2" increase="0" decrease="400" /> 			<!-- Ancient (-4%) -->
+		<ratechange type="3" increase="0" decrease="600" /> 			<!-- Socket (-6%) -->
+	</jewel>
+
+	<!-- Jewel of Soul -->
+	<jewel type="14" index="14" rate="6000">
+		<rules>
+			<level min="0" max="9" />
+			<rank excellent="1" ancient="1" socket="1" />
+		</rules>
+		<ratechange type="0" increase="2000" decrease="0" /> 			<!-- Luck (+20%) -->
+		<ratechange type="1" increase="0" decrease="200" /> 			<!-- Excellent (-2%) -->
+		<ratechange type="2" increase="0" decrease="400" /> 			<!-- Ancient (-4%) -->
+		<ratechange type="3" increase="0" decrease="600" /> 			<!-- Socket (-6%) -->
+		<ratechange type="4" level="6" increase="0" decrease="100" /> 	<!-- Level 6->7 (-1%) -->
+		<ratechange type="4" level="7" increase="0" decrease="200" /> 	<!-- Level 7->8 (-2%) -->
+		<ratechange type="4" level="8" increase="0" decrease="300" /> 	<!-- Level 8->9 (-3%) -->
+	</jewel>
+
+	<!-- Jewel of Life -->
+	<jewel type="14" index="16" rate="5000">
+		<rules>
+			<rank excellent="1" ancient="1" socket="1" />
+		</rules>
+		<ratechange type="0" increase="2000" decrease="0" /> 			<!-- Luck (+20%) -->
+		<ratechange type="1" increase="0" decrease="200" /> 			<!-- Excellent (-2%) -->
+		<ratechange type="2" increase="0" decrease="400" /> 			<!-- Ancient (-4%) -->
+		<ratechange type="3" increase="0" decrease="600" /> 			<!-- Socket (-6%) -->
+		<ratechange type="5" option="7" increase="0" decrease="100" />	<!-- Option 7 (-1%) -->
+	</jewel>
+
+	<!-- Jewel of Harmony -->
+	<jewel type="14" index="42" rate="8000">
+		<rules>
+			<rank excellent="1" ancient="1" socket="1" />
+		</rules>
+		<ratechange type="0" increase="2000" decrease="0" /> 			<!-- Luck (+20%) -->
+		<ratechange type="1" increase="0" decrease="200" /> 			<!-- Excellent (-2%) -->
+		<ratechange type="2" increase="0" decrease="400" /> 			<!-- Ancient (-4%) -->
+		<ratechange type="3" increase="0" decrease="600" />  			<!-- Socket (-6%) -->
+	</jewel>
+
+</itemupgradejewels>

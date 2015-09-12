@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<itembag>
+	<settings>
+		<name>GoldenArcher</name>
+		<zen min="100000" max="500000" />
+		<excoption op1="10" op2="30" op4="30" op8="10" op16="10" op32="10" /><!--For Weapons-->
+		<!--
+		1 Increases Mana after hunting monsters + Mana \ Increases Zen
+		2 Increases Life after hunting monsters + life \ Defense success rate
+		4 Increase Attacking(Wizardry)speed \ Reflect damage
+		8 Increase damage \ Decrese damage
+		16 Increase damage level \ Increse max mana 
+		32 Excellent damage rate  \ Increse max hp		
+		-->	
+		</settings>
+	<itemlist rate="10000">
+		<item id="14" num="122" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+	</itemlist>
+</itembag>

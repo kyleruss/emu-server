@@ -1,0 +1,9 @@
+[CashShopOption]
+UseCashShop		= 1
+ConnectShopServer	= 1
+ShopServerIP		= 127.0.0.1
+ShopServerPort		= 55821
+UseLotteryEvent		= 1
+MapMoveBoundCheck	= 0
+ScriptVersion 		= 512.2014.050
+BannerVersion 		= 583.2012.007

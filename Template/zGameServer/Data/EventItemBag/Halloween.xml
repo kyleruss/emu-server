@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<itembag>
+	<settings>
+		<name>HallowinDayEvent-34</name>
+		<zen min="100000" max="1000000" />
+		<excoption op1="15" op2="15" op4="15" op8="15" op16="20" op32="20" />
+	</settings>
+	<itemlist rate="10000">
+		<item id="14" num="46" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="14" num="47" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="14" num="48" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="14" num="49" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="14" num="50" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="13" num="40" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+	</itemlist>
+</itembag>

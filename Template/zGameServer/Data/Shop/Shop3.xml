@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!-- 
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description:	(Shop) Harold Wandering
+// ----------------------------------------------------------------------------------
+// Revision: 	13:04 10.04.2014
+//===================================================================================
+-->
+<shop>
+	<item id="7" num="5" dur="0" level="0" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Leather Helm -->
+	<item id="8" num="5" dur="0" level="0" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Leather Armor -->
+	<item id="9" num="5" dur="0" level="0" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Leather Pants -->
+	<item id="10" num="5" dur="0" level="0" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Leather Gloves -->
+	<item id="11" num="5" dur="0" level="0" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Leather Boots -->
+	<item id="7" num="0" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Leather Helm -->
+	<item id="8" num="0" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Leather Armor -->
+	<item id="9" num="0" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Leather Pants -->
+	<item id="10" num="0" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Leather Gloves -->
+	<item id="11" num="0" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Leather Boots -->
+	<item id="7" num="6" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Scale Helm -->
+	<item id="8" num="6" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Scale Armor -->
+	<item id="9" num="6" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Scale Pants -->
+	<item id="10" num="6" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Scale Gloves -->
+	<item id="11" num="6" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Scale Boots -->
+	<item id="7" num="8" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Brass Helm -->
+	<item id="8" num="8" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Brass Armor -->
+	<item id="9" num="8" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Brass Pants -->
+	<item id="10" num="8" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Brass Gloves -->
+	<item id="11" num="8" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Brass Boots -->
+	<item id="7" num="9" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Plate Helm -->
+	<item id="8" num="9" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Plate Armor -->
+	<item id="9" num="9" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Plate Pants -->
+	<item id="10" num="9" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Plate Gloves -->
+	<item id="11" num="9" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Plate Boots -->
+</shop>

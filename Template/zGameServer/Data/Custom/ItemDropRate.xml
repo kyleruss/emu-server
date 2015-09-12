@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: Item drop rate settings
+// ----------------------------------------------------------------------------------
+// Revision: 	7:10 04.04.2014
+//===================================================================================
+-->
+<itemdroprate>
+	<!--
+	type:		Item type (Item.txt)
+	index:		Item index (Item.txt)
+	minlvl:		Item min. level
+	maxlvl: 	Item max. level
+	skill:		Item skill option (0: without, 1: 50% chance)
+	luck:		Item luck option (0: without, 1: 50% chance)
+	opt:		Item option (0: without, 1: random from 4 to 12)
+	exc:		Item excellent option (0: disabled, 1: enabled)
+	anc:		Item ancient (set) option (0: disabled, 1: enabled)
+	monminlvl:	Min. monster level (-1: any)
+	monmaxlvl:	Max. monster level (-1: any)
+	map:		Location number
+	rate:		Rate for drop this item (N / 10000)
+	-->
+	<item type="14" index="210" minlvl="0" maxlvl="0" skill="0" luck="0" opt="0" exc="0" anc="0" monminlvl="20" monmaxlvl="60" map="-1" rate="100"/>	<!-- Summon Scroll (Lv1) -->
+	<item type="14" index="211" minlvl="0" maxlvl="0" skill="0" luck="0" opt="0" exc="0" anc="0" monminlvl="60" monmaxlvl="85" map="-1" rate="70"/>		<!-- Summon Scroll (Lv2) -->
+	<item type="14" index="212" minlvl="0" maxlvl="0" skill="0" luck="0" opt="0" exc="0" anc="0" monminlvl="85" monmaxlvl="100" map="-1" rate="50"/>	<!-- Summon Scroll (Lv3) -->
+	<item type="14" index="213" minlvl="0" maxlvl="0" skill="0" luck="0" opt="0" exc="0" anc="0" monminlvl="100" monmaxlvl="140" map="-1" rate="20"/>	<!-- Summon Scroll (Lv4) -->
+</itemdroprate>

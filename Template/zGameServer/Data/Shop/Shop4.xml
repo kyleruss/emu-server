@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!-- 
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description:	(Shop) Wandering Merchant Alex
+// ----------------------------------------------------------------------------------
+// Revision: 	11:47 10.04.2014
+//===================================================================================
+-->
+<shop>
+	<item id="3" num="5" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Double Poleaxe -->
+	<item id="3" num="1" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Spear -->
+	<item id="3" num="3" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Giant Trident -->
+	<item id="3" num="7" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Berdysh -->
+	<item id="3" num="4" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Serpent Spear -->
+	<item id="3" num="0" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Light Spear -->
+	<item id="0" num="10" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Light Saber -->
+	<item id="2" num="3" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Great Hammer -->
+</shop>

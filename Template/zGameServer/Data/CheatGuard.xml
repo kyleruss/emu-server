@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: CheatGuard configuration
+// ----------------------------------------------------------------------------------
+// Revision: 	4:51 12.10.2014
+//===================================================================================
+-->
+<cheatguard>
+	<module name="SpeedHack">
+		<notice count="3">Speed hack has been founded!</notice>
+		
+		<property name="Disconnect">1</property>
+		<property name="InformPlayersAround">1</property>
+		<property name="AttackSpeedMaxDelta">30</property>
+		<property name="MagicSpeedMaxDelta">30</property>
+	</module>
+</cheatguard>

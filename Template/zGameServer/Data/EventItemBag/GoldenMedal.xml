@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<itembag>
+	<settings>
+		<name>GoldenMedal-6</name>
+		<zen min="100000" max="500000" />
+		<excoption op1="10" op2="30" op4="30" op8="10" op16="10" op32="10" /><!--For Weapons-->
+		<!--
+		1 Increases Mana after hunting monsters + Mana \ Increases Zen
+		2 Increases Life after hunting monsters + life \ Defense success rate
+		4 Increase Attacking(Wizardry)speed \ Reflect damage
+		8 Increase damage \ Decrese damage
+		16 Increase damage level \ Increse max mana 
+		32 Excellent damage rate  \ Increse max hp		
+		-->	
+		</settings>
+	<itemlist rate="10000">
+		<!--Swords-->
+		<item id="0" num="14" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Lighting Sword-->
+		<item id="0" num="13" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Double Blade-->
+		<item id="0" num="12" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Heliacal Sword-->
+		<item id="0" num="15" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Giant Sword-->
+		<item id="0" num="32" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Sacred Glove-->
+		<!--Axes-->
+		<item id="1" num="7" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Larkan Axe-->
+		<item id="1" num="8" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Crescent Axe-->
+		<!--Maces-->
+		<item id="2" num="8" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Battle Scepter-->
+		<item id="2" num="4" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Crystal Morning Star-->
+		<!--Spears-->
+		<item id="3" num="7" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Berdysh-->
+		<item id="3" num="4" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Serpent Spear-->
+		<item id="3" num="8" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Great Scythe-->
+		<!--Bows-->
+		<item id="4" num="5" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Silver Bow-->
+		<item id="4" num="12" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Serpent Crossbow-->
+		<!--Staffs-->
+		<item id="5" num="5" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Legendary Staff-->
+		<item id="5" num="4" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Gorgon Staff-->
+		<item id="5" num="3" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Thunder Staff-->
+		<item id="5" num="15" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Violent Wind Stick-->
+		<item id="5" num="16" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Red Wing Stick-->
+		<item id="5" num="21" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Book of Samut-->
+		<!--Shields-->
+		<item id="6" num="8" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Tower Shield-->
+		<item id="6" num="11" lvlmin="5" lvlmax="8" skill="1" luck="1" option="1" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Serpent Shield-->
+		<!--Legendary Set-->
+		<item id="7" num="3" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="3" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="3" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="3" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="3" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<!--Guardian Set-->
+		<item id="7" num="14" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="14" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="14" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="14" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="14" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<!--Light Plate Set-->
+		<item id="7" num="25" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="25" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="25" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="25" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="25" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<!--Plate Set-->
+		<item id="7" num="9" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="9" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="9" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="9" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="9" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<!--Dragon Set-->
+		<item id="7" num="1" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="1" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="1" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="1" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="1" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<!--Red Wing Set-->
+		<item id="7" num="40" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="8" num="40" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="9" num="40" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="10" num="40" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="11" num="40" lvlmin="5" lvlmax="8" skill="1" luck="1" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+	</itemlist>
+</itembag>

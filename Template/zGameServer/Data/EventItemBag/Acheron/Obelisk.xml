@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<itembag>
+	<settings>
+		<name>Acheron Obelisk</name>
+		<zen min="50000" max="50000" />
+		<excoption op1="0" op2="0" op4="0" op8="0" op16="0" op32="0" />
+	</settings>
+	<itemlist rate="100">
+		<item id="12" num="212" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="12" num="213" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="12" num="214" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+	</itemlist>
+	<itemlist rate="500">
+		<item id="12" num="208" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="12" num="209" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="12" num="210" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="12" num="211" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+	</itemlist>
+	<itemlist rate="9400">
+		<item id="12" num="30" lvlmin="1" lvlmax="1" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="12" num="30" lvlmin="2" lvlmax="2" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="12" num="31" lvlmin="1" lvlmax="1" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="12" num="31" lvlmin="2" lvlmax="2" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="12" num="136" lvlmin="1" lvlmax="1" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="12" num="136" lvlmin="2" lvlmax="2" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+	</itemlist>
+</itembag>

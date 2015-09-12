@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: Offline trade settings
+// ----------------------------------------------------------------------------------
+// Revision: 	5:37 15.08.2014
+//===================================================================================
+-->
+<offlinetrade>
+	<maxruntime>4320</maxruntime>	<!-- Max time for offline trade (0: unlimited, 1+: minutes) -->
+	
+	<mapfilter>
+		<!--
+		number:		Map number (-1: any map)
+		safezone:	Can start offline trade only if in safezone (0: any zone, 1: only safe)
+		x1:			Start X (0~255)
+		y1:			Start Y (0~255)
+		x2:			End X (0~255)
+		y2:			End Y (0~255)
+		-->
+		<map number="-1" safezone="1" x1="0" y1="0" x2="255" y2="255" /> 	<!-- Loren Market -->
+	</mapfilter>
+</offlinetrade>

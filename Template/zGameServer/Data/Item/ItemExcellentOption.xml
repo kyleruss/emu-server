@@ -1,0 +1,23 @@
+<itemexcellentoption>
+	<!--
+	Weapons and pendants:
+	0: Excellent Damage Rate N%
+	1: Increase Damage + level / N
+	2: Increase Damage N%
+	3: Increase Speed +N
+	4: Increase life after monster + life / N
+	5: Increase mana after monster + mana / N
+	
+	Equipment:
+	0: Increase HP N%
+	1: Increase MP N%
+	2: Damage Decrease N%
+	3: Reflect Damage N%
+	4: Defense Succes Rate N%
+	5: Increase Zen After Hunt N%
+	-->
+	<item type="5" index="11">
+		<option index="0" value="90"/>	<!-- Excellent Damage Rate 80% -->
+
+	</item>
+</itemexcellentoption>

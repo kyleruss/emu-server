@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<itembag>
+	<settings>
+		<name>Golden Box</name>
+		<zen min="100" max="500" />
+		<excoption op1="15" op2="15" op4="15" op8="15" op16="20" op32="20" />
+	</settings>
+	<itemlist rate="10000">
+		<item id="14" num="92" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />	<!--Chaos Card Gold-->
+		<item id="14" num="95" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />	<!--Chaos Card Mini-->
+	</itemlist>
+</itembag>

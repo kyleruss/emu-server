@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: Skills formuls settings
+// ----------------------------------------------------------------------------------
+// Revision: 	11:24 16.04.2014
+//===================================================================================
+-->
+<buffskilleffect>
+	<effectlist>
+		<!--
+		Defense:		arg1 + Energy / arg2 + Dexterity / arg3
+		Max. Defense:	arg4
+		Duration:		arg5 + Energy / arg6
+		Max. Duration:	arg7
+		-->
+		<skill number="16" arg1="10" arg2="50" arg3="200" arg4="70" arg5="60" arg6="40" arg7="180" /> <!-- Soul Barrier -->
+		<skill number="403" arg1="10" arg2="50" arg3="200" arg4="70" arg5="60" arg6="40" arg7="180" /> <!-- Soul Barrier Strengthener -->
+		<skill number="404" arg1="10" arg2="50" arg3="200" arg4="70" arg5="60" arg6="40" arg7="180" /> <!-- Soul Barrier Proficiency -->
+		<skill number="406" arg1="10" arg2="50" arg3="200" arg4="70" arg5="60" arg6="40" arg7="180" /> <!-- Soul Barrier Mastery -->
+
+		<!--
+		Add life:		arg1 + Energy / arg2
+		-->
+		<skill number="26" arg1="5" arg2="5" /> <!-- Healing -->
+		<skill number="413" arg1="5" arg2="5" /> <!-- Master Healing (Old) -->
+		<skill number="426" arg1="5" arg2="5" /> <!-- Party Healing -->
+		<skill number="429" arg1="5" arg2="5" /> <!-- Party Healing Strengthener -->
+
+		<!--
+		Defense:		arg1 + Energy / arg2
+		Max. Defense:	arg3
+		Duration:		arg4
+		-->
+		<skill number="27" arg1="1" arg2="8" arg3="15000" arg4="60" /> <!-- Defense Increase -->
+		<skill number="417" arg1="1" arg2="8" arg3="15000" arg4="60" /> <!-- Defense Increase Strengthener -->
+		<skill number="423" arg1="1" arg2="8" arg3="15000" arg4="60" /> <!-- Defense Increase Mastery -->
+
+		<!--
+		Attack:			arg1 + Energy / arg2
+		Max. Attack:	arg3
+		Duration:		arg4
+		-->
+		<skill number="28" arg1="3" arg2="7" arg3="15000" arg4="60" /> <!-- Attack Increase -->
+		<skill number="420" arg1="3" arg2="7" arg3="15000" arg4="60" /> <!-- Attack Increase Strengthener -->
+		<skill number="422" arg1="3" arg2="7" arg3="15000" arg4="60" /> <!-- Attack Increase Mastery -->
+
+		<!--
+		Increase perc.:	arg1 + Vitality / arg2 + Energy / arg3
+		Max. Percent:	arg4
+		Duration:		arg5 + Energy / arg6
+		Max. Duration:	arg7
+		-->
+		<skill number="48" arg1="12" arg2="100" arg3="20" arg4="200" arg5="60" arg6="180" arg7="180" /> <!-- Swell Life -->
+		<skill number="356" arg1="12" arg2="100" arg3="20" arg4="200" arg5="60" arg6="180" arg7="180" /> <!-- Swell Life Strengthener -->
+		<skill number="360" arg1="12" arg2="100" arg3="20" arg4="200" arg5="60" arg6="180" arg7="180" /> <!-- Swell Life Proficiency -->
+		<skill number="363" arg1="12" arg2="100" arg3="20" arg4="200" arg5="60" arg6="180" arg7="180" /> <!-- Swell Life Mastery -->
+
+		<!--
+		Duration:	arg1
+		-->
+		<skill number="51" arg1="7" /> <!-- Ice Arrow -->
+		<skill number="424" arg1="7" /> <!-- Ice Arrow Strengthener -->
+
+		<!--
+		Power:			Command / arg1 + Energy / arg2
+		Max. Power:		arg3
+		Duration:		arg4 + Energy / arg5
+		Max. Duration:	arg6
+		-->
+		<skill number="64" arg1="25" arg2="30" arg3="15000" arg4="60" arg5="10" arg6="180" /> <!-- Critical DMG Increase -->
+		<skill number="511" arg1="25" arg2="30" arg3="15000" arg4="60" arg5="10" arg6="180" /> <!-- Critical DMG Increase PowUp -->
+		<skill number="515" arg1="25" arg2="30" arg3="15000" arg4="60" arg5="10" arg6="180" /> <!-- Critical DMG Increase PowUp (2) -->
+		<skill number="517" arg1="25" arg2="30" arg3="15000" arg4="60" arg5="10" arg6="180" /> <!-- Critical DMG Increase PowUp (3) -->
+		<skill number="522" arg1="25" arg2="30" arg3="15000" arg4="60" arg5="10" arg6="180" /> <!-- Critical DMG Increase Mastery -->
+
+		<!--
+		Reflect:		arg1 + Energy / arg2
+		Max. Reflect:	arg3
+		Duration:		arg4 + Energy / arg5
+		Max. Duration:	arg6
+		-->
+		<skill number="217" arg1="30" arg2="42" arg3="60" arg4="30" arg5="24" arg6="180" /> <!-- Damage Reflection -->
+
+		<!--
+		Attack inc.:	Energy / arg1
+		Max. Attack:	arg2
+		Duration:		arg3 + Energy / arg4
+		Max. Duration:	arg5
+		-->
+		<skill number="218" arg1="30" arg2="100" arg3="30" arg4="20" arg5="180" /> <!-- Berserker -->
+		<skill number="469" arg1="30" arg2="100" arg3="30" arg4="20" arg5="180" /> <!-- Berserker Strengthener -->
+		<skill number="470" arg1="30" arg2="100" arg3="30" arg4="20" arg5="180" /> <!-- Berserker Proficiency -->
+		<skill number="472" arg1="30" arg2="100" arg3="30" arg4="20" arg5="180" /> <!-- Berserker Mastery -->
+
+		<!--
+		User Duration:	arg1 + Energy / arg2 + (UserLevel - TargetLevel) / 100
+		Max. User Dur.:	arg3
+		Mon Duration:	arg4 + Energy / arg5 - TargetLevel / 20
+		Max. Mon Dur.:	arg6
+		-->
+		<skill number="219" arg1="4" arg2="250" arg3="10" arg4="5" arg5="100" arg6="20" /> <!-- Sleep -->
+		<skill number="454" arg1="4" arg2="250" arg3="10" arg4="5" arg5="100" arg6="20" /> <!-- Sleep Strengthener -->
+
+		<!--
+		User Decrease:	arg1 + Energy / arg2
+		User Max. Dec.:	arg3
+		User. Duration:	arg4 + Energy / arg5 + (UserLevel - TargetLevel) / 150
+		User Max. Dur:	arg6
+		Mon Decrease:	arg7 + Energy / arg8
+		Mon Max. Dec.:	arg9
+		Mon. Duration:	arg10 + Energy / arg11 - TargetLevel / 20
+		Mon Max. Dur:	arg12
+		-->
+		<skill number="221" arg1="3" arg2="93" arg3="100" arg4="5" arg5="300" arg6="20" arg7="4" arg8="58" arg9="100" arg10="4" arg11="100" arg12="100" /> <!-- Weakness -->
+		<skill number="459" arg1="3" arg2="93" arg3="100" arg4="5" arg5="300" arg6="20" arg7="4" arg8="58" arg9="100" arg10="4" arg11="100" arg12="100" /> <!-- Weakness Strengthener -->
+
+		<!--
+		User Decrease:	arg1 + Energy / arg2
+		User Max. Dec.:	arg3
+		User. Duration:	arg4 + Energy / arg5 + (UserLevel - TargetLevel) / 150
+		User Max. Dur:	arg6
+		Mon Decrease:	arg7 + Energy / arg8
+		Mon Max. Dec.:	arg9
+		Mon. Duration:	arg10 + Energy / arg11 - TargetLevel / 20
+		Mon Max. Dur:	arg12
+		-->
+		<skill number="222" arg1="12" arg2="110" arg3="100" arg4="5" arg5="300" arg6="20" arg7="20" arg8="90" arg9="100" arg10="4" arg11="100" arg12="100" /> <!-- Innovation -->
+		<skill number="222" arg1="12" arg2="110" arg3="100" arg4="5" arg5="300" arg6="20" arg7="20" arg8="90" arg9="100" arg10="4" arg11="100" arg12="100" /> <!-- Innovation Strengthener -->
+
+		<!--
+		Damage Perc.:	Energy / arg1 * arg2
+		Max. Dmg Perc.:	arg3
+		Duration:		arg4
+		-->
+		<skill number="233" arg1="9" arg2="0.2" arg3="100" arg4="1800" /> <!-- Wizardry Expansion -->
+		<skill number="380" arg1="9" arg2="0.2" arg3="100" arg4="1800" /> <!-- Wizardry Expansion Strengthener -->
+		<skill number="383" arg1="9" arg2="0.2" arg3="100" arg4="1800" /> <!-- Wizardry Expansion Mastery -->
+
+		<!--
+		AttackDamage:	AttackDamage * (arg1 + (Vitality / arg2)) / 100
+		-->
+		<skill number="260" arg1="50" arg2="10" /> <!-- Killing Blow -->
+		<skill number="551" arg1="50" arg2="10" /> <!-- Killing Blow Strengthener -->
+		<skill number="554" arg1="50" arg2="10" /> <!-- Killing Blow Mastery -->
+		<skill number="261" arg1="50" arg2="10" /> <!-- Beast Uppercut -->
+		<skill number="552" arg1="50" arg2="10" /> <!-- Beast Uppercut Strengthener -->
+		<skill number="555" arg1="50" arg2="10" /> <!-- Beast Uppercut Mastery -->
+		<skill number="262" arg1="50" arg2="10" /> <!-- Chain Drive -->
+		<skill number="558" arg1="50" arg2="10" /> <!-- Chain Drive Strengthener -->
+		<skill number="562" arg1="50" arg2="10" /> <!-- Chain Drive Mastery -->
+		<skill number="269" arg1="50" arg2="10" /> <!-- Charge -->
+		<skill number="270" arg1="200" arg2="10" /> <!-- Phoenix Shot -->
+
+		<!--
+		AttackDamage:	AttackDamage * (arg1 + (Dexterity / arg2) + (Energy / arg3)) / 100
+		-->
+		<skill number="263" arg1="100" arg2="8" arg3="10" /> <!-- Dark Side -->
+		<skill number="559" arg1="100" arg2="8" arg3="10" /> <!-- Dark Side Strengthener -->
+		<skill number="563" arg1="100" arg2="8" arg3="10" /> <!-- Dark Side Mastery -->
+
+		<!--
+		AttackDamage:	AttackDamage * (arg1 + (Energy / arg2)) / 100
+		-->
+		<skill number="264" arg1="50" arg2="10" /> <!-- Dragon Roar -->
+		<skill number="560" arg1="50" arg2="10" /> <!-- Dragon Roar Strengthener -->
+		<skill number="561" arg1="50" arg2="10" /> <!-- Dragon Roar Mastery -->
+
+		<!--
+		AttackDmg User:	AttackDamage * ((arg1 + Energy) / arg2) / 100
+		AttackDmg Mon:	((AttackDamage * (arg3 + (Energy / arg4)) / 100.0) + 100.0) * arg5
+		-->
+		<skill number="265" arg1="50" arg2="10" arg3="50" arg4="10" arg5="3.0" /> <!-- Dragon Slasher -->
+		<skill number="564" arg1="50" arg2="10" arg3="50" arg4="10" arg5="3.0" /> <!-- Dragon Slasher Strengthener -->
+		<skill number="566" arg1="50" arg2="10" arg3="50" arg4="10" arg5="3.0" /> <!-- Dragon Slasher Mastery -->
+
+		<!--
+		Ignore perc.:	arg1 + (Energy - arg2) / 100.0
+		Max. perc.:		arg3
+		Duration:		arg4 + Energy / arg5
+		Max. Duration:	arg6
+		-->
+		<skill number="266" arg1="3.0" arg2="404" arg3="10" arg4="60" arg5="5" arg6="180" /> <!-- Ignore Defense -->
+		<skill number="615" arg1="3.0" arg2="404" arg3="10" arg4="60" arg5="5" arg6="180" /> <!-- Ignore Defense Def Chance -->
+
+		<!--
+		Power:	arg1 + (Energy - arg2) / 10.0
+		Max increase:	arg3
+		Duration:		arg4 + Energy / arg5
+		Max. Duration:	arg6
+		-->
+		<skill number="267" arg1="30.0" arg2="132" arg3="200" arg4="60" arg5="5" arg6="180" /> <!-- Increase Health -->
+		<skill number="573" arg1="30.0" arg2="132" arg3="200" arg4="60" arg5="5" arg6="180" /> <!-- Increase Health Strengthener -->
+		<skill number="268" arg1="10.0" arg2="80" arg3="100" arg4="60" arg5="5" arg6="180" /> <!-- Increase Block -->
+		<skill number="569" arg1="10.0" arg2="80" arg3="100" arg4="60" arg5="5" arg6="180" /> <!-- Increase Block Strengthener -->
+		<skill number="572" arg1="10.0" arg2="80" arg3="100" arg4="60" arg5="5" arg6="180" /> <!-- Increase Block Mastery -->
+
+		<!--
+		AttackDamage:	AttackDamage * (arg1 + (Energy / arg2)) / 100
+		-->
+		<skill number="344" arg1="200" arg2="10" /> <!-- Blood Storm -->
+		<skill number="346" arg1="200" arg2="10" /> <!-- Blood Storm Strengthener -->
+
+		<!--
+		BonusDef:	arg1
+		BonusLife:	arg2
+		Duration:	arg3
+		-->
+		<skill number="521" arg1="800" arg2="800" arg3="10" /> <!-- Iron Defense -->
+		<skill number="524" arg1="800" arg2="800" arg3="10" /> <!-- Iron Defense Strengthener -->
+
+	</effectlist>
+</buffskilleffect>

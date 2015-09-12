@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<itembag>
+	<settings>
+		<name>CastleSpecialMix-Lo--19</name>
+		<zen min="1000000" max="5000000" />
+		<excoption op1="10" op2="30" op4="30" op8="10" op16="10" op32="10" /><!--For Weapons-->
+		<!--
+		1 Increases Mana after hunting monsters + Mana \ Increases Zen
+		2 Increases Life after hunting monsters + life \ Defense success rate
+		4 Increase Attacking(Wizardry)speed \ Reflect damage
+		8 Increase damage \ Decrese damage
+		16 Increase damage level \ Increse max mana 
+		32 Excellent damage rate  \ Increse max hp		
+		-->	
+		</settings>
+	<itemlist rate="10000">
+		<!--Swords-->
+		<item id="0" num="19" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="0" sockmax="0" />	<!--Divine Sword of Archangel-->
+		<!--Mace-->
+		<item id="2" num="13" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="0" sockmax="0" />	<!--Divine Scepter of Archangel-->
+		<!--Crosbow-->
+		<item id="4" num="18" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="0" sockmax="0" />	<!--Divine Crossbow of Archangel-->
+		<!--Staff-->
+		<item id="5" num="10" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="0" sockmax="0" />	<!--Divine Staff of Archangel -->
+		<!--Stick-->
+		<item id="0" num="36" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="0" sockmax="0" />	<!--Divine Stick of the Archangel-->
+	</itemlist>
+</itembag>

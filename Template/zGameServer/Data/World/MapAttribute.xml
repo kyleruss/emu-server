@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: Map attribute settings
+// ----------------------------------------------------------------------------------
+// Revision: 	20:00 27.04.2014
+//===================================================================================
+-->
+<mapattribute>
+	<normal>
+		<terrain map="0">00_Lorencia.att</terrain>
+		<terrain map="1">01_Dungeon.att</terrain>
+		<terrain map="2">02_Devias.att</terrain>
+		<terrain map="3">03_Noria.att</terrain>
+		<terrain map="4">04_Losttower.att</terrain>
+		<terrain map="5">05_Exile.att</terrain>
+		<terrain map="6">06_Arena.att</terrain>
+		<terrain map="7">07_Atlans.att</terrain>
+		<terrain map="8">08_Tarkan.att</terrain>
+		<terrain map="9">09_DevilSquare.att</terrain>
+		<terrain map="10">10_Icarus.att</terrain>
+		<terrain map="11">11_BloodCastle.att</terrain>
+		<terrain map="12">11_BloodCastle.att</terrain>
+		<terrain map="13">11_BloodCastle.att</terrain>
+		<terrain map="14">11_BloodCastle.att</terrain>
+		<terrain map="15">11_BloodCastle.att</terrain>
+		<terrain map="16">11_BloodCastle.att</terrain>
+		<terrain map="17">11_BloodCastle.att</terrain>
+		<terrain map="18">18_ChaosCastle.att</terrain>
+		<terrain map="19">18_ChaosCastle.att</terrain>
+		<terrain map="20">18_ChaosCastle.att</terrain>
+		<terrain map="21">18_ChaosCastle.att</terrain>
+		<terrain map="22">18_ChaosCastle.att</terrain>
+		<terrain map="23">18_ChaosCastle.att</terrain>
+		<terrain map="24">24_Kalima.att</terrain>
+		<terrain map="25">24_Kalima.att</terrain>
+		<terrain map="26">24_Kalima.att</terrain>
+		<terrain map="27">24_Kalima.att</terrain>
+		<terrain map="28">24_Kalima.att</terrain>
+		<terrain map="29">24_Kalima.att</terrain>
+		<terrain map="30">30_ValleyOfLoren.att</terrain>
+		<terrain map="31">31_LandOfTrial.att</terrain>
+		<terrain map="32">32_DevilSquare.att</terrain>
+		<terrain map="33">33_Aida.att</terrain>
+		<terrain map="34">34_Crywolf.att</terrain>
+		<terrain map="35">35_Reserved.att</terrain>
+		<terrain map="36">36_Kalima.att</terrain>
+		<terrain map="37">37_Kanturu.att</terrain>
+		<terrain map="38">38_KanturuRemain.att</terrain>
+		<terrain map="39">39_KanturuBoss.att</terrain>
+		<terrain map="40">40_Silent.att</terrain>
+		<terrain map="41">41_BalgassBarracks.att</terrain>
+		<terrain map="42">42_BalgassRefuge.att</terrain>
+		<terrain map="45">45_IllusionTemple.att</terrain>
+		<terrain map="46">45_IllusionTemple.att</terrain>
+		<terrain map="47">45_IllusionTemple.att</terrain>
+		<terrain map="48">45_IllusionTemple.att</terrain>
+		<terrain map="49">45_IllusionTemple.att</terrain>
+		<terrain map="50">45_IllusionTemple.att</terrain>
+		<terrain map="51">51_Elbeland.att</terrain>
+		<terrain map="52">11_BloodCastle.att</terrain>
+		<terrain map="53">18_ChaosCastle.att</terrain>
+		<terrain map="56">56_SwampOfCalmness.att</terrain>
+		<terrain map="57">57_Raklion.att</terrain>
+		<terrain map="58">58_RaklionBoss.att</terrain>
+		<terrain map="62">62_SantaTown.att</terrain>
+		<terrain map="63">63_Vulcanus.att</terrain>
+		<terrain map="64">64_DuelArena.att</terrain>
+		<terrain map="65">65_Doppelganger1.att</terrain>
+		<terrain map="66">66_Doppelganger2.att</terrain>
+		<terrain map="67">67_Doppelganger3.att</terrain>
+		<terrain map="68">68_Doppelganger4.att</terrain>
+		<terrain map="69">69_ImperialGuardian1.att</terrain>
+		<terrain map="70">70_ImperialGuardian2.att</terrain>
+		<terrain map="71">71_ImperialGuardian3.att</terrain>
+		<terrain map="72">72_ImperialGuardian4.att</terrain>
+		<terrain map="79">79_LorenMarket.att</terrain>
+		<terrain map="80">80_Karutan1.att</terrain>
+		<terrain map="81">81_Karutan2.att</terrain>
+		<terrain map="91">91_Acheron.att</terrain>
+		<terrain map="92">91_Acheron.att</terrain>
+		<terrain map="95">95_Debenter.att</terrain>
+	</normal>
+	<event>
+		<terrain map="34" state="0">34_Crywolf_Peace.att</terrain>
+		<terrain map="34" state="1">34_Crywolf_Occupied.att</terrain>
+		<terrain map="34" state="2">34_Crywolf_War.att</terrain>
+		<terrain map="39" state="0">39_KanturuBoss_Close.att</terrain>
+		<terrain map="39" state="1">39_KanturuBoss_Open.att</terrain>
+	</event>
+</mapattribute>

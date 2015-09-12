@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!-- 
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description:	(Shop) Caren the Barmaid
+// ----------------------------------------------------------------------------------
+// Revision: 	11:49 10.04.2014
+//===================================================================================
+-->
+<shop>
+	<item id="14" num="9" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Ale -->
+	<item id="14" num="10" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Town Portal Scroll -->
+	<item id="13" num="16" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Archangel Scroll +1 -->
+	<item id="13" num="16" dur="0" level="2" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Archangel Scroll +2 -->
+	<item id="13" num="17" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Blood Bone +1 -->
+	<item id="13" num="17" dur="0" level="2" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Blood Bone +2 -->
+	<item id="14" num="17" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Devil's Eye +1 -->
+	<item id="14" num="17" dur="0" level="2" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Devil's Eye +2 -->
+	<item id="14" num="18" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Devil's Key +1 -->
+	<item id="14" num="18" dur="0" level="2" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Devil's Key +2 -->
+	<item id="13" num="29" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Armor of Guardsman -->
+</shop>

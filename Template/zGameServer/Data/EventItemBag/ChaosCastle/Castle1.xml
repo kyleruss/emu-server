@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<itembag>
+	<settings>
+		<name>ChaosCastle1</name>
+		<zen min="50000" max="50000" />
+		<excoption op1="0" op2="0" op4="0" op8="0" op16="0" op32="0" />
+	</settings>
+	<itemlist rate="8000">
+		<item id="14" num="13" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />	<!-- Jewel of Bless -->
+		<item id="14" num="14" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />	<!-- Jewel of Soul -->
+		<item id="14" num="16" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />	<!-- Jewel of Life -->
+	</itemlist>
+	<itemlist rate="2000">
+	
+	</itemlist>
+</itembag>

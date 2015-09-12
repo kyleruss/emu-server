@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!-- 
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description:	(Shop) Pasi the Mage
+// ----------------------------------------------------------------------------------
+// Revision: 	11:16 10.04.2014
+//===================================================================================
+-->
+<shop>
+	<item id="15" num="3" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Scroll of Fire Ball -->
+	<item id="15" num="10" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Scroll of Power Wave -->
+	<item id="15" num="2" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Scroll of Lighting -->
+	<item id="15" num="1" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Scroll of Meteorite -->
+	<item id="15" num="5" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Scroll of Teleport -->
+	<item id="15" num="6" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Scroll of Ice -->
+	<item id="15" num="0" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Scroll of Poison -->
+	<item id="12" num="13" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Orb of Impale -->
+	<item id="12" num="7" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Orb of Twisting Slash -->
+	<item id="7" num="2" dur="0" level="0" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Pad Helm -->
+	<item id="8" num="2" dur="0" level="0" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Pad Armor -->
+	<item id="9" num="2" dur="0" level="0" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Pad Pants -->
+	<item id="10" num="2" dur="0" level="0" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Pad Gloves -->
+	<item id="11" num="2" dur="0" level="0" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Pad Boots -->
+	<item id="7" num="4" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Bone Helm -->
+	<item id="8" num="4" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Bone Armor -->
+	<item id="9" num="4" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Bone Pants -->
+	<item id="10" num="4" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Bone Gloves -->
+	<item id="11" num="4" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Bone Boots -->
+	<item id="7" num="7" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Sphinx Helm -->
+	<item id="8" num="7" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Sphinx Armor -->
+	<item id="9" num="7" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Sphinx Pants -->
+	<item id="10" num="7" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Sphinx Gloves -->
+	<item id="11" num="7" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Sphinx Boots -->
+	<item id="5" num="0" dur="0" level="0" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Skull Staff -->
+	<item id="5" num="1" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Angelic Staff-->
+	<item id="5" num="2" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Serpent Staff -->
+	<item id="5" num="3" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Thunder Staff -->
+</shop>

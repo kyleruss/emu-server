@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pstore>
+
+	<!-- enable personal shop: 1, disable: 0 -->
+	<enable>1</enable> 
+	
+	<!-- enable personal shop creation in all maps
+	if enabled items in maplist will be ignored -->
+	<allmaps>0</allmaps> 
+	
+	<!-- prevent warping to other maps while store is open -->
+	<preventwarp>1</preventwarp>
+	
+	<!-- Closes users shop automatically if shops arent allowed on 
+	the warp map or if preventwarp is enabled -->
+	<autoclose>1</autoclose>
+	
+	<maplist>
+		<map id="2" enable="1">Devias</map>
+	</maplist>
+</pstore>

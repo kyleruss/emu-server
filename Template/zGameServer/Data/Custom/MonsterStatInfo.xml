@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: Special monster settings
+// ----------------------------------------------------------------------------------
+// Revision: 	7:11 04.04.2014
+//===================================================================================
+-->
+<monsterstatinfo>
+	<!-- Settings for all monsters class -->
+	<default hp="1.0" damage="1.0" defense="1.0" attackrate="1.0" defenserate="1.0" />
+	<!-- Specific monsters settings -->
+	<specific>
+		<!--
+		Example:
+		<monster id="1" hp="1.0" damage="1.0" defense="1.2" attackrate="1.6" defenserate="1.0" /> 
+		-->
+	</specific>
+</monsterstatinfo>

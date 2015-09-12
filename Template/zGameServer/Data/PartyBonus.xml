@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!-- 
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: Party bonus configuration
+// ----------------------------------------------------------------------------------
+// Revision:    14:02 10.04.2014
+//===================================================================================
+-->
+<partybonus>
+	<!-- 
+	nearbycount:	Count of party members (nearby, in visible zone)
+	-->
+	<partymembernearby>
+		<bonus nearbycount="2">160</bonus> <!-- x2 -->
+		<bonus nearbycount="3">180</bonus> <!-- x3 -->
+		<bonus nearbycount="4">200</bonus> <!-- x4 -->
+		<bonus nearbycount="5">220</bonus> <!-- x5 -->
+	</partymembernearby>
+
+	<!--
+	dw:		Dark Wizard / Soul Master / Grand Master
+	dk:		Dark Knight / Blade Knight / Blade Master
+	elf:	Elf / Muse Elf / Hight Elf
+	mg:		Magic Gladiator / Duel Master
+	sum:	Summoner / Bloody Summoner / Dimension Master
+	-->
+	<partymemberclass>
+		<bonus dw="1" dk="1" elf="1" mg="0" dl="0" sum="0" rf="0">50</bonus> <!-- Set party x3 -->
+		<bonus dw="1" dk="1" elf="1" mg="1" dl="0" sum="0" rf="0">70</bonus> <!-- Set party x4 -->
+		<bonus dw="1" dk="1" elf="1" mg="1" dl="1" sum="0" rf="0">80</bonus> <!-- Set party x5 (dl) -->
+		<bonus dw="1" dk="1" elf="1" mg="1" dl="0" sum="1" rf="0">80</bonus> <!-- Set party x5 (sum) -->
+		<bonus dw="1" dk="1" elf="1" mg="1" dl="0" sum="0" rf="1">80</bonus> <!-- Set party x5 (rf) -->
+	</partymemberclass>
+</partybonus>

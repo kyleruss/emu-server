@@ -1,0 +1,31 @@
+<monsterspawner>
+	<!-- example, elite yeti -->
+	<item type="14" index="300">
+		<spawn monster="20" count="30" duration="60" />
+		<!-- rules for use this spot (false: any user can attack, true: only owner & by rules) -->
+		<private active="true">
+			<party>true</party>
+			<guild>false</guild>
+		</private>
+	</item>
+	
+	<!-- example, mutant -->
+	<item type="14" index="301">
+		<spawn monster="62" count="30" duration="60" />
+		<!-- rules for use this spot (false: any user can attack, true: only owner & by rules) -->
+		<private active="true">
+			<party>true</party>
+			<guild>false</guild>
+		</private>
+	</item>
+	
+	<!-- example, fire golem -->
+	<item type="14" index="302">
+		<spawn monster="291" count="30" duration="60" />
+		<!-- rules for use this spot (false: any user can attack, true: only owner & by rules) -->
+		<private active="true">
+			<party>true</party>
+			<guild>false</guild>
+		</private>
+	</item>
+</monsterspawner>

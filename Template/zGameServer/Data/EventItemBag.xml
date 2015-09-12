@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: Event item bag settings
+// ----------------------------------------------------------------------------------
+// Revision: 	7:13 04.04.2014
+//===================================================================================
+-->
+<eventitembag>
+	<!--
+	itemtype:	Item type from Item.txt
+	itemindex:	Item index from Item.txt
+	itemlevel:	Item level (-1 = Any)
+	minlevel:	Min. character level for drop item
+	effect:		Drop event effect (0 = None, 1 = Firecracker, 2 = Cherry play)
+	-->
+	<itemdrop>
+		<bag itemtype="14" itemindex="11" itemlevel="0" minlevel="0" repeat="1" effect="0">BoxOfLuck.xml</bag>
+		<bag itemtype="14" itemindex="11" itemlevel="1" minlevel="0" repeat="1" effect="0">StarOfXMas.xml</bag>
+		<bag itemtype="14" itemindex="11" itemlevel="2" minlevel="0" repeat="1" effect="1">FireCracker.xml</bag>
+		<bag itemtype="14" itemindex="11" itemlevel="3" minlevel="0" repeat="1" effect="0">HeartOfLove.xml</bag>
+		<bag itemtype="14" itemindex="11" itemlevel="5" minlevel="0" repeat="1" effect="0">SilverMedal.xml</bag>
+		<bag itemtype="14" itemindex="11" itemlevel="6" minlevel="0" repeat="1" effect="0">GoldenMedal.xml</bag>
+		<bag itemtype="14" itemindex="11" itemlevel="7" minlevel="0" repeat="1" effect="0">BoxOfHeaven.xml</bag>
+		<bag itemtype="14" itemindex="11" itemlevel="8" minlevel="0" repeat="1" effect="0">BoxOfKundun1.xml</bag>
+		<bag itemtype="14" itemindex="11" itemlevel="9" minlevel="0" repeat="1" effect="0">BoxOfKundun2.xml</bag>
+		<bag itemtype="14" itemindex="11" itemlevel="10" minlevel="0" repeat="1" effect="0">BoxOfKundun3.xml</bag>
+		<bag itemtype="14" itemindex="11" itemlevel="11" minlevel="0" repeat="1" effect="0">BoxOfKundun4.xml</bag>
+		<bag itemtype="14" itemindex="11" itemlevel="12" minlevel="0" repeat="1" effect="0">BoxOfKundun5.xml</bag>
+		<bag itemtype="14" itemindex="11" itemlevel="13" minlevel="0" repeat="1" effect="0">HeartOfDarkLord.xml</bag>
+		<bag itemtype="13" itemindex="20" itemlevel="1" minlevel="40" repeat="1" effect="0">RingEvent.xml</bag>
+		<bag itemtype="13" itemindex="20" itemlevel="2" minlevel="80" repeat="1" effect="0">FriendShipEvent.xml</bag>
+		<bag itemtype="12" itemindex="26" itemlevel="4" minlevel="0" repeat="1" effect="0">TreasureBox.xml</bag>
+		<bag itemtype="12" itemindex="32" itemlevel="-1" minlevel="0" repeat="1" effect="0">RedRibbonBox.xml</bag>
+		<bag itemtype="12" itemindex="33" itemlevel="-1" minlevel="0" repeat="1" effect="0">GreenRibbonBox.xml</bag>
+		<bag itemtype="12" itemindex="34" itemlevel="-1" minlevel="0" repeat="1" effect="0">BlueRibbonBox.xml</bag>
+		<bag itemtype="14" itemindex="32" itemlevel="0" minlevel="0" repeat="1" effect="0">PinkChocolateBox.xml</bag>
+		<bag itemtype="14" itemindex="33" itemlevel="0" minlevel="0" repeat="1" effect="0">RedChocolateBox.xml</bag>
+		<bag itemtype="14" itemindex="34" itemlevel="0" minlevel="0" repeat="1" effect="0">BlueChocolateBox.xml</bag>
+		<bag itemtype="14" itemindex="32" itemlevel="1" minlevel="0" repeat="1" effect="0">LightPurpleCandyBox.xml</bag>
+		<bag itemtype="14" itemindex="33" itemlevel="1" minlevel="0" repeat="1" effect="0">VermilionCandyBox.xml</bag>
+		<bag itemtype="14" itemindex="34" itemlevel="1" minlevel="0" repeat="1" effect="0">DeepBlueCandyBox.xml</bag>
+		<bag itemtype="14" itemindex="45" itemlevel="-1" minlevel="0" repeat="1" effect="0">Halloween.xml</bag>
+		<bag itemtype="14" itemindex="55" itemlevel="0" minlevel="0" repeat="1" effect="0">GreenChaosBox.xml</bag>
+		<bag itemtype="14" itemindex="56" itemlevel="0" minlevel="0" repeat="1" effect="0">RedChaosBox.xml</bag>
+		<bag itemtype="14" itemindex="57" itemlevel="0" minlevel="0" repeat="1" effect="0">PurpleChaosBox.xml</bag>
+		<bag itemtype="14" itemindex="52" itemlevel="-1" minlevel="0" repeat="1" effect="0">GMGift.xml</bag>
+		<bag itemtype="14" itemindex="84" itemlevel="-1" minlevel="0" repeat="1" effect="2">CherryBlossomBox.xml</bag>
+		<bag itemtype="14" itemindex="144" itemlevel="-1" minlevel="0" repeat="1" effect="0">OldJewelryBox.xml</bag>
+		<bag itemtype="14" itemindex="143" itemlevel="-1" minlevel="0" repeat="1" effect="0">SteelJewelryBox.xml</bag>
+		<bag itemtype="14" itemindex="142" itemlevel="-1" minlevel="0" repeat="1" effect="0">ElegantJewelryBox.xml</bag>
+		<bag itemtype="14" itemindex="141" itemlevel="-1" minlevel="0" repeat="1" effect="0">ShiningJewelryBox.xml</bag>
+		<bag itemtype="14" itemindex="123" itemlevel="0" minlevel="0" repeat="1" effect="0">GoldenBox.xml</bag>
+		<bag itemtype="14" itemindex="124" itemlevel="0" minlevel="0" repeat="1" effect="0">SilverBox.xml</bag>
+	</itemdrop>
+	
+	<!--
+	monster:	Monster index from Monster.txt
+	repeat:		Item count
+	setrate:	Rate for random ancient item (N / 10000)
+	notify:		Notify with information about killer (0 = Off, 1 = Only in location, 2 = Global)
+	-->
+	<monsterdie>
+		<bag monster="55" repeat="1" setrate="0" notify="0">SkeletonKing.xml</bag>
+		<bag monster="275" repeat="3" setrate="2500" notify="0">Kundun.xml</bag>
+		<bag monster="295" repeat="1" setrate="0" notify="2">Erohim.xml</bag>
+		<bag monster="340" repeat="1" setrate="0" notify="0">CrywolfDarkElf.xml</bag>
+		<bag monster="349" repeat="1" setrate="0" notify="0">CrywolfBalgass.xml</bag>
+		<bag monster="362" repeat="1" setrate="0" notify="0">KanturuMayaHand.xml</bag>
+		<bag monster="363" repeat="1" setrate="0" notify="0">KanturuMayaHand.xml</bag>
+		<bag monster="361" repeat="1" setrate="0" notify="0">KanturuNightmare.xml</bag>
+		<bag monster="365" repeat="1" setrate="0" notify="0">FortunePounch.xml</bag>
+		<bag monster="413" repeat="1" setrate="0" notify="0">Harvest.xml</bag>
+		<bag monster="459" repeat="1" setrate="0" notify="2">RaklionSelupan.xml</bag>
+		<bag monster="561" repeat="6" setrate="2500" notify="2">MedusaEvent.xml</bag>
+		<bag monster="647" repeat="1" setrate="0" notify="0">SnakeBegins\\Green.xml</bag>
+		<bag monster="648" repeat="1" setrate="0" notify="0">SnakeBegins\\Yellow.xml</bag>
+		<bag monster="649" repeat="1" setrate="0" notify="0">SnakeBegins\\Purple.xml</bag>
+		<bag monster="650" repeat="1" setrate="0" notify="0">SnakeBegins\\Red.xml</bag>
+	</monsterdie>
+	
+	<!--
+	type:	Static value, do not edit it
+	-->
+	<special>
+		<bag type="0">CastleMix.xml</bag>					<!-- Castle Siege lord mix -->
+		<bag type="1">BloodCastle\\Castle1.xml</bag>		<!-- Blood Castle 1 reward -->
+		<bag type="2">BloodCastle\\Castle2.xml</bag>		<!-- Blood Castle 2 reward -->
+		<bag type="3">BloodCastle\\Castle3.xml</bag>		<!-- Blood Castle 3 reward -->
+		<bag type="4">BloodCastle\\Castle4.xml</bag>		<!-- Blood Castle 4 reward -->
+		<bag type="5">BloodCastle\\Castle5.xml</bag>		<!-- Blood Castle 5 reward -->
+		<bag type="6">BloodCastle\\Castle6.xml</bag>		<!-- Blood Castle 6 reward -->
+		<bag type="7">BloodCastle\\Castle7.xml</bag>		<!-- Blood Castle 7 reward -->
+		<bag type="8">BloodCastle\\Castle8.xml</bag>		<!-- Blood Castle 8 reward -->
+		<bag type="9">IllusionTemple\\Temple1.xml</bag>		<!-- Illusion Temple 1 reward -->
+		<bag type="10">IllusionTemple\\Temple2.xml</bag>	<!-- Illusion Temple 2 reward -->
+		<bag type="11">IllusionTemple\\Temple3.xml</bag>	<!-- Illusion Temple 3 reward -->
+		<bag type="12">IllusionTemple\\Temple4.xml</bag>	<!-- Illusion Temple 4 reward -->
+		<bag type="13">IllusionTemple\\Temple5.xml</bag>	<!-- Illusion Temple 5 reward -->
+		<bag type="14">IllusionTemple\\Temple6.xml</bag>	<!-- Illusion Temple 6 reward -->
+		<bag type="15">CherryBlossom\\WhiteMix.xml</bag>	<!-- Cherry Blossom white branch mix -->
+		<bag type="16">CherryBlossom\\RedMix.xml</bag>		<!-- Cherry Blossom red branch mix -->
+		<bag type="17">CherryBlossom\\GoldMix.xml</bag>		<!-- Cherry Blossom gold branch mix -->
+		<bag type="18">GoldenArcher.xml</bag>				<!-- Golden Archer reward (Rena) -->
+		<bag type="19">ChaosCastle\\Castle1.xml</bag>		<!-- Chaos Castle 1 reward -->
+		<bag type="20">ChaosCastle\\Castle2.xml</bag>		<!-- Chaos Castle 2 reward -->
+		<bag type="21">ChaosCastle\\Castle3.xml</bag>		<!-- Chaos Castle 3 reward -->
+		<bag type="22">ChaosCastle\\Castle4.xml</bag>		<!-- Chaos Castle 4 reward -->
+		<bag type="23">ChaosCastle\\Castle5.xml</bag>		<!-- Chaos Castle 5 reward -->
+		<bag type="24">ChaosCastle\\Castle6.xml</bag>		<!-- Chaos Castle 6 reward -->
+		<bag type="25">ChaosCastle\\Castle7.xml</bag>		<!-- Chaos Castle 7 reward -->
+		<bag type="26">DevilSquare\\Position1.xml</bag>		<!-- Devil Square reward for 1 position -->
+		<bag type="27">DevilSquare\\Position2.xml</bag>		<!-- Devil Square reward for 2 position -->
+		<bag type="28">DevilSquare\\Position3.xml</bag>		<!-- Devil Square reward for 3 position -->
+	</special>
+</eventitembag>

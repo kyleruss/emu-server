@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movelist>
+	<move id="1" money="2000" level="50" gate="50">Arena</move>
+	<move id="48" money="20000" level="1" gate="503">Event square</move>
+	<move id="44" money="10000" level="1" gate="333">LorenMarket</move>
+	<move id="2" money="2000" level="10" gate="17">Lorencia</move>
+	<move id="3" money="2000" level="10" gate="27">Noria</move>
+	<move id="31" money="2000" level="10" gate="267">Elbeland</move>
+	<move id="32" money="2500" level="10" gate="268">Elbeland2</move>
+	<move id="43" money="3000" level="10" gate="269">Elbeland3</move>
+	<move id="4" money="2000" level="20" gate="22">Devias</move>
+	<move id="5" money="2500" level="20" gate="72">Devias2</move>
+	<move id="6" money="3000" level="20" gate="73">Devias3</move>
+	<move id="7" money="3500" level="20" gate="74">Devias4</move>
+	<move id="8" money="3000" level="30" gate="2">Dungeon</move>
+	<move id="9" money="3500" level="40" gate="6">Dungeon2</move>
+	<move id="10" money="4000" level="50" gate="10">Dungeon3</move>
+	<move id="11" money="4000" level="70" gate="49">Atlans</move>
+	<move id="12" money="4500" level="80" gate="75">Atlans2</move>
+	<move id="13" money="5000" level="90" gate="76">Atlans3</move>
+	<move id="14" money="5000" level="50" gate="42">LostTower</move>
+	<move id="15" money="5500" level="50" gate="31">LostTower2</move>
+	<move id="16" money="6000" level="50" gate="33">LostTower3</move>
+	<move id="17" money="6500" level="60" gate="35">LostTower4</move>
+	<move id="18" money="7000" level="60" gate="37">LostTower5</move>
+	<move id="19" money="7500" level="70" gate="39">LostTower6</move>
+	<move id="20" money="8000" level="70" gate="41">LostTower7</move>
+	<move id="21" money="8000" level="140" gate="57">Tarkan</move>
+	<move id="22" money="8500" level="140" gate="77">Tarkan2</move>
+	<move id="25" money="8500" level="150" gate="119">Aida1</move>
+	<move id="27" money="8500" level="150" gate="140">Aida2</move>
+	<move id="23" money="10000" level="170" gate="63">Icarus</move>
+	<move id="28" money="9000" level="160" gate="138">KanturuRuins1</move>
+	<move id="29" money="9000" level="160" gate="141">KanturuRuins2</move>
+	<move id="45" money="15000" level="160" gate="334">KanturuRuins3</move>
+	<move id="30" money="12000" level="230" gate="139">KanturuRelics</move>
+	<move id="46" money="13000" level="170" gate="335">Karutan1</move>
+	<move id="47" money="14000" level="170" gate="344">Karutan2</move>
+	<move id="34" money="15000" level="280" gate="287">Raklion</move>
+	<move id="33" money="15000" level="400" gate="273">PeaceSwamp</move>
+	<move id="42" money="15000" level="30" gate="294">Vulcanus</move>
+	<move id="39" money="26000" level="330" gate="118">Crywolf</move>
+	<move id="41" money="27000" level="350" gate="256">Barracks</move>
+	<move id="50" money="290000" level="330" gate="95">LandOfTrial</move>
+	<move id="51" money="300000" level="395" gate="257">Refuge</move>
+</movelist>

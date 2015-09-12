@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: Master level system settings
+// ----------------------------------------------------------------------------------
+// Revision: 	13:58 22.09.2014 (Added max. level configuration)
+//===================================================================================
+-->
+<masterlevel>
+	<maxlevel>330</maxlevel>	<!-- Season 8 -->
+
+	<!--
+	Mode type:
+	0: by monster level
+	1: by map list
+	2: by monster list
+	3: by map list + monster list
+	4: by map list + monster level
+-->
+	<leveling minreset="0" mode="1"/>
+	<monsterlevel min="0" max="150"/>
+	
+	<maplist>
+		<map id="52"/>		<!-- Blood Castle 8 -->
+		<map id="53"/>		<!-- Chaos Castle 7 -->
+		<map id="57"/>		<!-- Raklion -->
+		<map id="2"/>
+	</maplist>
+	
+	<monsterlist>
+		<monster id="428"/>	<!-- King Orc 8 -->
+		<monster id="429"/> <!-- Orc Archer 8 -->
+		<monster id="430"/> <!-- Spirit Soldier 8 -->
+		<monster id="431"/> <!-- Spirit Beast 8 -->
+		<monster id="432"/> <!-- Spirit Knight 8 -->
+		<monster id="433"/> <!-- Spirit Sorcerer 8 -->
+		<monster id="426"/> <!-- Chaos Castle 7 -->
+		<monster id="427"/> <!-- Chaos Castle 7 -->
+		<monster id="562"/>	<!-- Dark Mammoth -->
+		<monster id="563"/>	<!-- The Dark Giant -->
+		<monster id="564"/>	<!-- Dark Coolutin -->
+		<monster id="565"/>	<!-- The Dark Knight Iron -->
+	</monsterlist>
+</masterlevel>

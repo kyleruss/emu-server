@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<!-- 
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description:	(Shop) Elf Lala
+// ----------------------------------------------------------------------------------
+// Revision: 	11:52 10.04.2014
+//===================================================================================
+-->
+<shop>
+	<item id="14" num="0" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Apple -->
+    <item id="14" num="1" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Small Healing Potion -->
+    <item id="14" num="2" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Healing Potion -->
+    <item id="14" num="3" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Large Healing Potion -->
+    <item id="14" num="4" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Small Mana Potion -->
+    <item id="14" num="5" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Mana Potion -->
+    <item id="14" num="6" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Large Mana Potion -->
+    <item id="14" num="8" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Antidote -->
+    <item id="14" num="0" dur="3" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Apple -->
+    <item id="14" num="1" dur="3" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Small Healing Potion -->
+    <item id="14" num="2" dur="3" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Healing Potion -->
+    <item id="14" num="3" dur="3" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Large Healing Potion -->
+    <item id="14" num="4" dur="3" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Small Mana Potion -->
+    <item id="14" num="5" dur="3" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Mana Potion -->
+    <item id="14" num="6" dur="3" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Large Mana Potion -->
+    <item id="14" num="8" dur="3" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Antidote -->
+    <item id="14" num="0" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Apple -->
+    <item id="14" num="1" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Small Healing Potion -->
+    <item id="14" num="2" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Healing Potion -->
+    <item id="14" num="3" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Large Healing Potion -->
+    <item id="14" num="0" dur="3" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Apple -->
+    <item id="14" num="1" dur="3" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Small Healing Potion -->
+    <item id="14" num="2" dur="3" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Healing Potion -->
+    <item id="14" num="3" dur="3" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Large Healing Potion -->
+    <item id="12" num="8" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Healing Orb -->
+    <item id="12" num="9" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Orb of Greater Fortitude -->
+    <item id="12" num="10" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Orb of Greater Damage -->
+    <item id="12" num="11" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Orb of Summoning -->
+    <item id="12" num="11" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Orb of Summoning -->
+    <item id="12" num="11" dur="0" level="2" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Orb of Summoning -->
+    <item id="12" num="11" dur="0" level="3" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Orb of Summoning -->
+    <item id="12" num="11" dur="0" level="4" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Orb of Summoning -->
+    <item id="7" num="10" dur="0" level="0" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Vine Helm -->
+    <item id="8" num="10" dur="0" level="0" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Vine Armor -->
+    <item id="9" num="10" dur="0" level="0" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Vine Pants -->
+    <item id="10" num="10" dur="0" level="0" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Vine Gloves -->
+    <item id="11" num="10" dur="0" level="0" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Vine Boots -->
+    <item id="7" num="11" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Silk Helm -->
+    <item id="8" num="11" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Silk Armor -->
+    <item id="9" num="11" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Silk Pants -->
+    <item id="10" num="11" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Silk Gloves -->
+    <item id="11" num="11" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Silk Boots -->
+    <item id="7" num="12" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Wind Helm -->
+    <item id="8" num="12" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Wind Armor -->
+    <item id="9" num="12" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Wind Pants -->
+    <item id="10" num="12" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Wind Gloves -->
+    <item id="11" num="12" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Wind Boots -->
+    <item id="14" num="10" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Town Portal Scroll -->
+    <item id="13" num="29" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Armor of Guardsman -->
+    <item id="4" num="7" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Bolt -->
+    <item id="4" num="7" dur="0" level="1" skill="0" luck="0" option="0" exc="2" anc="0" socket="0" element="-1" /> <!-- Bolt -->
+    <item id="4" num="7" dur="0" level="2" skill="0" luck="0" option="0" exc="2" anc="0" socket="0" element="-1" /> <!-- Bolt -->   
+    <item id="4" num="15" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Arrow -->
+    <item id="4" num="15" dur="0" level="1" skill="0" luck="0" option="2" exc="0" anc="0" socket="0" element="-1" /> <!-- Arrow -->
+    <item id="4" num="15" dur="0" level="2" skill="0" luck="0" option="0" exc="2" anc="0" socket="0" element="-1" /> <!-- Arrow -->
+</shop>

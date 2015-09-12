@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<itembag>
+	<settings>
+		<name>CherryBlossomBox-48</name>
+		<zen min="100000" max="1000000" />
+		<excoption op1="15" op2="15" op4="15" op8="15" op16="20" op32="20" />
+	</settings>
+	<itemlist rate="10000">
+		<item id="14" num="85" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="14" num="86" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="14" num="87" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="14" num="88" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="14" num="89" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+		<item id="14" num="90" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />
+	</itemlist>
+</itembag>

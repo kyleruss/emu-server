@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!-- 
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description:	(Shop) Christine the Merchant
+// ----------------------------------------------------------------------------------
+// Revision: 	12:16 10.04.2014
+//===================================================================================
+-->
+<shop>
+	<item id="14" num="0" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Apple -->
+    <item id="14" num="1" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Small Healing Potion -->
+    <item id="14" num="2" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Healing Potion -->
+    <item id="14" num="3" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Large Healing Potion -->
+    <item id="14" num="4" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Small Mana Potion -->
+    <item id="14" num="5" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Mana Potion -->
+    <item id="14" num="6" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Large Mana Potion -->
+    <item id="14" num="8" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Antidote -->
+    <item id="14" num="0" dur="3" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Apple -->
+    <item id="14" num="1" dur="3" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Small Healing Potion -->
+    <item id="14" num="2" dur="3" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Healing Potion -->
+    <item id="14" num="3" dur="3" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Large Healing Potion -->
+    <item id="14" num="4" dur="3" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Small Mana Potion -->
+    <item id="14" num="5" dur="3" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Mana Potion -->
+    <item id="14" num="6" dur="3" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Large Mana Potion -->
+    <item id="14" num="8" dur="3" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Antidote -->
+    <item id="14" num="0" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Apple -->
+    <item id="14" num="1" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Small Healing Potion -->
+    <item id="14" num="2" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Healing Potion -->
+    <item id="14" num="3" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Large Healing Potion -->
+    <item id="14" num="0" dur="3" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Apple -->
+    <item id="14" num="1" dur="3" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Small Healing Potion -->
+    <item id="14" num="2" dur="3" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Healing Potion -->
+    <item id="14" num="3" dur="3" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Large Healing Potion -->
+    <item id="4" num="7" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Bolt -->
+    <item id="4" num="7" dur="0" level="1" skill="0" luck="0" option="0" exc="2" anc="0" socket="0" element="-1" /> <!-- Bolt -->
+    <item id="4" num="7" dur="0" level="2" skill="0" luck="0" option="0" exc="2" anc="0" socket="0" element="-1" /> <!-- Bolt -->   
+    <item id="4" num="15" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Arrow -->
+    <item id="4" num="15" dur="0" level="1" skill="0" luck="0" option="2" exc="0" anc="0" socket="0" element="-1" /> <!-- Arrow -->
+    <item id="4" num="15" dur="0" level="2" skill="0" luck="0" option="0" exc="2" anc="0" socket="0" element="-1" /> <!-- Arrow -->
+    <item id="13" num="7" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Contract (Summon) -->
+    <item id="13" num="7" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Contract (Summon) -->  
+    <item id="14" num="10" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Town Portal Scroll -->
+    <item id="13" num="29" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Armor of Guardsman -->
+</shop>

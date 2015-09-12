@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<itembag>
+	<settings>
+		<name>ImperialGuardian(Reward)</name>
+		<zen min="50000" max="50000" />
+		<excoption op1="0" op2="0" op4="0" op8="0" op16="0" op32="0" />
+	</settings>
+	<itemlist rate="10000">
+		<item id="12" num="30" lvlmin="0" lvlmax="2" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />	<!-- Jewel of Bless (Bundled) -->
+		<item id="12" num="31" lvlmin="0" lvlmax="2" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />	<!-- Jewel of Soul (Bundled) -->
+	</itemlist>
+</itembag>

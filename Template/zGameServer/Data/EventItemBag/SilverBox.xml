@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<itembag>
+	<settings>
+		<name>Silver Box</name>
+		<zen min="100" max="500" />
+		<excoption op1="15" op2="15" op4="15" op8="15" op16="20" op32="20" />
+	</settings>
+	<itemlist rate="10000">
+		<item id="13" num="18" lvlmin="1" lvlmax="8" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Invisibility Cloak-->
+		<item id="14" num="19" lvlmin="1" lvlmax="7" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Devil's Invitation-->
+		<item id="14" num="28" lvlmin="7" lvlmax="7" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Lost Map +7-->
+		<item id="14" num="13" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Jewel Of Bless-->
+		<item id="14" num="14" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Jewel Of Soul-->
+		<item id="14" num="16" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Jewel Of Life-->
+		<item id="14" num="22" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Jewel Of Creation-->
+		<item id="12" num="15" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Jewel Of Chaos-->
+		<item id="13" num="64" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Demon-->
+		<item id="13" num="65" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Spirit of Guardian-->
+		<item id="13" num="67" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Pet Rudolf-->
+		<item id="13" num="106" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" /> <!--Pet Unicorn-->
+		<item id="14" num="54" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />	<!--Chaos Card-->
+		<item id="13" num="135" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />	<!--Lucky Ticket-->
+		<item id="13" num="136" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />	<!--Lucky Ticket-->
+		<item id="13" num="137" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />	<!--Lucky Ticket-->
+		<item id="13" num="138" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />	<!--Lucky Ticket-->
+		<item id="13" num="139" lvlmin="0" lvlmax="0" skill="0" luck="0" option="0" excmin="0" excmax="0" is_anc="0" sockmin="0" sockmax="0" />	<!--Lucky Ticket-->
+	</itemlist>
+</itembag>

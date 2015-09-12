@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: Command settings file
+// ----------------------------------------------------------------------------------
+// Revision: 	7:07 02.07.2014 (CashShop pay temporarily unavailable)
+//===================================================================================
+-->
+<commandmanager>
+	<!-- List of all commands on server -->
+	<commandlist>
+		<!--
+		id:			Static ID of command
+		access:		Access code for command (1: User, 32: GM)
+		minlevel:	Min. level for using command
+		minreset:	Min. reset for using command
+		pricetype:	Type of price (0: Zen, 1: WCoinC, 2: WCoinP, 3: WCoinG)
+		price:		Cost for command
+		premium:	Premium access for this command (0: None, 1: Bronze, 2: Silver, 3: Gold)
+		-->
+		<!-- Default gm command list -->
+		<command id="0" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/banchat</command> 			<!-- Arg: <UserName> <Time> | Effect: Chat blocking on time -->
+		<command id="1" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/banuser</command> 			<!-- Arg: <UserName> | Effect: User blocking -->
+		<command id="2" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/banaccount</command> 		<!-- Arg: <UserAccount> | Effect: Account blocking -->
+		<command id="3" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/disconnect</command> 		<!-- Arg: <UserName> | Effect: Discconect user from the game -->
+		<command id="4" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/pkset</command> 				<!-- Arg: <UserName> <Level> | Effect: Set PK status level -->
+		<command id="5" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/pkreset</command> 			<!-- Arg: <UserName> | Effect: PK status reset -->
+		<command id="6" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/moneyset</command> 			<!-- Arg: <UserName> <Value> | Effect: Set user money value -->
+		<command id="7" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/makeitem</command> 			<!-- Arg: <Count> <ItemType> <ItemIndex> <Level> <Dur> <Skill> <Luck> <Option> <AncientOpt> <AncientCount> <ExcOpt1> <ExcOpt2> <ExcOpt3> <ExcOpt4> <ExcOpt5> <ExcOpt6> | Effect: Droping N x Items -->
+		<command id="8" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/makerandomset</command> 		<!-- Arg: <Count> | Effect: Droping N x Random set items -->
+		<command id="9" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/hideon</command> 			<!-- Arg: <None> | Effect: Enable invis. buff -->
+		<command id="10" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/hideoff</command> 			<!-- Arg: <None> | Effect: Disable invis. buff -->
+		<command id="11" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/cleardrop</command> 		<!-- Arg: <Distance> | Effect: Delete all drop in radius -->
+		<command id="12" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/clearinvent</command> 		<!-- Arg: <UserName> | Effect: Delete all items from inventory -->
+		<command id="13" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/skin</command> 				<!-- Arg: <UserName> <SkinNumber> | Effect: Set skin for player (-1: default skin, 0 ~ 600: skin number from monster.txt) -->
+		<command id="14" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/partyinfo</command> 		<!-- Arg: <UserName> | Effect: Print list of party members -->
+		<command id="15" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/firecrack</command> 		<!-- Arg: <None> | Effect: Firecracker -->
+		<command id="16" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/trans</command> 			<!-- Arg: <UserName> <MapNumber> <X> <Y> | Effect: Teleport user in target location -->
+		<command id="17" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/track</command> 			<!-- Arg: <UserName> | Effect: Teleport user to gm -->
+		<command id="18" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/trace</command> 			<!-- Arg: <UserName> | Effect: Teleport gm to user -->
+		<command id="19" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/cschangeowner</command> 	<!-- Arg: <GuildName> | Effect: Change CastleSiege owner guild -->
+		<command id="20" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/cssetregsiege</command> 	<!-- Arg: <None> | Effect: Change CastleSiege stage to Registration -->
+		<command id="21" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/cssetregmark</command> 		<!-- Arg: <None> | Effect: Change CastleSiege stage to Registration of marks -->
+		<command id="22" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/cssetnotify</command> 		<!-- Arg: <None> | Effect: Change CastleSiege stage to Notification -->
+		<command id="23" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/cssetstart</command> 		<!-- Arg: <None> | Effect: Change CastleSiege stage to Start -->
+		<command id="24" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/cssetend</command> 			<!-- Arg: <None> | Effect: Change CastleSiege stage to End -->
+		<command id="25" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/cscurowner</command> 		<!-- Arg: <None> | Effect: Print CastleSiege owner guild name -->
+		<command id="26" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/cscurstate</command> 		<!-- Arg: <None> | Effect: Print CastleSiege stage info -->
+		<command id="27" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/cschangeside</command> 		<!-- Arg: <GuildName> | Effect: Change CastleSiege Attacker guild -->
+		<command id="28" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/cwsetnotify</command> 		<!-- Arg: <None> | Effect: Change CryWolf stage to Notify -->
+		<command id="29" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/cwsetready</command> 		<!-- Arg: <None> | Effect: Change CryWolf stage to Ready -->
+		<command id="30" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/cwsetstart</command> 		<!-- Arg: <None> | Effect: Change CryWolf stage to Start -->
+		<command id="31" access="32" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/cwsetend</command> 			<!-- Arg: <None> | Effect: Change CryWolf stage to End -->
+		<!-- Default user command list -->
+		<command id="32" access="1" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/re</command> 				<!-- Arg: <"on"|"off"> | Effect: Block all request from players -->
+		<command id="32" access="1" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/Request</command> 			<!-- Arg: <"on"|"off"> | Effect: Block all request from players -->
+		<command id="33" access="1" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/partyleader</command> 		<!-- Arg: <UserName> | Effect: Set leader in party -->
+		<command id="34" access="1" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/move</command> 				<!-- Arg: <MapName> | Effect: User teleport in map -->
+		<command id="34" access="1" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/warp</command> 				<!-- Arg: <MapName> | Effect: User teleport in map -->
+		<command id="35" access="1" minlevel="100" minreset="0" pricetype="0" price="100000" premium="0">/post</command> 		<!-- Arg: <Text> | Effect: Send text to post chat -->
+		<command id="36" access="1" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/addstr</command> 			<!-- Arg: <Value> | Effect: Add value to Strength from point -->
+		<command id="37" access="1" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/addagi</command> 			<!-- Arg: <Value> | Effect: Add value to Agility from point -->
+		<command id="38" access="1" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/addvit</command> 			<!-- Arg: <Value> | Effect: Add value to Vitality from point -->
+		<command id="39" access="1" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/addene</command> 			<!-- Arg: <Value> | Effect: Add value to Energy from point -->
+		<command id="40" access="1" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/addcom</command> 			<!-- Arg: <Value> | Effect: Add value to Command from point -->
+		<command id="41" access="1" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/offtrade</command> 			<!-- Arg: <None> | Effect: Offline trade request -->
+		<command id="42" access="1" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/vault</command> 				<!-- Arg: <ID> | Effect: Change id of warehouse -->
+		<command id="43" access="1" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/guildwar</command> 			<!-- Arg: <GuildName> | Effect: Request for start guild war -->
+		<command id="44" access="1" minlevel="0" minreset="0" pricetype="0" price="0" premium="0">/battlesoccer</command> 
+		<command id="45" access="1" minlevel="400" minreset="0" pricetype="0" price="100000" premium="0">/reset</command>
+		<!-- Arg: <GuildName> | Effect: Request for start guild soccer -->
+	</commandlist>
+</commandmanager>

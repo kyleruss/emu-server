@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!-- 
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description:	(Shop) Lumen the Barmaid
+// ----------------------------------------------------------------------------------
+// Revision: 	11:15 10.04.2014
+//===================================================================================
+-->
+<shop>
+	<item id="14" num="9" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Ale -->
+	<item id="14" num="10" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Town Portal Scroll -->
+	<item id="13" num="16" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Archangel Scroll +1 -->
+	<item id="13" num="16" dur="0" level="2" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Archangel Scroll +2 -->
+	<item id="13" num="16" dur="0" level="3" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Archangel Scroll +3 -->
+	<item id="13" num="16" dur="0" level="4" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Archangel Scroll +4 -->
+	<item id="13" num="16" dur="0" level="5" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Archangel Scroll +5 -->
+	<item id="13" num="16" dur="0" level="6" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Archangel Scroll +6 -->
+	<item id="13" num="16" dur="0" level="7" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Archangel Scroll +7 -->
+	<item id="13" num="16" dur="0" level="8" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Archangel Scroll +8 -->
+	<item id="13" num="17" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Blood Bone +1 -->
+	<item id="13" num="17" dur="0" level="2" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Blood Bone +2 -->
+	<item id="13" num="17" dur="0" level="3" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Blood Bone +3 -->
+	<item id="13" num="17" dur="0" level="4" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Blood Bone +4 -->
+	<item id="13" num="17" dur="0" level="5" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Blood Bone +5 -->
+	<item id="13" num="17" dur="0" level="6" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Blood Bone +6 -->
+	<item id="13" num="17" dur="0" level="7" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Blood Bone +7 -->
+	<item id="13" num="17" dur="0" level="8" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Blood Bone +8 -->
+	<item id="13" num="49" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Old Scroll +1 -->
+	<item id="13" num="49" dur="0" level="2" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Old Scroll +2 -->
+	<item id="13" num="49" dur="0" level="3" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Old Scroll +3 -->
+	<item id="13" num="49" dur="0" level="4" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Old Scroll +4 -->
+	<item id="13" num="49" dur="0" level="5" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Old Scroll +5 -->
+	<item id="13" num="49" dur="0" level="6" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Old Scroll +6 -->
+	<item id="13" num="50" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Illusion Sorcerer Covenant +1 -->
+	<item id="13" num="50" dur="0" level="2" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Illusion Sorcerer Covenant +2 -->
+	<item id="13" num="50" dur="0" level="3" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Illusion Sorcerer Covenant +3 -->
+	<item id="13" num="50" dur="0" level="4" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Illusion Sorcerer Covenant +4 -->
+	<item id="13" num="50" dur="0" level="5" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Illusion Sorcerer Covenant +5 -->
+	<item id="13" num="50" dur="0" level="6" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Illusion Sorcerer Covenant +6 -->
+	<item id="14" num="17" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Devil's Eye +1 -->
+	<item id="14" num="17" dur="0" level="2" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Devil's Eye +2 -->
+	<item id="14" num="17" dur="0" level="3" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Devil's Eye +3 -->
+	<item id="14" num="17" dur="0" level="4" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Devil's Eye +4 -->
+	<item id="14" num="17" dur="0" level="5" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Devil's Eye +5 -->
+	<item id="14" num="17" dur="0" level="6" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Devil's Eye +6 -->
+	<item id="14" num="17" dur="0" level="7" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Devil's Eye +7 -->
+	<item id="14" num="18" dur="0" level="1" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Devil's Key +1 -->
+	<item id="14" num="18" dur="0" level="2" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Devil's Key +2 -->
+	<item id="14" num="18" dur="0" level="3" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Devil's Key +3 -->
+	<item id="14" num="18" dur="0" level="4" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Devil's Key +4 -->
+	<item id="14" num="18" dur="0" level="5" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Devil's Key +5 -->
+	<item id="14" num="18" dur="0" level="6" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Devil's Key +6 -->
+	<item id="14" num="18" dur="0" level="7" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Devil's Key +7 -->
+	<item id="13" num="29" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Armor of Guardsman -->
+</shop>

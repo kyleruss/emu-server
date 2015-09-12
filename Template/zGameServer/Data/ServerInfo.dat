@@ -1,0 +1,30 @@
+[GameServerInfo]
+ServerName       	= SERVER_NAME
+ServerCode       	= 1
+ClientExeVersion 	= 1.99.99
+ClientExeSerial 	= CLIENT_SERIAL
+LootingTime 		= 25
+ItemDisappearTime 	= 30
+NonPk		 	= 0
+ConnectMemberLoad 	= 0	//-> Connect only members from list (0: Disable, 1: Enable)
+ConnectMemberReload	= 0	//-> Auto reloading connect member list (0: Disable, 1: Enable)
+ConnectMemberReloadTime = 0	//-> Minutes (1~N)
+
+[ConnectServerInfo]
+IP 			= 127.0.0.1
+PORT 			= 55557
+
+[Connection]
+ServerPort		= 55901
+JoinServerIP		= 127.0.0.1
+JoinServerPort		= 55970
+DataServer1IP		= 127.0.0.1
+DataServer1Port		= 55960
+DataServer2IP		= 127.0.0.1
+DataServer2Port		= 55962
+ExDBServerIP		= 127.0.0.1
+ExDBServerPort		= 55906
+RankingServerIP		= 127.0.0.1
+RankingServerPort	= 44455
+EventServerIP		= 127.0.0.1
+EventServerPort		= 44456

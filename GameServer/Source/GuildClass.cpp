@@ -1216,6 +1216,34 @@ struct PMSG_REQ_GENS_JOINREQUEST
 };
 
 
+struct PMSG_ANS_GENS_JOINREQUEST
+{
+	PBMSG_HEAD2 h;
+	int aIndex;
+	BYTE btResult;
+	BYTE btGensType;
+	int iRank;
+};
+
+struct PMSG_ANS_GENS_INFO
+{
+	PBMSG_HEAD2 h;
+	int aIndex;
+	int iRank;
+	int iContribution;
+	BYTE iReward;
+	BYTE btResult;
+	BYTE btGens;
+};
+
+struct PMSG_REQ_GENS_INFO
+{
+	PBMSG_HEAD2 h;
+	int aIndex;
+	char szName[11];
+};
+
+
 int CGensSystem::GetGensLevel(int aIndex)
 {
 	LPOBJ lpObj = &gObj[aIndex];
@@ -1261,17 +1289,20 @@ void CGensSystem::CGJoinRequest(LPBYTE aRecv,int aIndex)
 
 	if( !gObjIsConnected(aIndex) )
 		return;
+	LogAdd("REQUEST GENS, party num: %d", gObj[aIndex].PartyNumber);
 
 	PMSG_GENS_JOINREQUEST* lpMsg = (PMSG_GENS_JOINREQUEST*)aRecv;
 
 	LPOBJ lpObj = &gObj[aIndex];
 	PMSG_GENS_JOINREQUEST_ANS pMsg = {0};
-	PHeadSubSetB((LPBYTE)&pMsg,0xF8,0x02,sizeof(pMsg));
+	PHeadSubSetB((LPBYTE)&pMsg,0xF8,0x01,sizeof(pMsg));
+
 
 	pMsg.btSubCode = lpMsg->btSubCode;
 
 	if( lpObj->m_GensInfo.btFamily != GENS_NONE )
 	{
+		LogAdd("REQUEST GENS, IN A GENS");
 		pMsg.btResult = 1;
 		DataSend(aIndex,(LPBYTE)&pMsg,pMsg.h.size);
 		return;
@@ -1318,12 +1349,15 @@ void CGensSystem::CGJoinRequest(LPBYTE aRecv,int aIndex)
 		}
 	}
 
+	LogAdd("REQUEST GENS, REACHED END, result: %d", pMsg.btResult);
+	
 	pMsgReq.aIndex = aIndex;
-	pMsgReq.btGensType = lpMsg->btSubCode;
+	pMsgReq.btGensType = lpMsg->btSubCode; 
 
 	strcpy(pMsgReq.szRequestID,gObj[aIndex].Name);
 
-	cDBSMng.Send((PCHAR)&pMsgReq,sizeof(pMsgReq));
+	cDBSMng.Send((PCHAR)&pMsgReq, sizeof(pMsgReq));
+	
 }
 
 struct PMSG_GENS_LEAVE_ANS
@@ -1528,35 +1562,10 @@ void CGensSystem::SendGensInfo(int aIndex)
 	DataSend(aIndex,(LPBYTE)&pMsg,pMsg.h.size);
 }
 
-struct PMSG_ANS_GENS_JOINREQUEST
-{
-	PBMSG_HEAD2 h;
-	int aIndex;
-	BYTE btResult;
-	BYTE btGensType;
-	int iRank;
-};
-
-struct PMSG_ANS_GENS_INFO
-{
-	PBMSG_HEAD2 h;
-	int aIndex;
-	int iRank;
-	int iContribution;
-	BYTE iReward;
-	BYTE btResult;
-	BYTE btGens;
-};
-
-struct PMSG_REQ_GENS_INFO
-{
-	PBMSG_HEAD2 h;
-	int aIndex;
-	char szName[11];
-};
 
 void CGensSystem::GDReqGensInfo(int aIndex)
 {
+	LogAdd("req gens info");
 	PMSG_REQ_GENS_INFO pMsg = {0};
 	PHeadSubSetB((LPBYTE)&pMsg,0x40,0x01,sizeof(pMsg));
 	pMsg.aIndex = aIndex;
@@ -1587,6 +1596,7 @@ void CGensSystem::GDSaveGensInfo(int aIndex)
 
 void CGensSystem::DGAnsGensInfo(LPBYTE aRecv)
 {
+	LogAdd("Answer gens info");
 	PMSG_ANS_GENS_INFO* lpMsg = (PMSG_ANS_GENS_INFO*)aRecv;
 
 	int aIndex = lpMsg->aIndex;
@@ -1614,6 +1624,7 @@ void CGensSystem::DGAnsGensInfo(LPBYTE aRecv)
 void CGensSystem::DGAnsJoinRequest(LPBYTE aRecv)
 {
 	PMSG_ANS_GENS_JOINREQUEST* lpMsg = (PMSG_ANS_GENS_JOINREQUEST*) aRecv;
+	LogAdd("Gens join request ANSWER family: %d, result: %d", lpMsg->btGensType, lpMsg->btResult);
 
 	int aIndex = lpMsg->aIndex;
 
@@ -1632,7 +1643,7 @@ void CGensSystem::DGAnsJoinRequest(LPBYTE aRecv)
 	if( lpMsg->btResult != 0 )
 	{
 		pMsg.btResult = lpMsg->btResult;
-		DataSend(aIndex,(LPBYTE)&pMsg,pMsg.h.size);
+		DataSend(aIndex, (LPBYTE)&pMsg, pMsg.h.size);
 		return;
 	}
 

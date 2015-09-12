@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<itembag>
+	<settings>
+		<name>CastleHuntEvent-Er-18</name>
+		<zen min="1000000" max="5000000" />
+		<excoption op1="10" op2="30" op4="30" op8="10" op16="10" op32="10" /><!--For Weapons-->
+		<!--
+		1 Increases Mana after hunting monsters + Mana \ Increases Zen
+		2 Increases Life after hunting monsters + life \ Defense success rate
+		4 Increase Attacking(Wizardry)speed \ Reflect damage
+		8 Increase damage \ Decrese damage
+		16 Increase damage level \ Increse max mana 
+		32 Excellent damage rate  \ Increse max hp		
+		-->	
+		</settings>
+	<itemlist rate="10000">
+		<!--Swords-->
+		<item id="0" num="17" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Dark Breaker -->
+		<item id="0" num="21" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Dark Reign Blade-->
+		<item id="0" num="24" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Daybreak -->
+		<item id="0" num="22" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Bone Blade -->
+		<item id="0" num="23" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Explosion Blade  -->
+		<item id="0" num="20" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Knight Blade -->
+		<item id="0" num="18" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Thunder Blade -->
+		<!--Glove-->
+		<item id="0" num="35" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Phoenix Soul Star-->
+		<!--Mace-->
+		<item id="2" num="12" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Great Lord Scepter-->
+		<item id="2" num="15" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Shining Scepter-->
+		<item id="2" num="18" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Striker Scepter -->
+		<item id="2" num="14" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Soleil Sceptor -->
+		<!--Spear-->
+		<item id="3" num="11" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Brova -->
+		<!--Bow-->
+		<item id="4" num="22" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Albatross Bow -->
+		<item id="4" num="21" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Sylph Wind Bow -->
+		<item id="4" num="20" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Arrow Viper Bow -->
+		<item id="4" num="24" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Aileen Bow  -->
+		<!--Crossbow-->
+		<item id="4" num="14" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Aquagold Crossbow-->
+		<item id="4" num="19" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Great Reign Crossbow-->
+		<item id="4" num="16" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Saint Crossbow-->
+		<!--Staff-->
+		<item id="5" num="33" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Chromatic Staff -->
+		<item id="5" num="11" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Staff of Kundun-->
+		<item id="5" num="12" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Grand Viper Staff -->
+		<item id="5" num="13" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Platina Staff -->
+		<!--Stick-->
+		<item id="5" num="18" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Demonic Stick -->
+		<item id="5" num="34" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Raven Stick  -->
+		<item id="5" num="19" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Storm Blitz Stick -->
+		<!--Books-->
+		<item id="5" num="23" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Book of Lagle -->
+		<!--Pendants-->
+		<item id="13" num="12" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Pendant of Lighting  -->
+		<item id="13" num="13" lvlmin="0" lvlmax="0" skill="1" luck="1" option="0" excmin="3" excmax="3" is_anc="0" sockmin="0" sockmax="0" />	<!--Pendant of Fire-->
+	</itemlist>
+</itembag>

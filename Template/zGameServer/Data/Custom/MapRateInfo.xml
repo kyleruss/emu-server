@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: Map rate settings
+// ----------------------------------------------------------------------------------
+// Revision: 	7:11 04.04.2014
+//===================================================================================
+-->
+<maprateinfo>
+	<!--
+	id:			Map number
+	exp:		Exp. rate (0: Without bonus)
+	masterexp:	Master exp. rate (0: Without bonus)
+	money:		Money drop rate (0: Without bonus)
+	-->
+	<map id="6" exp="1000" masterexp="1000" money="1000" /> 	<!-- Arena -->
+</maprateinfo>

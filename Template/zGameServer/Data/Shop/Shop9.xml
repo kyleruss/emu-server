@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!-- 
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description:	(Shop) Eo the Craftsman
+// ----------------------------------------------------------------------------------
+// Revision: 	11:51 10.04.2014
+//===================================================================================
+-->
+<shop>
+    <item id="7" num="13" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Spirit Helm -->
+    <item id="8" num="13" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Spirit Armor -->
+    <item id="9" num="13" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Spirit Pants -->
+    <item id="10" num="13" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Spirit Gloves -->
+    <item id="11" num="13" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Spirit Boots -->
+    <item id="7" num="14" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Guardian Helm -->
+    <item id="8" num="14" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Guardian Armor -->
+    <item id="9" num="14" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Guardian Pants -->
+    <item id="10" num="14" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Guardian Gloves -->
+    <item id="11" num="14" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Guardian Boots -->
+    <item id="4" num="8" dur="0" level="1" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Crossbow -->
+    <item id="4" num="9" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Golden Crossbow -->
+    <item id="4" num="0" dur="0" level="0" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Short Bow -->
+    <item id="4" num="1" dur="0" level="0" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Bow -->
+    <item id="4" num="2" dur="0" level="2" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Elven Bow -->
+    <item id="4" num="3" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Battle Bow -->
+    <item id="4" num="11" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Light Crossbow -->
+    <item id="4" num="4" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Tiger Bow -->
+    <item id="4" num="10" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Arquebus -->
+    <item id="6" num="3" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Elven Shield -->
+</shop>

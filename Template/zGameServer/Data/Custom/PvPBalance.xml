@@ -1,0 +1,17 @@
+<pvpbalance>
+<!--
+class table:
+wizard 		= 0
+knight 		= 1
+elf 		= 2
+gladiator 	= 3
+lord 		= 4
+summoner 	= 5
+fighter 	= 6
+-->
+	<rule source="0" target="1"> <!-- example: wizard vs knight -->
+		<damage increase="0" decrease="10" />
+		<attackrate increase="10" decrease="0" />
+		<defenserate increase="20" decrease="0" />
+	</rule>
+</pvpbalance>

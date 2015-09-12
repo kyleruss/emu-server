@@ -168,6 +168,7 @@ void GJPUserClose(LPOBJ lpObj)
 {
 	SDHP_USERCLOSE_ID pClose;
 
+	
 	pClose.h.c =0xC1;
 	pClose.h.size= sizeof(SDHP_USERCLOSE_ID);
 	pClose.h.headcode = 0x05;

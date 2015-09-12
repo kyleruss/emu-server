@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!-- 
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description:	(Shop) Rhea
+// ----------------------------------------------------------------------------------
+// Revision: 	11:54 10.04.2014
+//===================================================================================
+-->
+<shop>
+	<item id="7" num="39" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Violent Wind Helm -->
+	<item id="8" num="39" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Violent Wind Armor -->
+	<item id="9" num="39" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Violent Wind Pants -->
+	<item id="10" num="39" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Violent Wind Gloves -->
+	<item id="11" num="39" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Violent Wind Boots -->
+	<item id="7" num="40" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Red Wing Helm -->
+	<item id="8" num="40" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Red Wing Armor -->
+	<item id="9" num="40" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Red Wing Pants -->
+	<item id="10" num="40" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Red Wing Gloves -->
+	<item id="11" num="40" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Red Wing Boots -->
+	<item id="1" num="0" dur="0" level="1" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Small Axe -->
+	<item id="0" num="1" dur="0" level="0" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Short Sword -->
+	<item id="1" num="1" dur="0" level="1" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Hand Axe -->
+	<item id="0" num="2" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Rapier -->
+	<item id="1" num="4" dur="0" level="1" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Elven Axe -->
+	<item id="0" num="0" dur="0" level="1" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Kris -->
+	<item id="5" num="0" dur="0" level="1" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Skull Staff -->
+	<item id="5" num="14" dur="0" level="1" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Mystery Stick -->
+	<item id="5" num="15" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Violent Wind Stick -->
+	<item id="5" num="16" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Red Wing Stick -->
+</shop>

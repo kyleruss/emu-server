@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: Mining system settings
+// ----------------------------------------------------------------------------------
+// Revision: 	7:17 04.04.2014
+//===================================================================================
+-->
+<miningsystem>
+	<!--
+	id:		Item id from Item.txt (category * 512 + number)
+	packid:	Boundle id Item.txt (category * 512 + number)
+	rate:	Success rate (N / 1000000)
+	-->
+	<jewellist>
+		<jewel id="7181" packid="6174" rate="500000" />
+		<jewel id="7181" packid="6174" rate="500000" />
+	</jewellist>
+	<!--
+	class:			Mining class from Monster.xml
+	final_rate: 	Success rate for final bonus (N / 1000000)
+	final_jewels:	Jewels count for final bonus
+	-->
+	<object class="605" final_rate="1" final_jewels="100" dur_dec="2" >
+		<level id="0" rate="300" jewels="1" />
+		<level id="1" rate="300" jewels="3" />
+		<level id="2" rate="300" jewels="7" />
+		<level id="3" rate="300" jewels="16" />
+		<level id="4" rate="300" jewels="33" />
+	</object>
+
+	<object class="606" final_rate="1" final_jewels="400" dur_dec="4" >
+		<level id="0" rate="1000000" jewels="2" />
+		<level id="1" rate="1000000" jewels="6" />
+		<level id="2" rate="1000000" jewels="15" />
+		<level id="3" rate="1000000" jewels="34" />
+		<level id="4" rate="1000000" jewels="67" />
+	</object>
+
+	<object class="607" final_rate="1000000" final_jewels="1000" dur_dec="8" >
+		<level id="0" rate="1000000" jewels="4" />
+		<level id="1" rate="1000000" jewels="12" />
+		<level id="2" rate="1000000" jewels="29" />
+		<level id="3" rate="1000000" jewels="65" />
+		<level id="4" rate="1000000" jewels="125" />
+	</object>
+</miningsystem>

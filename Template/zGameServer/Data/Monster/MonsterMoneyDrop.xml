@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: Extra monster zen drop configuration
+// ----------------------------------------------------------------------------------
+// Revision: 	22:50 27.09.2014
+//===================================================================================
+-->
+<monstermoneydrop>
+	<enabled>1</enabled>	<!-- 0: Disabled, 1: Enabled -->
+	
+	<calculation>
+		<!-- The divide term in the multiplicative factor
+		particularly effective when moneymax = moneymin = -1
+		otherwise caps at moneymax value
+		lower div = more zen -->
+		<zendiv>10.0f</zendiv>
+		
+		<!-- An additional multiplier used to mutate the final calculation
+		increase multi m, m > 1.0 for more zen and conversely m < 1.0 for less -->
+		<multi>1.0f</multi>
+	</calculation>
+	
+	<!--
+	id:			Monster id from Monster.xml (-1: Any)
+	levelmin:	Min. level of monster (-1: Any)
+	levelmax:	Max. level of monster (-1: Any)
+	map:		Rule only for N map (-1: Any)
+	moneymin:	Min. money amount
+	moneymax:	Max. money amount
+	rate:		Rate of drop money (N / 10000)
+	-->
+	<monsterlist>
+		<monster id="-1" levelmin="-1" levelmax="-1" map="-1" rate="2000" moneymax="-1" moneymin="-1"/>
+	</monsterlist>
+</monstermoneydrop>

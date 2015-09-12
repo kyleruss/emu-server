@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!-- 
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description:	(Shop) Weapons Merchant Bolo
+// ----------------------------------------------------------------------------------
+// Revision: 	12:18 10.04.2014
+//===================================================================================
+-->
+<shop>
+    <item id="0" num="16" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Sword of Destruction -->
+    <item id="2" num="8" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Battle Scepter -->
+    <item id="2" num="9" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Master Scepter -->
+    <item id="4" num="14" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Aquagold Crossbow -->
+    <item id="4" num="16" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Saint Crossbow -->
+    <item id="5" num="6" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Staff of Resurrection -->
+    <item id="0" num="41" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Pandora Pick (two-handed) -->
+</shop>

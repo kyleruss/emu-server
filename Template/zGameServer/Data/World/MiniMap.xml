@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: Minimap object list
+// ----------------------------------------------------------------------------------
+// Revision: 	7:15 04.04.2014
+//===================================================================================
+-->
+<minimap>
+	<map id="0">	<!-- Lorencia -->
+		<npclist>
+			<npc type="1" x="121" y="108">Trainer</npc>
+			<npc type="2" x="59" y="129">Wandering Merchant Alex</npc>
+			<npc type="3" x="183" y="137">Wandering Merchant Herald</npc>
+			<npc type="4" x="125" y="86">Potion Girl Amy</npc>
+			<npc type="5" x="114" y="141">Hanzo the Blacksmith</npc>
+			<npc type="6" x="121" y="135">Lumen the Barmaid</npc>
+			<npc type="7" x="118" y="113">Pasi the Mage</npc>
+			<npc type="8" x="146" y="145">Safety Guardian</npc>
+			<npc type="9" x="144" y="109">Safety Guardian</npc>
+			<npc type="10" x="96" y="129">Shadow Phantom Soldier</npc>
+			<npc type="11" x="130" y="165">Shadow Phantom Soldier</npc>
+			<npc type="12" x="130" y="90">Shadow Phantom Soldier</npc>	
+			<npc type="13" x="170" y="129">Shadow Phantom Soldier</npc>	
+			<npc type="14" x="142" y="126">Gens Duprian Steward</npc>
+			<npc type="15" x="130" y="161">Chaos Card Master</npc>
+			<npc type="16" x="139" y="138">Market Union Member Julia</npc>
+			<npc type="17" x="114" y="132">Sir Lesnar</npc>			
+		</npclist>
+		<gatelist>
+			<gate type="1" x="121" y="232">Dungeon Entrance</gate>
+			<gate type="2" x="1" y="38">Devias Entrance</gate>
+			<gate type="3" x="216" y="248">Noria Entrance</gate>
+			<gate type="3" x="242" y="15">Valley of Loren Entrance</gate>
+		</gatelist>
+	</map>
+	<map id="1">	<!-- Dungeon -->
+		<gatelist>
+			<gate type="1" x="108" y="249">Lorencia Entrance</gate>
+			<gate type="2" x="238" y="150">Dungeon Level 2 Entrance</gate>
+			<gate type="3" x="232" y="128">Dungeon Level 1 Entrance</gate>
+			<gate type="4" x="1" y="18">Dungeon Level 3 West Entrance</gate>
+			<gate type="5" x="5" y="35">Dungeon Level 3 Eest Entrance</gate>
+			<gate type="6" x="1" y="85">Dungeon Level 3 Eest Entrance</gate>
+			<gate type="7" x="29" y="127">Dungeon Level 2 Eest Entrance</gate>	
+		</gatelist>
+	</map>
+	<map id="2">	<!-- Devias -->
+		<npclist>
+			<npc type="1" x="209" y="28">Messenger of Archangel</npc>
+			<npc type="2" x="183" y="31">Sebina the Priest</npc>
+			<npc type="3" x="226" y="23">Caren the Barmaid</npc>
+			<npc type="4" x="225" y="39">Wizard Izabel</npc>
+			<npc type="5" x="186" y="46">Weapons Merchant Zienna</npc>
+			<npc type="6" x="215" y="45">Royal Guard Captain Lorence</npc>
+			<npc type="7" x="217" y="62">Safety Guardian</npc>
+			<npc type="8" x="170" y="44">Shadow Phantom Soldier</npc>
+			<npc type="9" x="219" y="73">Shadow Phantom Soldier</npc>			
+			<npc type="10" x="229" y="221">Jerint the Assistant</npc>
+			<npc type="11" x="30" y="30">Natasha the Firecracker Merchant</npc>
+			<npc type="12" x="204" y="61">Mercenary Guild Manager Tercia</npc>			
+			<npc type="13" x="240" y="53">Sir Lesnar</npc>			
+		</npclist>
+		<gatelist>
+			<gate type="1" x="251" y="33">Lorencia Entrance</gate>
+			<gate type="2" x="162" y="248">Elveland Entrance</gate>
+			<gate type="3" x="0" y="250">Lost Tower Entrance</gate>
+			<gate type="4" x="51" y="92">La Cleon Entrance</gate>
+		</gatelist>
+	</map>
+	<map id="3">	<!-- Noria -->
+		<npclist>
+			<npc type="1" x="169" y="104">Charon</npc>
+			<npc type="2" x="170" y="125">Elf Lala</npc>
+			<npc type="3" x="193" y="123">Eo the Craftsman</npc>
+			<npc type="4" x="170" y="95">Safety Guardian</npc>
+			<npc type="5" x="179" y="103">Chaos Goblin</npc>
+			<npc type="6" x="166" y="118">Shadow Phantom Soldier</npc>
+			<npc type="7" x="165" y="84">Shadow Phantom Soldier</npc>
+			<npc type="8" x="200" y="128">Shadow Phantom Soldier</npc>
+			<npc type="9" x="166" y="99">Gens Vanert Steward</npc>
+			<npc type="10" x="196" y="114">Captain Slough</npc>
+			<npc type="11" x="183" y="126">Sir Lesnar</npc>		
+		</npclist>
+		<gatelist>
+			<gate type="1" x="151" y="2">Lorencia Entrance</gate>
+			<gate type="2" x="222" y="29">Aida Entrance</gate>
+			<gate type="3" x="242" y="241">Atlans Entrance</gate>
+		</gatelist>
+	</map>
+	<map id="4">	<!-- LostTower -->
+		<gatelist>
+			<gate type="1" x="164" y="0">Devias Entrance</gate>
+			<gate type="2" x="190" y="5">Lost Tower Level 2 Entrance</gate>
+			<gate type="3" x="165" y="165">Lost Tower Level 3 Entrance</gate>
+			<gate type="4" x="133" y="246">Lost Tower Level 4 Entrance</gate>
+			<gate type="5" x="133" y="136">Lost Tower Level 5 Entrance</gate>
+			<gate type="6" x="129" y="14">Lost Tower Level 6 Entrance</gate>
+			<gate type="7" x="4" y="7">Lost Tower Level 7 Entrance</gate>
+			<gate type="8" x="16" y="250">Icarus Entrance</gate>		
+		</gatelist>
+	</map>
+	<map id="7">	<!-- Atlans -->
+		<gatelist>
+			<gate type="1" x="8" y="8">Noria Entrance</gate>
+			<gate type="2" x="9" y="18">Elveland Entrance</gate>
+			<gate type="3" x="10" y="228">Tarkan Entrance</gate>
+		</gatelist>
+	</map>
+	<map id="8">	<!-- Tarkan -->
+		<gatelist>
+			<gate type="1" x="250" y="40">Atlans Entrance</gate>
+			<gate type="2" x="3" y="199">Kanturu Ruins Entrance</gate>
+		</gatelist>
+	</map>
+	<map id="10">	<!-- Icarus -->
+		<gatelist>
+			<gate type="1" x="13" y="8">Lost Tower Entrance</gate>
+		</gatelist>
+	</map>
+	<map id="31">	<!-- Land of Trials -->
+		<gatelist>
+			<gate type="1" x="60" y="8">Valley of Loren Entrance</gate>
+		</gatelist>
+	</map>
+	<map id="33">	<!-- Aida -->
+		<npclist>
+			<npc type="1" x="77" y="13">Osbourne</npc>
+			<npc type="2" x="85" y="13">Jerridon</npc>
+		</npclist>	
+		<gatelist>
+			<gate type="1" x="72" y="10">Noria Entrance</gate>
+			<gate type="2" x="238" y="165">Kalutan Entrance</gate>
+		</gatelist>
+	</map>
+	<map id="34">	<!-- Crywolf Fortress -->
+		<npclist>
+			<npc type="1" x="228" y="48">Apostle Devin</npc>
+			<npc type="2" x="62" y="239">Werewolf Quarel</npc>
+			<npc type="3" x="135" y="47">Trainer</npc>
+			<npc type="4" x="99" y="40">Wandering Merchant Martin</npc>
+			<npc type="5" x="96" y="25">Lahap</npc>
+			<npc type="6" x="145" y="14">Hanzo the Blacksmith</npc>
+			<npc type="7" x="113" y="56">Safety Guardian</npc>
+			<npc type="8" x="118" y="11">Guardsman</npc>			
+		</npclist>
+		<gatelist>
+			<gate type="1" x="238" y="42">Valley of Loren Entrance</gate>
+		</gatelist>
+	</map>
+	<map id="37">	<!-- Kanturu Ruins -->
+		<gatelist>
+			<gate type="1" x="222" y="180">Tarkan Entrance</gate>
+			<gate type="2" x="91" y="45">Kanturu Relics Entrance</gate>
+		</gatelist>
+	</map>
+	<map id="38">	<!-- Kanturu Relics -->
+		<gatelist>
+			<gate type="1" x="66" y="105">Kanturu Ruins Entrance</gate>
+			<gate type="2" x="141" y="186">Gateway Machine</gate>
+		</gatelist>
+	</map>
+	<map id="41">	<!-- Barracks -->
+		<npclist>
+			<npc type="2" x="120" y="168">Gatekeeper</npc>
+		</npclist>	
+	</map>
+	<map id="51">	<!-- Elveland -->
+		<npclist>
+			<npc type="1" x="36" y="241">Lahap</npc>
+			<npc type="2" x="43" y="229">Potion Merchant Silvia</npc>
+			<npc type="3" x="28" y="236">Weapons Merchant Rhea</npc>
+			<npc type="4" x="35" y="219">Magic Store Marce</npc>
+			<npc type="5" x="41" y="191">Shadow Phantom Soldier</npc>
+			<npc type="6" x="56" y="232">Shadow Phantom Soldier</npc>
+			<npc type="7" x="72" y="220">Shadow Phantom Soldier</npc>
+			<npc type="8" x="49" y="229">Safety Guardian</npc>
+			<npc type="9" x="54" y="243">Mirage</npc>
+			<npc type="10" x="45" y="243">Seed Master</npc>
+			<npc type="11" x="49" y="243">Seed Researcher</npc>
+			<npc type="12" x="21" y="225">Moss</npc>		
+			<npc type="13" x="20" y="214">David</npc>				
+		</npclist>
+		<gatelist>
+			<gate type="1" x="248" y="149">Atlans Entrance</gate>
+			<gate type="2" x="19" y="27">Devias Entrance</gate>
+		</gatelist>
+	</map>
+	<map id="56">	<!-- Swamp -->
+		<gatelist>
+			<gate type="1" x="139" y="125">Swamp of Peace Hunting Grounds Entrance (1)</gate>
+			<gate type="2" x="124" y="109">Swamp of Peace Hunting Grounds Entrance (2)</gate>
+			<gate type="3" x="140" y="95">Swamp of Peace Hunting Grounds Entrance (3)</gate>
+			<gate type="4" x="150" y="109">Swamp of Peace Hunting Grounds Entrance (4)</gate>
+			<gate type="5" x="185" y="188">Safe Zone Entrance</gate>
+			<gate type="6" x="56" y="177">Safe Zone Entrance</gate>
+			<gate type="7" x="68" y="52">Safe Zone Entrance</gate>
+			<gate type="8" x="197" y="13">Safe Zone Entrance</gate>		
+		</gatelist>
+	</map>
+	<map id="57">	<!-- Raklion -->
+		<gatelist>
+			<gate type="1" x="224" y="214">Devias Entrance</gate>
+			<gate type="2" x="169" y="22">Hatchery Entrance</gate>
+		</gatelist>
+	</map>
+	<map id="63">	<!-- Vulcanus -->
+		<npclist>
+			<npc type="1" x="121" y="135">Doorkeeper Titus</npc>
+		</npclist>
+	</map>
+	<map id="80">	<!-- Kalutan -->
+		<npclist>
+			<npc type="1" x="121" y="102">Leina the General Goods Merchant</npc>
+			<npc type="2" x="117" y="126">Weapons Merchant Bolo</npc>
+			<npc type="3" x="123" y="132">Safety Guardian</npc>
+			<npc type="4" x="122" y="96">Safety Guardian</npc>
+			<npc type="5" x="158" y="126">Safety Guardian</npc>	
+		</npclist>			
+		<gatelist>
+			<gate type="1" x="115" y="45">Aida Entrance</gate>
+			<gate type="2" x="187" y="212">Kalutan North Entrance</gate>
+		</gatelist>
+	</map>
+	<map id="81">	<!-- Kalutan 2 -->
+		<gatelist>
+			<gate type="1" x="162" y="9">Kalutan South Entrance</gate>
+		</gatelist>
+	</map>
+	<map id="91">	<!-- Acheron -->
+		<npclist>
+			<npc type="1" x="28" y="208">Acheron Quest Deruvish</npc>
+			<npc type="2" x="36" y="216">Errtel Combiner Adniel</npc>
+			<npc type="3" x="56" y="202">Potion Merchant Jin</npc>
+			<npc type="4" x="50" y="184">Safety Guardian</npc>
+		</npclist>
+		<gatelist>
+			<gate type="1" x="26" y="170">Alkmar Entrance</gate>
+			<gate type="2" x="84" y="205">Ubaid Entrance</gate>
+			<gate type="3" x="52" y="162">Debenter Entrance</gate>
+			<gate type="4" x="116" y="170">Acheron Village Entrance</gate>
+			<gate type="5" x="146" y="206">Acheron Village Entrance</gate>			
+		</gatelist>
+	</map>
+</minimap>

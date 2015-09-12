@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: Reset system configuration
+// ----------------------------------------------------------------------------------
+// Revision: 	12:24 19.10.2014 (without cashpoints / items / grand reset)
+//===================================================================================
+-->
+<resetsystem>
+	<!-- Reset settings -->
+	<normal>
+		<!-- Switch (0: Disabled, 1: Enabled) -->
+		<enabled>1</enabled>
+
+		<!-- NPC configuration -->
+		<npc id="226" map="0" x="122" y="110" />
+
+		<!-- Group list -->
+		<grouplist>
+			<!--
+			minlevel:	Min. level for reset
+			maxlevel:	Max. level for reset
+			minreset:	Min. reset for this group
+			maxreset:	Max. reset for this group
+			money:		Payment for reset (Money * <UserReset>)
+			gensp:		Contribution for reset
+			credits:	Credits for skip delay (0: without skips)
+			delay:		Delay for making reset (minutes)
+			-->
+			<group minlevel="400" maxlevel="400" minreset="0" maxreset="1000" money="1000000" gensp="0" credits="0" delay="0">
+				<!-- Cleaning configuration (0: No, 1: Yes) -->
+				<cleaning>
+					<stats>0</stats>
+					<points>0</points>
+					<skills>0</skills>
+					<equipment>0</equipment>
+					<inventory>0</inventory>
+					<shop>0</shop>
+					<masterlevel>0</masterlevel>
+					<masterpoints>0</masterpoints>
+					<masterskills>0</masterskills>
+					<marlonquest>0</marlonquest>
+				</cleaning>
+				<!-- Checks configuration (0: Disabled, 1: Enabled) -->
+				<checks>
+					<equipment>0</equipment>
+					<inventory>0</inventory>
+					<shop>0</shop>
+				</checks>
+				<!--
+				pointmode:		0: Points * <UserReset>, 1: Points
+				-->
+				<reward pointmode="0">
+					<class id="0" point="250" gensp="0" credits="0"/> <!-- Wizard -->
+					<class id="1" point="250" gensp="0" credits="0"/> <!-- Knight -->
+					<class id="2" point="250" gensp="0" credits="0"/> <!-- Elf -->
+					<class id="3" point="280" gensp="0" credits="0"/> <!-- Gladiator -->
+					<class id="4" point="280" gensp="0" credits="0"/> <!-- Lord -->
+					<class id="5" point="250" gensp="0" credits="0"/> <!-- Summoner -->
+					<class id="6" point="250" gensp="0" credits="0"/> <!-- Fighter -->
+				</reward>
+			</group>
+			
+		</grouplist>
+	</normal>
+</resetsystem>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: Notice & news rotation settings
+// ----------------------------------------------------------------------------------
+// Revision: 	7:12 04.04.2014
+//===================================================================================
+-->
+<notice>
+	<!--
+	type:	0 = Gold, 1 = System, 2: Whisper, 3: Party, 4: Guild, 5: Alliance, 6: Gens
+	delay:	Rotation delay (minutes)
+	-->
+	<!-- Notice on connect -->
+	<connect>
+		<message type="0">Welcome</message>
+	</connect>
+	
+	<!-- Notice on user online
+	Profiles: 0 = user, 1 = GM
+	Highest profile message is shown
+	<!-- Use %s as the name placeholder -->
+	<online>
+		<message type="0" profile="1">[GM %s] is now online</message>
+	</online>
+	
+	<!-- Notice on gameplay -->
+	<rotate>
+		<message type="0" delay="15">Visit us at www.servername.com</message>
+	</rotate>
+</notice>

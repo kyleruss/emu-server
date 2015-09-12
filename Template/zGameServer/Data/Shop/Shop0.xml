@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!-- 
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description:	(Shop) Hanzo the Blacksmith
+// ----------------------------------------------------------------------------------
+// Revision: 	11:14 10.04.2014
+//===================================================================================
+-->
+<shop>
+	<item id="6" num="0" dur="0" level="0" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Small Shield -->
+	<item id="6" num="4" dur="0" level="1" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Buckler -->
+	<item id="6" num="1" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Horn Shield -->
+	<item id="6" num="2" dur="0" level="3" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Kite Shield -->
+	<item id="6" num="6" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Skull Shield -->
+	<item id="6" num="10" dur="0" level="3" skill="3" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Large Round Shield -->
+	<item id="6" num="9" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Plate Shield -->
+	<item id="6" num="7" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Spiked Shield -->
+	<item id="6" num="5" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Dragon Slayer Shield -->
+	<item id="6" num="8" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Tower Shield -->
+	<item id="6" num="11" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Serpent Shield -->
+	<item id="6" num="12" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Bronze Shield -->
+	<item id="0" num="1" dur="0" level="0" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Short Sword -->
+	<item id="1" num="1" dur="0" level="1" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Hand Axe -->
+	<item id="2" num="0" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Mace -->
+	<item id="0" num="2" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Rapier -->
+	<item id="1" num="2" dur="0" level="2" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Double Axe -->
+	<item id="0" num="4" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Sword of Assassin -->
+	<item id="2" num="1" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Morning Star -->
+	<item id="1" num="3" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Tomahawk -->
+	<item id="0" num="0" dur="0" level="2" skill="0" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Kris -->
+	<item id="0" num="6" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Gladius -->
+	<item id="0" num="7" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Falchion -->
+	<item id="0" num="8" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Serpent Sword -->
+	<item id="0" num="5" dur="0" level="3" skill="1" luck="1" option="1" exc="0" anc="0" socket="0" element="-1" /> <!-- Blade -->
+</shop>

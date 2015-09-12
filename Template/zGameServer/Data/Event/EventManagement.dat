@@ -1,0 +1,28 @@
+//	EventSettings
+//		0: Dragon Troops
+//		1: Undead Troops
+//		2: Eledorado Troops
+//		3: WhiteWizzard Troops
+// ---------------------------------------------
+// Type	StartHour	StartMinute
+0
+3	1	0
+2	3	0
+
+3	5	0
+2	7	0
+
+3	9	0
+2	11	0
+
+3	13	0
+2	15	0
+
+3	17	0
+2	19	0
+
+3	21	0
+2	22	0
+
+
+end

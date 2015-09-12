@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<itembag>
+	<settings>
+		<name>CherryBlossomMix1-G-49</name>
+		<zen min="1000000" max="5000000" />
+		<excoption op1="30" op2="10" op4="10" op8="10" op16="30" op32="10" /><!--For Sets-->
+		<!--
+		1 Increases Mana after hunting monsters + Mana \ Increases Zen
+		2 Increases Life after hunting monsters + life \ Defense success rate
+		4 Increase Attacking(Wizardry)speed \ Reflect damage
+		8 Increase damage \ Decrese damage
+		16 Increase damage level \ Increse max mana 
+		32 Excellent damage rate  \ Increse max hp		
+		-->		
+	</settings>	
+	<itemlist rate="10000">
+		<!--Hades-->
+		<item id="7" num="52" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="8" num="52" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="9" num="52" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="10" num="52" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="11" num="52" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<!--Brave-->
+		<item id="7" num="46" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="8" num="46" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="9" num="46" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="10" num="46" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="11" num="46" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<!--Divine-->
+		<item id="7" num="50" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="8" num="50" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="9" num="50" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="10" num="50" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="11" num="50" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<!--Seraphim-->
+		<item id="7" num="49" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="8" num="49" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="9" num="49" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="10" num="49" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="11" num="49" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<!--Eternal Wing-->
+		<item id="7" num="44" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="8" num="44" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="9" num="44" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="10" num="44" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="11" num="44" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<!--Destroyer-->
+		<item id="8" num="48" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="9" num="48" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="10" num="48" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="11" num="48" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<!--Phantom-->
+		<item id="8" num="47" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="9" num="47" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="10" num="47" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="11" num="47" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<!--Royal -->
+		<item id="7" num="51" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="8" num="51" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="9" num="51" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="10" num="51" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+		<item id="11" num="51" lvlmin="0" lvlmax="0" skill="1" luck="0" option="0" excmin="1" excmax="1" is_anc="0" sockmin="1" sockmax="1" />
+	</itemlist>
+</itembag>

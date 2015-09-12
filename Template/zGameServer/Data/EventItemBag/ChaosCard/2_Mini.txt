@@ -1,0 +1,112 @@
+// Group Settings chaos card mini
+// Note: Rates N / 1000000
+//	Group	DropRate	SkillRate	LuckRate	OptionRate	ExcRate
+0
+	3	400000		1000000		350000		1000000		600000
+	4	200000		1000000		350000		1000000		600000
+	5	400000		1000000		350000		1000000		600000
+									
+
+
+end
+// AddOption Settings ( Additional Dmg/Def )
+1
+	//Op	Rate
+
+	0	500000
+
+	1	300000
+
+	2	150000
+
+	3	50000
+
+	4	0
+
+end
+// ExcOption Settings ( ExcOption Rates )
+2
+
+	//Op	Rate
+
+	0	250000
+
+	1	150000
+
+	2	150000
+
+	3	150000
+
+	4	150000
+
+	5	150000
+
+end
+
+//ItemDrop Groups
+//Type	Index	LvlMin	LvlMax	Skill	Luck	Option	ExOption
+
+3
+14     15     	8     	8     	0     	0     	0     	0     // zeni + 8
+end
+
+4
+14     14     	0     	0    	0     	0     	0     	0     // sol
+12     15     	0     	0     	0     	0     	0     	0     // haos
+end
+
+5
+
+0	15	7	9	1	1	3	0 //"Giant Sword"		
+0	12	7	9	1	1	3	0 //"Heliacal Sword"		
+0	14	7	9	1	1	3	0 //"Lighting Sword"	
+
+1	8	7	9	1	1	3	0 //"Crescent Axe"		
+
+2	8	7	9	1	1	3	0 //"Battle Scepter"		
+
+3	8	7	9	1	1	3	0 //"Great Scythe"			
+3	9	7	9	1	1	3	0 //"Bill of Balrog"		
+
+4	5	7	9	1	1	3	0 //"Silver Bow"		
+
+5	4	7	9	1	1	3	0 //"Gorgon Staff"			
+5	21	7	9	1	1	3	0 //"Book of Samut"		
+5	5	7	9	1	1	3	0 //"Legendary Staff"	
+5	22	7	9	1	1	3	0 //"Book of Neil"		
+5	16	7	9	1	1	3	0 //"Red Wing Stick"	
+5	23	7	9	1	1	3	0 //"Book of Lagle"		
+
+6	12	7	9	1	1	3	0 //"Bronze Shield"			
+6	13	7	9	1	1	3	0 //"Dragon Shield"		
+
+7	14	7	9	1	1	3	0 //"Guardian Helm"		
+7	1	7	9	1	1	3	0 //"Dragon Helm"		
+
+8	3	7	9	1	1	3	0 //"Legendary Armor"		
+8	40	7	9	1	1	3	0 //"Red Wing Armor"			
+8	14	7	9	1	1	3	0 //"Guardian Armor"		
+8	1	7	9	1	1	3	0 //"Dragon Armor"		
+8	25	7	9	1	1	3	0 //"Light Plate Armor"	
+
+9	3	7	9	1	1	3	0 //"Legendary Pants"		
+9	40	7	9	1	1	3	0 //"Red Wing Pants "		
+9	14	7	9	1	1	3	0 //"Guardian Pants"			
+9	1	7	9	1	1	3	0 //"Dragon Pants"		
+
+10	1	7	9	1	1	3	0 //"Dragon Gloves"			
+10	26	7	9	1	1	3	0 //"Adamantine Gloves"	
+10	34	7	9	1	1	3	0 //"Ashcrow Gloves"		
+10	35	7	9	1	1	3	0 //"Eclipse Gloves"		
+10	36	7	9	1	1	3	0 //"Iris Gloves"		
+10	41	7	9	1	1	3	0 //"Ancient Gloves"			
+
+11	14	7	9	1	1	3	0 //"Guardian Boots"			
+11	1	7	9	1	1	3	0 //"Dragon Boots"		
+11	26	7	9	1	1	3	0 //"Adamantine Boots"	
+11	41	7	9	1	1	3	0 //"Ancient Boots"
+
+end
+
+
+

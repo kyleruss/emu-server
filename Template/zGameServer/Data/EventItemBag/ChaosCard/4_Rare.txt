@@ -1,0 +1,112 @@
+// Group Settings chaso card rare
+// Note: Rates N / 1000000
+//	Group	DropRate	SkillRate	LuckRate	OptionRate	ExcRate
+0
+	3	400000		1000000		350000		1000000		600000
+	4	200000		1000000		350000		1000000		600000
+	5	400000		1000000		350000		1000000		600000
+									
+
+
+
+
+end
+// AddOption Settings ( Additional Dmg/Def )
+1
+	//Op	Rate
+
+	0	500000
+
+	1	300000
+
+	2	150000
+
+	3	50000
+
+	4	0
+
+end
+// ExcOption Settings ( ExcOption Rates )
+2
+
+	//Op	Rate
+
+	0	250000
+
+	1	150000
+
+	2	150000
+
+	3	150000
+
+	4	150000
+
+	5	150000
+
+end
+
+//ItemDrop Groups
+//Type	Index	LvlMin	LvlMax	Skill	Luck	Option	ExOption
+
+3
+14     15     	9     	9     	0     	0     	0     	0     // zeni + 9
+end
+
+4
+14     13     	0     	0     	0     	0     	0     	0     // bless
+14     14     	0     	0     	0     	0     	0     	0     // sol
+12     15     	0     	0     	0     	0     	0     	0     // haos
+end
+
+5
+
+2	4	7	9	1	1	3	0	//"Crystal Morning Star"		
+2	5	7	9	1	1	3	0	//"Crystal Sword"		
+2	9	7	9	1	1	3	0	//"Master Scepter"	
+
+4	13	7	9	1	1	3	0	//"Bluewing Crossbow"		
+4	14	7	9	1	1	3	0	//"Aquagold Crossbow"	
+
+5	6	7	9	1	1	3	0	//"Staff of Resurrection"	
+5	17	7	9	1	1	3	0	//"Ancient Stick"			
+
+6	16	7	9	1	1	3	0	//"Elemental Shield"		
+6	15	7	9	1	1	3	0	//"Grand Soul Shield"	
+
+7	26	7	9	1	1	3	0	//"Adamantine Mask"			
+7	34	7	9	1	1	3	0	//"Ashcrow Helm"			
+7	35	7	9	1	1	3	0	//"Eclipse Helm"			
+7	36	7	9	1	1	3	0	//"Iris Helm"		
+7	41	7	9	1	1	3	0	//"Ancient Helm"		
+
+8	34	7	9	1	1	3	0	//"Ashcrow Armor"			
+8	35	7	9	1	1	3	0	//"Eclipse Armor"		
+8	41	7	9	1	1	3	0	//"Ancient Armor"			
+8	36	7	9	1	1	3	0	//"Iris Armor"			
+8	26	7	9	1	1	3	0	//"Adamantine Armor"		
+8	15	7	9	1	1	3	0	//"Storm Crow Armor"	
+
+9	34	7	9	1	1	3	0	//"Ashcrow Pants"			
+9	35	7	9	1	1	3	0	//"Eclipse Pants"			
+9	36	7	9	1	1	3	0	//"Iris Pants"		
+9	26	7	9	1	1	3	0	//"Adamantine Pants"	
+9	41	7	9	1	1	3	0	//"Ancient Pants "		
+9	15	7	9	1	1	3	0	//"Storm Crow Pants"	
+
+10	42	7	9	1	1	3	0	//"Demonic Gloves"		
+10	15	7	9	1	1	3	0	//"Storm Crow Gloves"	
+10	18	7	9	1	1	3	0	//"Grand Soul Gloves"		
+10	19	7	9	1	1	3	0	//"Divine Gloves"		
+10	27	7	9	1	1	3	0	//"Dark Steel Gloves"		
+10	16	7	9	1	1	3	0	//"Black Dragon Gloves"	
+
+11	34	7	9	1	1	3	0	//"Ashcrow Boots"			
+11	35	7	9	1	1	3	0	//"Eclipse Boots"			
+11	36	7	9	1	1	3	0	//"Iris Boots"			
+11	15	7	9	1	1	3	0	//"Storm Crow Boots"	
+11	18	7	9	1	1	3	0	//"Grand Soul Boots"	
+11	42	7	9	1	1	3	0	//"Demonic Boots"			
+11	16	7	9	1	1	3	0	//"Black Dragon Boots"	
+
+end
+

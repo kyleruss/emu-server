@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: Gens system settings
+// ----------------------------------------------------------------------------------
+// Revision: 	21:49 20.02.2015
+//===================================================================================
+-->
+<gens>
+	<!-- Main settings -->
+	<options>
+		<startpoint>0</startpoint>	<!-- Start contribution points after joining -->
+		<minlevel>80</minlevel>		<!-- Min. level for joining -->
+		<minreset>0</minreset>		<!-- Min. reset for joining -->
+		<chatprice>0</chatprice>	<!-- Chat zen price for message in gens chat -->
+	</options>
+	
+	<!-- PvP settings -->
+	<pvp>
+		<friendlyfire>1</friendlyfire>	<!-- Friendly fire (0: Disabled, 1: Enabled) -->
+		<friendlykill>1</friendlykill>	<!-- Penalty for friendly killers (0: Disabled, 1: Enabled) -->
+	</pvp>
+
+	<!-- Gens requirements (0: Disable check, 1: Enable check -->
+	<requirements>
+		<party>1</party>		<!-- Check for party request -->
+		<guild>1</guild>		<!-- Check for guild request -->
+		<alliance>1</alliance>		<!-- Check for alliance request -->
+	</requirements>
+	
+	<!-- Gens class table -->
+	<classtable>
+		<class id="14" mincontribution="0" maxrank="-1"/>		<!-- Private -->
+		<class id="13" mincontribution="1000" maxrank="-1"/>	<!-- Sergeant -->
+		<class id="12" mincontribution="5000" maxrank="-1"/>	<!-- Lieutenant -->
+		<class id="11" mincontribution="15000" maxrank="-1"/>	<!-- Officer -->
+		<class id="10" mincontribution="50000" maxrank="-1"/>	<!-- Guard Perfect -->
+		<class id="9" mincontribution="100000" maxrank="-1"/>	<!-- Knight -->
+		<class id="8" mincontribution="100000" maxrank="300"/>	<!-- Super Knight -->
+		<class id="7" mincontribution="100000" maxrank="200"/>	<!-- Knight Commander -->
+		<class id="6" mincontribution="100000" maxrank="100"/>	<!-- Baron -->
+		<class id="5" mincontribution="100000" maxrank="50"/>	<!-- Viscount -->
+		<class id="4" mincontribution="100000" maxrank="30"/>	<!-- Count -->
+		<class id="3" mincontribution="100000" maxrank="10"/>	<!-- Marquis -->
+		<class id="2" mincontribution="100000" maxrank="5"/>	<!-- Duke -->
+		<class id="1" mincontribution="100000" maxrank="1"/>	<!-- Grand Duke -->
+	</classtable>
+	
+	<!-- Reward options -->
+	<rewardlist>
+		<reward class="1" type="14" index="141" level="0" dur="0" count="30"/>	<!-- Grand Duke -->
+		<reward class="2" type="14" index="141" level="0" dur="0" count="20"/>	<!-- Duke -->
+		<reward class="3" type="14" index="142" level="0" dur="0" count="20"/>	<!-- Marquis -->
+		<reward class="4" type="14" index="142" level="0" dur="0" count="10"/>	<!-- Count -->
+		<reward class="5" type="14" index="143" level="0" dur="0" count="10"/>	<!-- Viscount -->
+		<reward class="6" type="14" index="143" level="0" dur="0" count="5"/>	<!-- Baron -->
+		<reward class="7" type="14" index="144" level="0" dur="0" count="5"/>	<!-- Knight Commander -->
+		<reward class="8" type="14" index="144" level="0" dur="0" count="3"/>	<!-- Super Knight -->
+	</rewardlist>
+	
+	<!-- Battle map list (id: Value from MoveList.xml, max: 10) -->
+	<battlemaplist>
+		<move id="11"/>	<!-- Atlans 1 -->
+		<move id="12"/> <!-- Atlans 2 -->
+		<move id="13"/>	<!-- Atlans 3 -->
+		<move id="25"/>	<!-- Aida 1 -->
+		<move id="27"/>	<!-- Aida 2 -->
+		<move id="28"/>	<!-- Kanturu 1 -->
+		<move id="29"/>	<!-- Kanturu 2 -->
+		<move id="45"/>	<!-- Kanturu 3 -->
+		<move id="33"/>	<!-- Swamp Of Calmness -->
+		<move id="42"/>	<!-- Vulcanus -->
+	</battlemaplist>
+	
+	<!-- Battle zone list (id: MapNumber, max: 11) -->
+	<battlezonelist>
+		<map id="7"/>	<!-- Atlans -->
+		<map id="33"/>	<!-- Aida -->
+		<map id="37"/>	<!-- Kanturu -->
+		<map id="56"/>	<!-- Swamp Of Calmness -->
+		<map id="63"/>	<!-- Vulcanus -->
+	</battlezonelist>
+</gens>

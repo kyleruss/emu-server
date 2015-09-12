@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!-- 
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description:	(Shop) Marce
+// ----------------------------------------------------------------------------------
+// Revision: 	11:54 10.04.2014
+//===================================================================================
+-->
+<shop>
+	<item id="15" num="3" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Scroll of Fire Ball -->
+	<item id="15" num="10" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Scroll of Power Wave -->
+	<item id="15" num="1" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Scroll of Meteorite -->
+	<item id="15" num="6" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Scroll of Ice -->
+	<item id="15" num="20" dur="0" level="0" skill="0" luck="0" option="0" exc="0" anc="0" socket="0" element="-1" /> <!-- Drain Life Parchment -->
+</shop>
