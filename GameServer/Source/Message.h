@@ -4,7 +4,7 @@ struct MessageBody
 {
 	BYTE Category;
 	BYTE Index;
-	char Message[256];
+	char MessageText[256];
 };
 
 #define MSGGET(x, y) ( (x) * 256 + (y)  )

@@ -70,6 +70,7 @@
 #include "MasterLevelSkillTreeSystem.h"
 #include "TemporaryUserManager.h"
 #include "MiningSystem.h"
+#include "PersonalShopMapping.h"
 #include "MiniMap.h"
 #include "ClassCalc.h"
 #ifdef __NOVUS__
@@ -19722,8 +19723,11 @@ BOOL gObjMoveGate(int aIndex, int gt)
 		}
 	}
 
-	lpObj->m_MoveGateNumber = gt;
+	LogAdd("Move gate after: %d", gObj[aIndex].m_MoveGateNumber);
+	BYTE gateBefore = lpObj->m_MoveGateNumber;
+
 	result = gGateC.GetGate(gt,x,y,(BYTE &)mapNumber,(BYTE &)dir,(short &)level);
+	lpObj->m_MoveGateNumber = gt;
 
 	if(result < 0)
 	{
@@ -19739,9 +19743,19 @@ BOOL gObjMoveGate(int aIndex, int gt)
 	g_CMuunSystem.CheckMuunItemMoveMapConditionMap(lpObj, mapNumber);
 #endif
 
-	if(lpObj->m_bPShopOpen == 1)
+
+	LogAdd("[user] Attempting to move, map: %d ", mapNumber);
+	if (lpObj->m_bPShopOpen) //&& !pShop.CanWarp(mapNumber, aIndex))
 	{
 		int bMove = 1;
+
+		if (!pShop.CheckAndCloseShop(mapNumber, aIndex))
+		{
+			::GCServerMsgStringSend("Please close your personal store before changing maps", aIndex, 1);
+			return false;
+		}
+
+		else ::GCServerMsgStringSend("Your personal shop has been automatically closed", aIndex, 1);
 
 		if(lpObj->MapNumber == MAP_INDEX_CASTLESIEGE && mapNumber == MAP_INDEX_RORENCIA)
 		{
@@ -20325,6 +20339,7 @@ BOOL gObjMoveGate(int aIndex, int gt)
 	{
 		if(gGateC.GetGate(gt,x,y,(BYTE &)mapNumber,(BYTE &)dir,(short &)level) != -1)
 		{
+			LogAdd("Gate not -1");
 			if(gObj[aIndex].MapNumber != mapNumber)
 			{
 				if(MapNumberCheck(mapNumber)== 0)
@@ -20333,6 +20348,7 @@ BOOL gObjMoveGate(int aIndex, int gt)
 					return false;
 				}
 
+				LogAdd("Attempting to get svr code");
 				short sSvrCode = g_MapServerManager.CheckMoveMapSvr(lpObj->m_Index,mapNumber,lpObj->m_sPrevMapSvrCode);
 
 				if(sSvrCode != gGameServerCode)
@@ -20345,6 +20361,7 @@ BOOL gObjMoveGate(int aIndex, int gt)
 
 					if(gGateC.CheckGateLevel(aIndex,gt) == 0)
 					{
+						LogAdd("Gate check fail");
 						x = lpObj->X;
 						y = lpObj->Y;
 						mapNumber = lpObj->MapNumber;
@@ -20378,7 +20395,7 @@ BOOL gObjMoveGate(int aIndex, int gt)
 						return false;
 					}
 
-
+					LogAdd("reached GJReqMapSvrMove");
 					GJReqMapSvrMove(lpObj->m_Index,sSvrCode,mapNumber,x,y);
 					LogAddTD("[MapServerMng] Request to Move Map Server : (%d) - [%s][%s] (%d)",sSvrCode,lpObj->AccountID,lpObj->Name,lpObj->m_Index);
 					return false;
@@ -20415,15 +20432,17 @@ BOOL gObjMoveGate(int aIndex, int gt)
 		gObj[aIndex].RegenMapY = y;
 		gObj[aIndex].RegenOk = 1;
 
+		
 		if (nCurrentMap != mapNumber)
 		{
 			g_Minimap.SendNpcCoordinate(aIndex, mapNumber, 0);
 			g_Minimap.SendPortalCoordinate(aIndex, mapNumber);
 		}
 	}
+
 	else
 	{
-		GCTeleportSend(&gObj[aIndex],gt,mapNumber,gObj[aIndex].X,gObj[aIndex].Y,gObj[aIndex].Dir);
+		GCTeleportSend(&gObj[aIndex], gateBefore, gObj[aIndex].MapNumber, gObj[aIndex].X, gObj[aIndex].Y, gObj[aIndex].Dir);
 		gObj[aIndex].RegenOk = 1;
 
 #if (GS_CASTLE == 1)
@@ -20460,6 +20479,7 @@ BOOL gObjMoveGate(int aIndex, int gt)
 void gObjTeleport(int aIndex, int map, int x, int y)
 {
 
+	LogAdd("[gObjTeleport] attempting to move: %d", map);
 	if(aIndex < 0 || aIndex > OBJMAX - 1)
 	{
 		return;
@@ -20475,12 +20495,14 @@ void gObjTeleport(int aIndex, int map, int x, int y)
 
 	if(gObj[aIndex].MapNumber != map)
 	{
+		LogAdd("[gObjTeleport] attempting to move: %d", map);
 		short sSvrCode = g_MapServerManager.CheckMoveMapSvr(lpObj->m_Index,map,lpObj->m_sPrevMapSvrCode);
 
 		if(sSvrCode != gGameServerCode)
 		{
 			if(sSvrCode == -1)
 			{
+				LogAdd("[gObjTeleport] svrcode == -1");
 				LogAddC(2,"[MapServerMng] Map Server Move Fail : CheckMoveMapSvr() == -1 [%s][%s] (%d)",lpObj->AccountID,lpObj->Name,lpObj->m_Index);
 				return;
 			}

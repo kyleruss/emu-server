@@ -3,6 +3,7 @@
 #include "MapClass.h"
 #include "..\include\readscript.h"
 #include "GameMain.h"
+#include "PersonalShopMapping.h"
 #include "LogProc.h"
 #include "user.h"
 #include "..\pugixml\pugixml.hpp"

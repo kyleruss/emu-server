@@ -11043,6 +11043,7 @@ void PMoveProc(PMSG_MOVE* lpMove, int aIndex)
 		return;
 	}
 
+
 	PMSG_RECVMOVE pMove;
 	short n;
 	short pathtable;
@@ -12296,6 +12297,9 @@ void CGTeleportRecv(PMSG_TELEPORT* lpMsg, int aIndex)
 	if ( !OBJMAX_RANGE(aIndex))
 		return;
 
+
+	LogAdd("Attempting to move, teleportRecv, map: %d");
+
 	if ( gObjCheckUsedBuffEffect(&gObj[aIndex],BUFF_STUN) == TRUE ||
 		 gObjCheckUsedBuffEffect(&gObj[aIndex],BUFF_SLEEP) == TRUE ||
 		 gObjCheckUsedBuffEffect(&gObj[aIndex],BUFF_EARTHBINDS) == TRUE ||
@@ -12451,6 +12455,7 @@ void CGTeleportRecv(PMSG_TELEPORT* lpMsg, int aIndex)
 	}
 	else if ( gGateC.IsInGate(aIndex, lpMsg->MoveNumber) )
 	{
+		LogAdd("Attempting to move ELSE IF, teleportRecv, map: %d", lpMsg->MoveNumber);
 		gObjMoveGate(aIndex, lpMsg->MoveNumber);
 	}
 	else
@@ -12478,6 +12483,7 @@ void CGTargetTeleportRecv(PMSG_TARGET_TELEPORT * lpMsg, int aIndex)
 	if ( !OBJMAX_RANGE(aIndex))
 		return;
 
+	LogAdd("Attempting to move TargetTeleportRecv");
 	if( gObjCheckUsedBuffEffect(&gObj[aIndex],BUFF_STUN) == TRUE ||
 		gObjCheckUsedBuffEffect(&gObj[aIndex],BUFF_SLEEP) == TRUE ||
 		gObjCheckUsedBuffEffect(&gObj[aIndex],BUFF_EARTHBINDS) == TRUE ||
@@ -12572,6 +12578,11 @@ void GCTeleportSend(LPOBJ lpObj, int MoveNumber, BYTE MapNumber, BYTE MapX, BYTE
 	if ( lpObj->Type != OBJ_USER )
 		return;
 
+	LogAdd("[Teleport send] Attempting to TP, map number: %d", MapNumber);
+
+	if (lpObj->m_bPShopOpen)
+		LogAdd("shop is open!");
+
 	pMsg.h.c = 0xC3;
 	pMsg.h.size = sizeof(pMsg);
 	pMsg.h.headcode = 0x1C;
@@ -12581,10 +12592,12 @@ void GCTeleportSend(LPOBJ lpObj, int MoveNumber, BYTE MapNumber, BYTE MapX, BYTE
 	pMsg.MapY = MapY;
 	pMsg.Dir = Dir;
 
-	if ( MoveNumber == 0 )
+	DataSend(lpObj->m_Index, (UCHAR*)&pMsg, pMsg.h.size);
+
+/*	if ( MoveNumber == 0 )
 		DataSend(lpObj->m_Index, (UCHAR*)&pMsg, pMsg.h.size);
 	else
-		DataSend(lpObj->m_Index, (UCHAR*)&pMsg, pMsg.h.size);
+		DataSend(lpObj->m_Index, (UCHAR*)&pMsg, pMsg.h.size); */
 }
 
 
@@ -20079,7 +20092,18 @@ void CGWindowReqMove(PMSG_MOVE_REQUEST* lpMsg,int aIndex)
 
 	PMSG_MOVE_ANSWER pMsg;
 	PHeadSetB((LPBYTE) &pMsg,0x8E,sizeof(pMsg));
+
+	
+	LogAdd("PMSG check: %d", lpMsg->CHECK);
 	pMsg.CHECK = lpMsg->CHECK;
+
+	/*if (lpObj->m_bPShopOpen)
+	{
+		::GCServerMsgStringSend("Please close your shop before changing locations", aIndex, 1);
+		pMsg.btResult = 1;
+		DataSend(aIndex, (LPBYTE)&pMsg, pMsg.h.size);
+		return;
+	} */
 
 	if ( lpObj->Teleport != 0 )
 	{
@@ -20090,6 +20114,7 @@ void CGWindowReqMove(PMSG_MOVE_REQUEST* lpMsg,int aIndex)
 
 	if ( (lpObj->m_IfState.use) != 0 )
 	{
+		LogAdd("[CGWindow req move] m_ifState.use != 0");
 		if ( lpObj->m_IfState.type  == 3 )
 		{
 			lpObj->TargetShopNumber = -1;
@@ -20110,12 +20135,14 @@ void CGWindowReqMove(PMSG_MOVE_REQUEST* lpMsg,int aIndex)
 		return;
 	}
 
+	//Change to allow PK warping
 	if ( lpObj->m_PK_Level >= 6)
 	{
 		GCServerMsgStringSend(lMsg.Get(MSGGET(4, 101)), lpObj->m_Index, 1);
 		return;
 	}
 
+	
 	pMsg.btResult = gMoveCommand.Move(&gObj[aIndex], movereq);
 	DataSend(aIndex, (LPBYTE)&pMsg, pMsg.h.size);
 }

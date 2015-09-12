@@ -81,6 +81,9 @@ typedef struct
 	BYTE			bMonth;
 	BYTE			bDay;
 } VMProtectDate;
+#pragma pack(pop)
+
+#pragma pack(push, 1)
 typedef struct
 {
 	INT				nState;				// VMProtectSerialStateFlags

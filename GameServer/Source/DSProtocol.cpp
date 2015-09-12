@@ -1944,6 +1944,7 @@ void JGGetCharacterInfo( SDHP_DBCHAR_INFORESULT * lpMsg)
 
 		short wGameServerCode = g_MapServerManager.CheckMoveMapSvr(lpObj->m_Index, lpObj->MapNumber, lpObj->m_sPrevMapSvrCode);
 
+		LogAdd("mapserver code: %d", wGameServerCode);
 		if ( wGameServerCode != gGameServerCode )
 		{
 			if ( wGameServerCode == -1 )

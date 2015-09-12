@@ -14,6 +14,7 @@
 #include "DoubleGoerEvent.h"
 #include "ImperialGuardian.h"
 #include "GameEvent.h"
+#include "Minimap.h"
 #include "CastleSiege.h"
 #include "RaklionBattleUserMng.h"
 #include "..\pugixml\pugixml.hpp"
@@ -475,6 +476,7 @@ BOOL CMoveCommand::Move(LPOBJ lpObj, LPSTR mapname)
 	LogAddTD("2[%s][%s] Use [%s %s] Fail GateNumber = %d",
 		lpObj->AccountID, lpObj->Name,
 		lMsg.Get(MSGGET(11, 185)), mapname, GateNumber);
+	
 	return FALSE;
 
 }
@@ -504,9 +506,15 @@ BOOL CMoveCommand::Move(LPOBJ lpObj, int moveindex)
 		}
 	}
 
+	/*if (lpObj->m_bPShopOpen)
+	{
+		::GCServerMsgStringSend("Please close your shop before changing locations", lpObj->m_Index, 1);
+		return FALSE;
+	}*/
+
 	int NeedLevel = this->m_MoveCommandData[index].NeedLevel;
 	int NeedZen   = this->m_MoveCommandData[index].NeedZen;
-	int GateNumber= this->m_MoveCommandData[index].GateNumber;
+	int GateNumber = this->m_MoveCommandData[index].GateNumber;
 
 	if ( lpObj->Class == CLASS_DARKLORD || lpObj->Class == CLASS_MAGUMSA || lpObj->Class == CLASS_FIGHTER )
 	{
@@ -584,6 +592,8 @@ BOOL CMoveCommand::Move(LPOBJ lpObj, int moveindex)
 	LogAddTD("4[%s][%s] Use [%s %s] Fail GateNumber = %d",
 		lpObj->AccountID, lpObj->Name,
 		lMsg.Get(MSGGET(11, 185)), m_MoveCommandData[index].EngName, GateNumber);
+
+	LogAddTD("user map: %d, teleport: %d, move gate: %d", lpObj->MapNumber, lpObj->Teleport, lpObj->m_MoveGateNumber);
 	return FALSE;
 
 }

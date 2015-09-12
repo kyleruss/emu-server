@@ -48,6 +48,8 @@ void PersonalShopMapping::Read(LPSTR file)
 	xml_node pstore		=	doc.child("pstore");
 	this->enabled		=	pstore.child("enable").text().as_int(0);
 	this->allmaps		=	pstore.child("allmaps").text().as_int(0);
+	this->preventwarp	=	pstore.child("preventwarp").text().as_int(0);
+	this->autoclose		=	pstore.child("autoclose").text().as_int(1);
 
 	xml_node maplist	=	pstore.child("maplist");
 	xml_node node;
@@ -64,9 +66,28 @@ void PersonalShopMapping::Read(LPSTR file)
 	}
 }
 
+bool PersonalShopMapping::CheckAndCloseShop(BYTE map, int uIndex)
+{
+	if (!gObj[uIndex].m_bPShopOpen) return true;
+	else
+	{
+		if (!this->CanWarp(map, uIndex))
+		{
+			if (this->autoclose)
+			{
+				CGPShopReqClose(uIndex);
+				return !gObj[uIndex].m_bPShopOpen;
+			}
+
+			else return false;
+		}
+
+		else return true;
+	}
+}
+
 bool PersonalShopMapping::CanOpenShopAtMap(BYTE map)
 {
-
 	if(this->enabled == 0 || (this->allmaps == 0 && this->maps.empty())) 
 		return false;
 	else if(this->allmaps && this->enabled)
@@ -76,6 +97,19 @@ bool PersonalShopMapping::CanOpenShopAtMap(BYTE map)
 		PersonalShopMap* found	=	this->FindShopAtMap(map);
 		return found != NULL;
 	}
+}
+
+bool PersonalShopMapping::CanWarp(BYTE map, int uIndex)
+{
+	if (!gObj[uIndex].m_bPShopOpen) return true;
+	else if (!this->CanOpenShopAtMap(map))
+	{
+		::GCServerMsgStringSend("Personal shops are not allowed in that map", uIndex, 1);
+		return false;
+	}
+	
+	else if (this->preventwarp) return false;
+	else return true;
 }
 
 PersonalShopMap* PersonalShopMapping::FindShopAtMap(BYTE map)

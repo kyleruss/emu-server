@@ -656,6 +656,7 @@ void UserNoticeRecv( SDHP_USER_NOTICE * lpMsg)
 
 void GJReqMapSvrMove(int iIndex, WORD wDesMapSvrCode, WORD wMapNumber, BYTE btX, BYTE btY)
 {
+	LogAdd("[ReqMapSvrMove]");
 	PMSG_REQ_MAPSVRMOVE pMsg;
 	
 	if ( gObjIsConnected(iIndex) == PLAYER_EMPTY )
@@ -701,6 +702,7 @@ struct PMSG_ANS_MAPSERVERCHANGE
 
 void JGAnsMapSvrMove(PMSG_ANS_MAPSVRMOVE * lpMsg)
 {
+	LogAdd("AnsMapSvrMove");
 	if ( gObjIsConnected(lpMsg->iIndex ) == FALSE )
 	{
 		LogAddC(2, "[MapServerMng] Packet Error JG [0x7A] - User not Connected : %d", lpMsg->iIndex);

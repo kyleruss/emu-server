@@ -49,7 +49,7 @@ void Message::Read(LPSTR File)
 			MessageBody lpMessage;
 			lpMessage.Category = Category.attribute("id").as_int();
 			lpMessage.Index = Message.attribute("index").as_int();
-			strcpy(lpMessage.Message, Message.text().as_string());
+			strcpy(lpMessage.MessageText, Message.text().as_string());
 			this->m_MessageList.push_back(lpMessage);
 		}
 	}
@@ -64,7 +64,7 @@ LPSTR Message::Get(int MessageCode)
 	{
 		if( MSGGET(this->m_MessageList[i].Category, this->m_MessageList[i].Index) == MessageCode )
 		{
-			return &this->m_MessageList[i].Message[0];
+			return &this->m_MessageList[i].MessageText[0];
 		}
 	}
 	// ----
