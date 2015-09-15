@@ -648,7 +648,7 @@ VM_START
 #else
 	LevelOver_N=1;
 
-	for ( n=1;n<MAX_CHAR_LEVEL+1;n++)
+	for (n = 1; n < MAX_CHAR_LEVEL + 1; n++)
 	{
 		gLevelExperience[n] = (((n+9)*n)*n)*10;
 
