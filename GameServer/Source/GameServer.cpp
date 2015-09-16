@@ -39,6 +39,7 @@
 #include "ImperialGuardian.h"
 #include "GameEvent.h"
 #include "MuTimer.h"
+#include "RepackVendor.h"
 #include <signal.h>
 
 #if (ENABLETEST_ZTLUA == 1)

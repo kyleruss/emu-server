@@ -76,6 +76,7 @@
 #define LOG_PATH_DEBUG					".\\Log\\Debug"
 // ----
 #define FOLDER_DATA						"..\\Data\\"
+#define FOLDER_ROOT						"..\\..\\"
 // ----
 #define FILE_CASHSHOP_OPTION			"CashShop\\CashShopOption.dat"
 #define FILE_SERVER_INFO				"ServerInfo.dat"
@@ -93,6 +94,8 @@
 #define FILE_CHEATGUARD					"CheatGuard.xml"
 #define FILE_CHAOSMACHINE				"ChaosMachine.xml"
 #define PATH_CHAOSMACHINE				"ChaosMachine\\"
+// ----
+#define FILE_REPACK_CONF				"RepackConfig.ini"
 // ----
 #define FILE_CUSTOM_CLASSCALC			"Custom\\ClassCalc.ini"
 #define FILE_CUSTOM_PREMIUM				"Custom\\Premium.xml"
@@ -171,6 +174,8 @@
 #define FILE_QUEST_INFO					"Quest\\QuestInfo.txt"
 #define FILE_QUEST_PROGRESS				"Quest\\QuestProgress.txt"
 // ----
+
+
 #define FILE_SKILL_COMMON				"Skill\\Skill.txt"
 #define FILE_SKILL_ADDITION				"Skill\\SkillAdditionInfo.dat"
 #define FILE_SKILL_BUFFEFFECT			"Skill\\BuffEffect.txt"

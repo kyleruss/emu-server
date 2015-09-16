@@ -7,6 +7,7 @@
 #include "Gamemain.h"
 #include "DBSockMng.h"
 #include "LogToFile.h"
+#include "RepackVendor.h"
 
 TServerInfoDisplayer g_ServerInfoDisplayer;
 CLogToFile SERVER_CONN_STATE_LOG(LOG_NAME_CONNECT, LOG_PATH_CONNECT, 1);
@@ -164,8 +165,10 @@ void TServerInfoDisplayer::PaintRepackInfo(HWND hwnd)
 {
 	HDC hdc					=	GetDC(hwnd);
 	int bk_mode				=	SetBkMode(hdc, TRANSPARENT);
-	char* status_txt		=	"v1.1    github.com\\denkers\\mu-s8ep2-repack";
-
+	char status_txt[80];
+	RepackData repackConf = objRepack.getConfig();
+	sprintf(status_txt, "v%s     %s", repackConf.bin_ver, repackConf.repo_url);
+	
 	RECT repack_rect;
 	GetClientRect(hwnd, &repack_rect);
 

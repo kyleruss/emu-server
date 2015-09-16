@@ -1026,6 +1026,9 @@
     <ClCompile Include="PersonalShopMapping.cpp">
       <Filter>Source Files\Custom\PersonalShopMapping</Filter>
     </ClCompile>
+    <ClCompile Include="RepackVendor.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MiningSystem.h">
@@ -1783,6 +1786,9 @@
     </ClInclude>
     <ClInclude Include="PersonalShopMapping.h">
       <Filter>Source Files\Custom\PersonalShopMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="RepackVendor.h">
+      <Filter>Source Files\Util</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

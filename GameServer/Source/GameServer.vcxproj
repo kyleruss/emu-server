@@ -173,6 +173,7 @@
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <ClCompile Include="PersonalShopMapping.cpp" />
+    <ClCompile Include="RepackVendor.cpp" />
     <ClCompile Include="StdAfx.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1461,6 +1462,7 @@
     <ClInclude Include="LifeStone.h" />
     <ClInclude Include="Mercenary.h" />
     <ClInclude Include="PersonalShopMapping.h" />
+    <ClInclude Include="RepackVendor.h" />
     <ClInclude Include="Weapon.h" />
     <ClInclude Include="Crywolf.h" />
     <ClInclude Include="CrywolfAltar.h" />
