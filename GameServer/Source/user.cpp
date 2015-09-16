@@ -4686,7 +4686,17 @@ BOOL gObjIsConnected(LPOBJ lpObj, int dbnumber)
 
 
 
-
+void preSaveCheck(LPOBJ lpObj)
+{
+	CLogToFile logger = CLogToFile(LOG_NAME_DEBUG, LOG_PATH_DEBUG, true);
+	__int64 _Money = (__int64)lpObj->Money;
+	logger.Output("[PreSaveCheck] Begin, zen: %d, max: %d", _Money, (__int64) MAX_ZEN);
+	if (lpObj->Money > (__int64) MAX_ZEN)
+	{
+		logger.Output("[PreSaveCheck] money is bigger than max zen");
+		lpObj->Money = MAX_ZEN;
+	}
+}
 
 
 

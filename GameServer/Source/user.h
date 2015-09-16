@@ -720,7 +720,7 @@ struct OBJECTSTRUCT
 	int		bMasterInfoLoaded;
 //User object end
 //Share object start
-	int		Money;
+	__int64	Money;
 //Share object end
 //User object start
 #if( FIX_MAXSTAT == 1 )
@@ -2420,3 +2420,4 @@ void gObjMuBotProc(LPOBJ lpObj);
 BOOL gObjFindInventoryEquipment(int aIndex);	//ok
 BOOL gObjSetInventoryEquipment(LPOBJ lpObj, BYTE btPos);	//ok
 BOOL gObjInventoryEquipment(LPOBJ lpObj);	//ok
+void preSaveCheck(LPOBJ lpObj);

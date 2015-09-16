@@ -127,6 +127,7 @@ int MonsterMoneyDrop::Run(LPOBJ lpUser, LPOBJ lpMonster)
 	
 	if (DropInfo->MoneyMin == -1 && DropInfo->MoneyMax == -1) 
 	{
+		
 		int x = lpMonster->X;
 		int y = lpMonster->Y;
 
@@ -145,11 +146,11 @@ int MonsterMoneyDrop::Run(LPOBJ lpUser, LPOBJ lpMonster)
 		money *= std::ceil(lpMonster->Level / calc_params.zendiv);
 		money *= calc_params.multi;
 
-		LogAddC(1, "die money: %f", (money/100.0f)*lpUser->MonsterDieGetMoney);
+		/*LogAddC(1, "die money: %f", (money/100.0f)*lpUser->MonsterDieGetMoney);
 		LogAddC(1, "map rate: %f", g_MapRateInfo.GetMoney(lpUser->MapNumber));
 		LogAddC(1, "div val: %f", std::ceil(lpMonster->Level / calc_params.zendiv));
 		LogAddC(2, "monster money: %f, after div: %f", (float)lpMonster->Money, ((float)lpMonster->Money / 6.0f));
-		LogAddC(1, "money current: %f", money);
+		LogAddC(1, "money current: %f", money); */
 
 		int AddZenPerc = 100;
 
@@ -173,10 +174,7 @@ int MonsterMoneyDrop::Run(LPOBJ lpUser, LPOBJ lpMonster)
 			money = 1.0f;
 
 		if (money > MAX_ZEN)
-		{
-			LogAdd("Zen drop over max");
 			money -= (rand() % (MAX_ZEN / 10));
-		}
 		
 		
 		if( DropInfo->Rate > RandomRoll )

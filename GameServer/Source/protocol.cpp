@@ -3241,6 +3241,8 @@ struct PMSG_ITEMGETRESULT
 
 void GCMoneySend(int aIndex, DWORD money)
 {
+	if (money > MAX_ZEN) money = MAX_ZEN;
+
 	PMSG_ITEMGETRESULT pMsg;
 
 	pMsg.h.c = 0xC3;
@@ -3248,7 +3250,6 @@ void GCMoneySend(int aIndex, DWORD money)
 	pMsg.h.size = sizeof(pMsg);
 	pMsg.result = 0xFE;
 
-	LogAdd("Sending money");
 
 	WORD hiWord = SET_NUMBERHW(money);
 	WORD loWord = SET_NUMBERLW(money);
@@ -6735,6 +6736,7 @@ int GCTradeOtherAdd(int aIndex, BYTE tradeindex, LPBYTE iteminfo)
 
 void CGTradeMoneyRecv(PMSG_TRADE_GOLD * lpMsg, int aIndex)
 {
+	LogAdd("trade zen");
 	PMSG_DEFRESULT pMsg;
 	int money = 0;
 	int number;

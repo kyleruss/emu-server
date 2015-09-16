@@ -2287,6 +2287,8 @@ void GJSetCharacterInfo(LPOBJ lpObj, int aIndex, BOOL bMapServerMove)
 		GDSetWarehouseList(aIndex);
 	}
 
+	preSaveCheck(lpObj);
+
 	SDHP_DBCHAR_INFOSAVE pCSave;	// Packet Character Save
  
 	pCSave.h.c = 0xC2;
@@ -2745,6 +2747,8 @@ struct SDHP_DBCHAR_ITEMSAVE
 void GDUserItemSave(LPOBJ lpObj)
 {
 	SDHP_DBCHAR_ITEMSAVE pMsg;
+	CLogToFile logger = CLogToFile(LOG_NAME_DEBUG, LOG_PATH_DEBUG, true);
+	logger.Output("USER ITEM SAVE");
 
 	pMsg.h.c = 0xC2;
 	pMsg.h.headcode = 0x11;
