@@ -6224,7 +6224,6 @@ BOOL gObjGuildMasterCapacityTest(LPOBJ lpObj)
 void gObjNextExpCal(LPOBJ lpObj)
 {
 	lpObj->NextExp = gLevelExperience[lpObj->Level];
-	LogAdd("Next exp: %d, exp: %d", lpObj->NextExp, lpObj->Experience);
 	if (lpObj->Level > 1)
 	{
 		if (lpObj->Experience < gLevelExperience[lpObj->Level - 1])

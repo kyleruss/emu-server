@@ -132,23 +132,23 @@ int MonsterMoneyDrop::Run(LPOBJ lpUser, LPOBJ lpMonster)
 
 		float money = (float)lpMonster->Money;
 		if(money < 1.0f)
-			money = rand() % 100 + 1.0f;
+			money = ((rand() % 100) + 1.0f);
 
 		money = std::ceil(money /  6.0f);
 
 		if(lpUser->MonsterDieGetMoney < 1.0f)
 			money += ((money/100.0f) * ((rand() % 1000) + 1.0f));
 		else
-			money += (money/100.0f) * lpUser->MonsterDieGetMoney;
+			money += ((money/100.0f) * lpUser->MonsterDieGetMoney);
 
-		money *= g_MapRateInfo.GetMoney(lpUser->MapNumber);
+		//money *= g_MapRateInfo.GetMoney(lpUser->MapNumber);
 		money *= std::ceil(lpMonster->Level / calc_params.zendiv);
 		money *= calc_params.multi;
 
 		LogAddC(1, "die money: %f", (money/100.0f)*lpUser->MonsterDieGetMoney);
 		LogAddC(1, "map rate: %f", g_MapRateInfo.GetMoney(lpUser->MapNumber));
 		LogAddC(1, "div val: %f", std::ceil(lpMonster->Level / calc_params.zendiv));
-		LogAddC(2, "monster money: %f, after div: %f", (float)lpMonster->Money, ((float)lpMonster->Money/ 6.0f));
+		LogAddC(2, "monster money: %f, after div: %f", (float)lpMonster->Money, ((float)lpMonster->Money / 6.0f));
 		LogAddC(1, "money current: %f", money);
 
 		int AddZenPerc = 100;
@@ -171,6 +171,12 @@ int MonsterMoneyDrop::Run(LPOBJ lpUser, LPOBJ lpMonster)
 
 		if( money < 1.0f ) 
 			money = 1.0f;
+
+		if (money > MAX_ZEN)
+		{
+			LogAdd("Zen drop over max");
+			money -= (rand() % (MAX_ZEN / 10));
+		}
 		
 		
 		if( DropInfo->Rate > RandomRoll )
@@ -190,16 +196,16 @@ int MonsterMoneyDrop::Run(LPOBJ lpUser, LPOBJ lpMonster)
 			return 1;
 		}
 	}
-	else {
-		if( DropInfo->MoneyMax < 0 ) {
+	else 
+	{
+		if( DropInfo->MoneyMax < 0 ) 
 			return 0;
-		}
 
-		short mlevel	=	lpMonster->Level;
-		int scaledMin	=	std::ceil(mlevel / 10.0f);
-		DWORD MoneyAmount = DropInfo->MoneyMin + (rand() % (DWORD)(DropInfo->MoneyMax - DropInfo->MoneyMin + 1));
-		MoneyAmount *= std::ceil(mlevel / calc_params.zendiv);
-		MoneyAmount *= calc_params.multi;
+		short mlevel		=	lpMonster->Level;
+		int scaledMin		=	std::ceil(mlevel / 10.0f);
+		DWORD MoneyAmount	=	DropInfo->MoneyMin + (rand() % (DWORD)(DropInfo->MoneyMax - DropInfo->MoneyMin + 1));
+		MoneyAmount			*=	std::ceil(mlevel / calc_params.zendiv);
+		MoneyAmount			*=	calc_params.multi;
 
 
 		LogAddC(2, "zen div: %d, multiplier: %d", calc_params.zendiv, calc_params.multi);

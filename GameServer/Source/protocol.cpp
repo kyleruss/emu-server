@@ -3248,6 +3248,8 @@ void GCMoneySend(int aIndex, DWORD money)
 	pMsg.h.size = sizeof(pMsg);
 	pMsg.result = 0xFE;
 
+	LogAdd("Sending money");
+
 	WORD hiWord = SET_NUMBERHW(money);
 	WORD loWord = SET_NUMBERLW(money);
 	pMsg.Data[0] = SET_NUMBERH(hiWord);
