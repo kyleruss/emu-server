@@ -16165,6 +16165,7 @@ struct PMSG_REQ_DUEL_OK
 
 void CGDuelStartRequestRecv(PMSG_REQ_START_DUEL * lpMsg, int aIndex)
 {
+	LogAdd("CG Duel start request");
 	int iDuelIndex = -1;
 	char szTempText[256];
 
@@ -16374,6 +16375,7 @@ void CGDuelStartRequestRecv(PMSG_REQ_START_DUEL * lpMsg, int aIndex)
 
 void CGDuelEndRequestRecv(PMSG_REQ_END_DUEL * lpMsg, int aIndex)
 {
+	LogAdd("CG duel end req");
 	int iDuelIndex = -1;
 
 	if ( gObj[aIndex].CloseType != -1 ) 

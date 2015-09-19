@@ -53,7 +53,7 @@ void CNewPVP::Run()	//OK
 {
 	std::map<int, _tagWaiting>::iterator iter = m_Waiting.begin();
 
-	while(iter!=m_Waiting.end())
+	while(iter != m_Waiting.end())
 	{
 		_tagWaiting & waiting = iter->second;
 		if(waiting.bExpired == 1)
@@ -146,7 +146,8 @@ void CNewPVP::Run()	//OK
 			}
 			break;
 		}
-		if( IS_START(nStatus) )	BroadcastDuelInfo(i, 2);
+		if (IS_START(nStatus))
+			BroadcastDuelInfo(i, 2);
 	}
 }
 
@@ -366,6 +367,7 @@ int CNewPVP::Reserve(OBJECTSTRUCT & requester,OBJECTSTRUCT& responsor)	//OK
 //006dbd40
 int CNewPVP::Join(OBJECTSTRUCT &requester, OBJECTSTRUCT &responsor)	//OK
 {
+	
 	if( IsDuel(requester) ) return ENEWPVP::E_ALREADY_DUELLING_1;
 	if( IsDuelReserved(responsor) ) return ENEWPVP::E_ALREADY_DUELRESERVED_1;
 	if( requester.m_iDuelUserReserved != responsor.m_Index ) return ENEWPVP::E_INVITE_MYSELF;
@@ -430,6 +432,11 @@ int CNewPVP::Join(OBJECTSTRUCT &requester, OBJECTSTRUCT &responsor)	//OK
 	BroadcastScore(nId, 1);
 	MoveGate(requester.m_Index, g_GateRequester[nId]);
 	MoveGate(responsor.m_Index, g_GateResponsor[nId]);
+
+	char duel_message[60];
+	sprintf(duel_message, "[Duel starting] %s vs %s", requester.Name, responsor.Name);
+	AllSendServerMsg(duel_message);
+
 	LogAddTD("[NewPVP] [%s][%s] Duel Started [%s][%s]",responsor.AccountID,responsor.Name,requester.AccountID, requester.Name);
 	return 0;
 }
@@ -561,6 +568,10 @@ void CNewPVP::CheckScore(OBJECTSTRUCT& obj, OBJECTSTRUCT& target)	//OK
         gDarkSpirit[requester.m_Index].ReSetTarget(responsor.m_Index);
         gDarkSpirit[responsor.m_Index].ReSetTarget(requester.m_Index);
         
+		char duel_message[60];
+		sprintf(duel_message, "[Duel finished] %s has defeated %s", obj.Name, target.Name);
+		AllSendServerMsg(duel_message);
+
 		LogAdd("[NewPVP] [%s][%s] Win Duel, Loser [%s][%s]", obj.AccountID, obj.Name, target.AccountID, target.Name);   
 		return;
 	}
