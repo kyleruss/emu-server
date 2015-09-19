@@ -1728,28 +1728,29 @@ void PChatProc(PMSG_CHATDATA * lpChat, short aIndex)
 		case '!':	// Global Announcement
 			if ( slen > 2 )
 			{
-				if (CheckAuthority(34,lpObj) == 1) {
-					/*MSG_SYS_BROADCAST	res = { 0 };
-					res.h.set((LPBYTE)&res, 0xCD, sizeof(res));
-					res.btSize = lpChat->h.size;
-					CopyMemory(res.szMessage, lpChat->chatmsg, lpChat->h.size);
-					cDBSMng.Send((char*)&res, sizeof(MSG_SYS_BROADCAST));
-					AllSendServerMsg(&lpChat->chatmsg[1]);*/
+				if (isGM(lpObj))
+				{
 					
 					BroadCastMessageInfo lpRequest = { 0 };
 					lpRequest.h.set((LPBYTE)&lpRequest, 0xCD, sizeof(lpRequest));
 					lpRequest.Type = 0;
-					CopyMemory(lpRequest.Text, lpChat->chatmsg, lpChat->h.size);
+
+					sprintf(lpRequest.Text, "[GM %s]: %s", gObj[aIndex].Name, &lpChat->chatmsg[1]);
+					strcpy(lpChat->chatmsg, &lpChat->chatmsg[1]);
+
 					DataSend(aIndex, (LPBYTE)lpChat, lpChat->h.size);
 					wsJServerCli.DataSend((PCHAR)&lpRequest, sizeof(BroadCastMessageInfo));
 					LogAddTD(lMsg.Get(MSGGET(1, 215)), gObj[aIndex].AccountID, gObj[aIndex].Name, &lpChat->chatmsg[1]);
 					return;
-				} else { // post
+				} 
+				
+				/*else 
+				{ // post
 					char tmpCommandText[200] = { 0 };
 					sprintf_s(tmpCommandText, sizeof(tmpCommandText), "/post %s", &lpChat->chatmsg[1]);
 					g_CommandManager.Run(lpObj, tmpCommandText);
 					return;
-				}
+				} */
 			}
 			break;
 		case '/':	// Command

@@ -994,8 +994,9 @@ void BroadCastMessage(BroadCastMessageInfo* lpResult)
 	{
 	case 0:
 		{
-			AllSendServerMsg(&lpResult->Text[1]);
+			AllSendServerMsg(lpResult->Text);
 		}
+
 		break;
 	case 1:
 		{
