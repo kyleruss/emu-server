@@ -296,6 +296,7 @@ BOOL CObjBaseAttack::PkCheck(LPOBJ lpObj, LPOBJ lpTargetObj)
 		{
 			if( lpObj->m_PK_Count >= 3 && gPkLimitFree == FALSE )
 			{
+				LogAdd("Cant attack");
 				return FALSE;
 			}
 		}
