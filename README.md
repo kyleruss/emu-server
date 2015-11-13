@@ -4,11 +4,6 @@ For my server template including database, scripts and configs please see my tem
 5 days if there are outstanding updates otherwise you will need to compile your own source and for these instructions please see the compiling section below. For all changes including bug fixes and
 feature additions, please see the changelog section below.
 
-#Changelog
-
-
-#Compiling
-
 #Contributions
 [zTeam](https://forum.ragezone.com/f197/zteam-season-8-episode-2-a-1068058/) Original MU Season 8 Episode 2
 
