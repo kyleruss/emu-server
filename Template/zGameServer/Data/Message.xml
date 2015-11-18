@@ -769,4 +769,10 @@ Warning! Do not edit format tegs (like %d / %d / %c / %f and etc.) if u dont kno
 		<message index="178">reserved_arka</message>
 		<message index="179">reserved_arka</message>
 	</category>
+
+	<!-- NPC TALK MESSAGES -->
+	<category id="14">
+		<!-- DEVIAS GUARD -->
+		<message index="0">Greetings, %s</message>
+	</category>
 </translation>

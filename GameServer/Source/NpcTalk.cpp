@@ -631,6 +631,9 @@ BOOL NpcDeviasWizard(LPOBJ lpNpc, LPOBJ lpObj)
 
 BOOL NpcDeviasGuard(LPOBJ lpNpc, LPOBJ lpObj)
 {
+	char msg[50];
+	sprintf(msg, lMsg.Get(MSGGET(14, 0)), lpObj->Name);
+	ChatTargetSend(lpNpc, msg, lpObj->m_Index);
 	return TRUE;
 }
 
