@@ -772,7 +772,12 @@ Warning! Do not edit format tegs (like %d / %d / %c / %f and etc.) if u dont kno
 
 	<!-- NPC TALK MESSAGES -->
 	<category id="14">
-		<!-- DEVIAS GUARD -->
+		<!-- GUARD RESPOND MESSAGE-->
 		<message index="0">Greetings, %s</message>
+		
+		<!-- GUARD AUTO MESSAGE (Commonserver=>EnableEventNPCTalk must be enabled) -->
+		<message index="1">MuOnline is the best!</message>
+
+		
 	</category>
 </translation>

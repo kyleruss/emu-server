@@ -2348,14 +2348,8 @@ void gObjMonsterBaseAct(LPOBJ lpObj)
 			{
 				if ( gEnableEventNPCTalk )
 				{
-					if ( !(rand()%30) )
-					{
-						if ( lpObj->m_PK_Count == 0 )
-						{
-							ChatSend(lpObj, "하트 아이템을 상점에 주세요. 푸짐한 경품 이벤트 중");	// Need Translation
-							lpObj->m_PK_Count = 0;
-						}
-					}
+					if ( !(rand() % 30) )
+							ChatSend(lpObj, lMsg.Get(MSGGET(14, 1)));	
 				}
 
 				lpObj->TargetNumber = gObjGuardSearchEnemy(lpObj);

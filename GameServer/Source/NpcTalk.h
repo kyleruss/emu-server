@@ -116,4 +116,6 @@ BOOL NpcSirLesnar(LPOBJ lpNpc,LPOBJ lpObj);
 
 BOOL NpcPrivateStoreBoard(LPOBJ lpNpc,LPOBJ lpObj);
 
+BOOL NpcGuard(LPOBJ lpNpc, LPOBJ lpObj);
+
 #endif

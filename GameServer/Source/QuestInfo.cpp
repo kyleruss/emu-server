@@ -585,7 +585,6 @@ BYTE CQuestInfo::ReSetQuestState(LPOBJ lpObj, int QuestIndex)
 
 LPQUEST_INFO CQuestInfo::GetQuestInfo(int QuestIndex)
 {
-	LogAdd("Request id: %d", QuestIndex);
 	if ( QuestIndex < 0 || QuestIndex > MAX_QUEST_INFO )
 	{
 		return false;

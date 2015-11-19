@@ -81,7 +81,7 @@ BOOL NpcTalk(LPOBJ lpNpc, LPOBJ lpObj)
 			return NpcBattleAnnouncer( lpNpc, lpObj );
 
 		case 249:
-			return NpcRolensiaGuard( lpNpc, lpObj );
+			return NpcGuard(lpNpc, lpObj);
 
 		case 238:
 			return NpcChaosGoblelin( lpNpc, lpObj );
@@ -96,7 +96,7 @@ BOOL NpcTalk(LPOBJ lpNpc, LPOBJ lpObj)
 			return NpcDeviasWizard( lpNpc, lpObj );
 
 		case 247:
-			return NpcDeviasGuard( lpNpc, lpObj );
+			return NpcGuard(lpNpc, lpObj);
 
 		case 240:
 			return NpcWarehouse( lpNpc, lpObj );
@@ -488,18 +488,14 @@ BOOL NpcGuildMasterTalk(LPOBJ lpNpc, LPOBJ lpObj)
 }
 
 
-
-
-BOOL NpcRolensiaGuard(LPOBJ lpNpc, LPOBJ lpObj)
+BOOL NpcGuard(LPOBJ lpNpc, LPOBJ lpObj)
 {
-	if( gEnableEventNPCTalk != FALSE )
-	{
-		GCServerCmd(lpObj->m_Index, 4, 0, 0);
-	}
+	char message[50];
+	sprintf(message, lMsg.Get(MSGGET(14, 0)), lpObj->Name);
+	ChatTargetSend(lpNpc, message, lpObj->m_Index);
 
 	return TRUE;
 }
-
 
 
 
@@ -626,17 +622,6 @@ BOOL NpcDeviasWizard(LPOBJ lpNpc, LPOBJ lpObj)
 {
 	return FALSE;
 }
-
-
-
-BOOL NpcDeviasGuard(LPOBJ lpNpc, LPOBJ lpObj)
-{
-	char msg[50];
-	sprintf(msg, lMsg.Get(MSGGET(14, 0)), lpObj->Name);
-	ChatTargetSend(lpNpc, msg, lpObj->m_Index);
-	return TRUE;
-}
-
 
 
 BOOL NpcDeviasWareHousemen(LPOBJ lpNpc, LPOBJ lpObj)
