@@ -3,7 +3,7 @@
 //      are changed infrequently
 //
 
-#define _WIN32_WINNT 0x0500
+#define _WIN32_WINNT 0x501
 #pragma warning ( disable : 4786 )	// Disable Warning of Large Debuf Strings ( truncated to 255 len )
 
 #if !defined(AFX_STDAFX_H__A9DB83DB_A9FD_11D0_BFD1_444553540000__INCLUDED_)
@@ -15,6 +15,7 @@
 
 #define WIN32_LEAN_AND_MEAN		// Exclude rarely-used stuff from Windows headers
 
+#define _AFXDLL
 
 #include <afxwin.h>
 #include <stdlib.h>
