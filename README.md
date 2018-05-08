@@ -1,8 +1,8 @@
-<img src="Images/mulogo.png" width="60" height="60" align="left" />
+<img src="preview/mulogo.png" width="60" height="60" align="left" />
 
 # MU Online Season 8 Episode 2
 
-<img src="Images/gamepreview.png" />
+<img src="preview/gamepreview.png" />
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
 
