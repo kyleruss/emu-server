@@ -1,4 +1,4 @@
-<img src="preview/mulogo.png" align="left" />
+<img src="preview/Logo.png" align="left" />
 
 # MU Online Season 8 Episode 2
 
